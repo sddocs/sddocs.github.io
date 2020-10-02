@@ -1,7 +1,7 @@
 title: Custom Thank you Page Builder
 description: Custom Thank you Page Builder documentation
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "//sddocs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
