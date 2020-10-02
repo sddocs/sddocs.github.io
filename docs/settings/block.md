@@ -10,7 +10,7 @@ nav_order: 3
 
 Basic configuration when creating pages and templates.
 
-> You can check out some [examples](/docs/examples/) right away.
+> You can check out some [examples](/cthpb/examples/) right away.
 
 
 Each block is an HTML component with its own set of parameters (most of them can be changed).

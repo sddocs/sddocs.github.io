@@ -3,7 +3,7 @@ layout: default
 title: Templates
 nav_order: 3
 has_children: true
-permalink: /docs/templates
+permalink: /cthpb/templates
 ---
 
 # Зачем нужны шаблоны страниц?

@@ -1,0 +1,6 @@
+I"Ÿ<h1 class="no_toc" id="ready-blocks-simple-examples">Ready blocks simple examples</h1>
+
+<p><span class="doc_image" id="readyone" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/examples/readyone.gif" alt="readyone" /></span></p>
+
+<p><span class="doc_image" id="readytwo" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/examples/readytwo.gif" alt="readytwo" /></span></p>
+:ET

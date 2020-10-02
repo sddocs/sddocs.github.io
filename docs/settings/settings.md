@@ -3,7 +3,7 @@ layout: default
 title: Settings
 nav_order: 4
 has_children: true
-permalink: /docs/settings
+permalink: /cthpb/settings
 ---
 
 # Зачем и для чего это нужно?

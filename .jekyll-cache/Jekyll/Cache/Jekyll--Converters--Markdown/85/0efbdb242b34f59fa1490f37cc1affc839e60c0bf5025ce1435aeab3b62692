@@ -1,0 +1,10 @@
+I"Ç<h1 class="no_toc" id="style-manager">Style manager</h1>
+
+<p>A tree of DOM elements is displayed here.</p>
+
+<p>It is used to turn on / off the desired layers (like Photoshop).</p>
+
+<p>Also, you can change the nesting of elements. Grab the element with the help of the cross arrow sign (to the right of the element) and move it to the desired position.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/layer.png" alt="layer" /></span></p>
+:ET

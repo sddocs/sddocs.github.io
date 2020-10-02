@@ -3,7 +3,7 @@ layout: default
 title: Pages
 nav_order: 2
 has_children: true
-permalink: /docs/pages
+permalink: /cthpb/pages
 ---
 
 # Зачем нужны страницы?

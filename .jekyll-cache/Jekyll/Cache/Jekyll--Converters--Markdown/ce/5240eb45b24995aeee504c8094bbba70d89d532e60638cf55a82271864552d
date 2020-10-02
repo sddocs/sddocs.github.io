@@ -1,0 +1,13 @@
+I" <h1 class="no_toc" id="load-default-templates">Load default templates</h1>
+
+<h2 id="your-steps">Your steps</h2>
+<p>There will be no templates on the <strong>Templates</strong> page when first launching the application, and you need to download the default ones.</p>
+
+<p>Click the button <strong>Restore default templates</strong>.</p>
+
+<p><span class="doc_image"><img src="/assets/images/templates/default.png" alt="edit" /></span></p>
+
+<p>Some amount of templates will be loaded. The number can change from time to time. Now you can change them as you like, as at any time you can return the original value of these templates by clicking this button again.</p>
+
+<p>Note that only default templates will be restored. There is no need to worry about the safety of your manually created templates.</p>
+:ET

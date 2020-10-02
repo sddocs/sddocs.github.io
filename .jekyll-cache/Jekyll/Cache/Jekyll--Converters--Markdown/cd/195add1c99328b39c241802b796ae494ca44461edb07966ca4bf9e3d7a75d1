@@ -1,0 +1,62 @@
+I"6<h1 class="no_toc" id="app-block-list">App block list</h1>
+
+<p>Basic configuration when creating pages and templates.</p>
+
+<blockquote>
+  <p>You can check out some <a href="/cthpb/examples/">examples</a> right away.</p>
+</blockquote>
+
+<p>Each block is an HTML component with its own set of parameters (most of them can be changed).</p>
+
+<p>All blocks are grouped into categories:</p>
+
+<h3 id="basic">Basic</h3>
+
+<p>Basic and most used blocks for building pages.
+Column is a &lt;div&gt; tag, inside which all other content is placed, i.e. it is good practice to wrap the entire page in a Column.</p>
+
+<blockquote>
+  <p>In the Video block (on the example of YouTube), insert the video ID, not the entire URL.
+For example, for the link <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=yg4eqNruI_o это yg4eqNruI_o</code>, it would be <code class="language-plaintext highlighter-rouge">yg4eqNruI_o</code>.</p>
+
+  <p>HTML5 source only downloads videos from the server (some commercials are likely to be there).</p>
+</blockquote>
+
+<p>Here are other available blocks. They work immediately after adding.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/basic.png" alt="basic" /></span></p>
+
+<h3 id="extra">Extra</h3>
+
+<p>This category contains elements that are used not so often.
+They may help you customize a page and add some personality in it.
+They also do not require any complicated configuration.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/extra.png" alt="extra" /></span></p>
+
+<h3 id="forms">Forms</h3>
+
+<p>Elements for building forms. It does not have its own design, but it is always possible to add classes through the Style Manager.</p>
+
+<blockquote>
+  <p>All elements can be inserted only inside the form (the main Form element). That’s the reason why they are in a separate category.</p>
+</blockquote>
+
+<p><span class="doc_image"><img src="/assets/images/settings/forms.png" alt="forms" /></span></p>
+
+<h3 id="social">Social</h3>
+
+<p>Elements for social links display (authorization via social networks, likes, etc.).</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/social.png" alt="social" /></span></p>
+
+<h3 id="ready-to-use-blocks">Ready to use blocks</h3>
+
+<p>Ready-made blocks for building a Thank you page.
+All content on the blocks is automatically replaced with correct information when the client places an order.</p>
+
+<p>The product list in <strong>Sidebar order info</strong> and <strong>Order Summary</strong> blocks is clickable, but note that the link is taken from the SKU field of the product. It is written into <em>handle</em> when uploading products, so you can manually change the link of any product by editing it in the Shopify admin panel.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/ready.png" alt="ready" /></span></p>
+
+:ET

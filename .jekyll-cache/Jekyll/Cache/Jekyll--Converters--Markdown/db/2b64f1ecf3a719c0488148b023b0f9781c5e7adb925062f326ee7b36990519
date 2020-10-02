@@ -1,0 +1,28 @@
+I"Ä<h1 id="edit-page">Edit page</h1>
+<hr />
+
+<h2 id="where-to-start">Where to start?</h2>
+<p>If you have already created a preloader, you will see the following banner when launching the application:
+<span class="doc_image"><img src="/assets/images/preloader/edit.png" alt="edit" /></span></p>
+
+<p>To edit a preloader, click <strong>Edit</strong> button. You will be redirected to the preloader edit form.</p>
+
+<p>Items available for editing:</p>
+
+<ul>
+  <li>
+    <p><strong>Icon</strong> - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons.</p>
+  </li>
+  <li>
+    <p><strong>Text</strong> - a preloaderâ€™s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon.</p>
+  </li>
+  <li>
+    <p><strong>Color</strong> - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details.</p>
+  </li>
+  <li>
+    <p><strong>Delay</strong> - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds.</p>
+  </li>
+</ul>
+
+<p><span class="doc_image"><img src="/assets/images/preloader/edit_form.png" alt="editform" /></span></p>
+:ET

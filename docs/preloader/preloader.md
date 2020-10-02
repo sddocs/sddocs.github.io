@@ -3,7 +3,7 @@ layout: default
 title: Preloader
 nav_order: 1
 has_children: true
-permalink: /docs/preloader
+permalink: /cthpb/preloader
 ---
 
 # Для чего нужен прелоадер?

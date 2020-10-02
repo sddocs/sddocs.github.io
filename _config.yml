@@ -33,7 +33,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2005-2020 Simtech Development. Distributed by an <a href=\"https://www.simtechdev.com/docs/info/about_license_and_certification/index.html\">MIT license.</a>"
+footer_content: "Copyright &copy; 2005-2020 Simtech Development. Distributed by an <a href=\"https://www.simtechdev.com/cthpb/info/about_license_and_certification/index.html\">MIT license.</a>"
 
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html

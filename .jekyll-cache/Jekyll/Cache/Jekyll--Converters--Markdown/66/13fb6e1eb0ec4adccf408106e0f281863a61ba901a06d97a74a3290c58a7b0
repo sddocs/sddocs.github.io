@@ -1,0 +1,568 @@
+I"ڀ<h1 class="no_toc" id="detail-blocks-info">Detail blocks info</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#раздел-basic" id="markdown-toc-раздел-basic"><strong>Раздел basic.</strong></a>    <ol>
+      <li><a href="#1-column" id="markdown-toc-1-column">1 column</a></li>
+      <li><a href="#2-columns" id="markdown-toc-2-columns">2 columns</a></li>
+      <li><a href="#3-columns" id="markdown-toc-3-columns">3 columns</a></li>
+      <li><a href="#2-columns-37" id="markdown-toc-2-columns-37">2 columns 3/7</a></li>
+      <li><a href="#text" id="markdown-toc-text">Text</a></li>
+      <li><a href="#link" id="markdown-toc-link">Link</a></li>
+      <li><a href="#image" id="markdown-toc-image">Image</a></li>
+      <li><a href="#map" id="markdown-toc-map">Map</a></li>
+      <li><a href="#link-block" id="markdown-toc-link-block">Link Block</a></li>
+      <li><a href="#quote" id="markdown-toc-quote">Quote</a></li>
+      <li><a href="#header" id="markdown-toc-header">Header</a></li>
+    </ol>
+  </li>
+  <li><a href="#раздел-extra" id="markdown-toc-раздел-extra"><strong>Раздел extra.</strong></a>    <ol>
+      <li><a href="#navbar" id="markdown-toc-navbar">Navbar</a></li>
+      <li><a href="#countdown" id="markdown-toc-countdown">Countdown</a></li>
+      <li><a href="#slider" id="markdown-toc-slider">Slider</a></li>
+      <li><a href="#custom-code" id="markdown-toc-custom-code">Custom Code</a></li>
+      <li><a href="#tabs" id="markdown-toc-tabs">Tabs</a></li>
+      <li><a href="#single-button" id="markdown-toc-single-button">Single button</a></li>
+      <li><a href="#quote-1" id="markdown-toc-quote-1">Quote</a></li>
+      <li><a href="#header-1" id="markdown-toc-header-1">Header</a></li>
+      <li><a href="#section" id="markdown-toc-section">Section</a></li>
+      <li><a href="#footer" id="markdown-toc-footer">Footer</a></li>
+      <li><a href="#list-items" id="markdown-toc-list-items">List items</a></li>
+      <li><a href="#progress-bar" id="markdown-toc-progress-bar">Progress bar</a></li>
+    </ol>
+  </li>
+  <li><a href="#раздел-forms" id="markdown-toc-раздел-forms"><strong>Раздел forms.</strong></a>    <ol>
+      <li><a href="#form" id="markdown-toc-form">Form</a></li>
+      <li><a href="#input" id="markdown-toc-input">Input</a></li>
+      <li><a href="#select" id="markdown-toc-select">Select</a></li>
+      <li><a href="#button" id="markdown-toc-button">Button</a></li>
+      <li><a href="#label" id="markdown-toc-label">Label</a></li>
+      <li><a href="#checkbox" id="markdown-toc-checkbox">Checkbox</a></li>
+      <li><a href="#radio" id="markdown-toc-radio">Radio</a></li>
+    </ol>
+  </li>
+  <li><a href="#раздел-social" id="markdown-toc-раздел-social"><strong>Раздел social.</strong></a>    <ol>
+      <li><a href="#facebook" id="markdown-toc-facebook">Facebook</a></li>
+      <li><a href="#twitter" id="markdown-toc-twitter">Twitter</a></li>
+      <li><a href="#google" id="markdown-toc-google">Google</a></li>
+      <li><a href="#linkedln" id="markdown-toc-linkedln">Linkedln</a></li>
+      <li><a href="#skype" id="markdown-toc-skype">Skype</a></li>
+      <li><a href="#social-link-и-social-link-block" id="markdown-toc-social-link-и-social-link-block">Social Link и Social Link Block</a></li>
+      <li><a href="#раздел-ready-to-use-blocks" id="markdown-toc-раздел-ready-to-use-blocks">Раздел Ready to use blocks.</a>        <ol>
+          <li><a href="#order-number-block" id="markdown-toc-order-number-block">Order number block</a></li>
+          <li><a href="#order-confirmed-block" id="markdown-toc-order-confirmed-block">Order confirmed block</a></li>
+          <li><a href="#shipping-address-block" id="markdown-toc-shipping-address-block">Shipping address block</a></li>
+          <li><a href="#billing-address-block" id="markdown-toc-billing-address-block">Billing address block</a></li>
+          <li><a href="#payment-method" id="markdown-toc-payment-method">Payment method</a></li>
+          <li><a href="#order-summary-block" id="markdown-toc-order-summary-block">Order summary block</a></li>
+          <li><a href="#sidebar-order-info" id="markdown-toc-sidebar-order-info">Sidebar order info</a></li>
+          <li><a href="#full-customer-info" id="markdown-toc-full-customer-info">Full customer info</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="раздел-basic"><strong>Раздел basic.</strong></h2>
+
+<h4 id="1-column">1 column</h4>
+<p>пустой блок, генерирует “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="2-columns">2 columns</h4>
+<p>пустой блок, генерирует два строчных “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="3-columns">3 columns</h4>
+<p>пустой блок, генерирует три строчных “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="2-columns-37">2 columns 3/7</h4>
+<p>пустой блок, генерирует два строчных “&lt;div&gt;” с соотношением сторон 3 к 7.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="text">Text</h4>
+<p>блок c текстом, сам текст редактируется двойным кликом по блоку.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="link">Link</h4>
+<p>блок co c гиперссылкой,  текст редактируется двойным кликом по блоку.</p>
+
+<blockquote>
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p><em>href - адрес документа, на который следует перейти;</em></p>
+
+  <p><em>target - открытие в новом окно или текущей странице;</em></p>
+</blockquote>
+
+<h4 id="image">Image</h4>
+<p>предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG или PNG. Изображения можно либо загрузить на сервер, либо загрузить по ссылке.</p>
+
+<blockquote>
+  <p><em>title -  устанавливает альтернативный текст для изображений. Такой текст позволяет получить текстовую информацию о рисунке при отключенной в браузере загрузке изображений;</em></p>
+
+  <p><em>Video - добавляет видео из указанного источника.</em></p>
+
+  <p><em>provider  - источник видео, youtube или vimeo;</em></p>
+
+  <p><em>video_id - id видео (например у видео https://www.youtube.com/watch?v=jH1RNk8954Q id будет являться jH1RNk8954Q);</em></p>
+
+  <p><em>autoplay - автовоспроизведение видео при загрузке страницы;</em></p>
+
+  <p><em>loop - циклическое воспроизведение видео;</em></p>
+
+  <p><em>control (только для youtube) - отображение страниц управления видел (пауза, стоп и тд);</em></p>
+
+  <p><em>related (только для youtube) - показывать связанные видео по завершению произведения;</em></p>
+
+  <p><em>modest (только для youtube) - этот параметр позволяет использовать проигрыватель YouTube, в котором не отображается логотип YouTube;</em></p>
+</blockquote>
+
+<h4 id="map">Map</h4>
+<p>добавляет карту.</p>
+
+<blockquote>
+  <p><em>address - адрес из гугл карт;</em></p>
+
+  <p><em>map type - тип карты, дорожная или фото со спутника;</em></p>
+
+  <p><em>zoom - степень приближения;</em></p>
+</blockquote>
+
+<h4 id="link-block">Link Block</h4>
+<p>аналогичен link, но внутрь его можно поместить другие элементы и все они станут ссылками;</p>
+
+<blockquote>
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p><em>href - адрес документа, на который следует перейти;</em></p>
+
+  <p><em>target - открытие в новом окно или текущей странице;</em></p>
+</blockquote>
+
+<h4 id="quote">Quote</h4>
+<p>добавляет стилизованную цитату</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<p>Text section - блок из заголовка и содержания.</p>
+
+<blockquote>
+  <p><em>size (у заголовка) - размер от h1 до h6;</em></p>
+
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="header">Header</h4>
+<p>блок для создания заголовков.</p>
+
+<blockquote>
+  <p>size (у заголовка) - размер от h1 до h6;</p>
+</blockquote>
+
+<h2 id="раздел-extra"><strong>Раздел extra.</strong></h2>
+
+<h4 id="navbar">Navbar</h4>
+<p>адаптивная навигационная панель.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="countdown">Countdown</h4>
+<p>счётчик, показывающий оставшееся время до указанной даты.</p>
+
+<blockquote>
+  <p><em>start - дата, когда начнётся какое-либо событе, счётчик будет отсчитывать время до него;</em></p>
+
+  <p><em>end text - текст, который отобразится, когда счётчик станет равным 0.</em></p>
+</blockquote>
+
+<p>для редактирования счётчика нужно выбрать главный блок счётчика, а не каждый по отдельности</p>
+
+<h4 id="slider">Slider</h4>
+<p>слайдер, или карусель, для пролистывания  различной информации, каждый из слайдов является отдельной страницец, т.е. контент (например блок Image или Text) нужно добавлять внутрь блока.</p>
+
+<blockquote>
+  <p><em>infinite - бесконечная прокрутка страниц;</em></p>
+
+  <p><em>rewind - стилизованный разделитель между страницами;</em></p>
+
+  <p><em>slide speed - скорость прокрутки;</em></p>
+
+  <p><em>rewind speed -скорость прокрутки разделителя;</em></p>
+
+  <p><em>slide to scroll - количество слайдов;</em></p>
+
+  <p><em>timing - время до смены слайда;</em></p>
+</blockquote>
+
+<h4 id="custom-code">Custom Code</h4>
+<p>блок, с помощью которого можно вставлять любую html разметку (кроме JS), своих настроек не имеет.</p>
+
+<h4 id="tabs">Tabs</h4>
+<p>аналогичен слайдеру, с той лишь разницей, что вместо сменяющихся страниц у вас будут в использовании 3 закладки, в которых так же можно размещать свой контент. Новые вкладки добавляются копирование любой из имеющихся.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="single-button">Single button</h4>
+<p>простая кнопка.</p>
+
+<blockquote>
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p><em>href - ссылка, если вы хотите использовать кнопку как ссылку;</em></p>
+
+  <p><em>target - открытие в новом окно или текущей странице;</em></p>
+
+  <p><em>type - тип и стилизация кнопки;</em></p>
+
+  <p><em>size - размер кнопки;</em></p>
+</blockquote>
+
+<h4 id="quote-1">Quote</h4>
+<p>обычный текст, начинающийся с красной строки.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p><em>iframe - создает плавающий фрейм, который находится внутри обычного документа, он позволяет загружать в область заданных размеров любые другие независимые документы.</em></p>
+
+  <p><em>source - ссылку на нужный документ или страницу</em></p>
+</blockquote>
+
+<h4 id="header-1">Header</h4>
+<p>секция для заголовка \ шапки вашей страницы.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="section">Section</h4>
+<p>секция для контента на вашей страницы, аналог Column, но не добавляет отступы</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="footer">Footer</h4>
+<p>секция для подвала на вашей странице.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="list-items">List items</h4>
+<p>список Flex элементов.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="progress-bar">Progress bar</h4>
+<p>типичная панель прогресса, статична (т.е. для её анимации нужно отдельно делать js script).</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p><em>value - текущее значение прогресса, в %;</em></p>
+
+  <p><em>type - цвет и стилизация панели;</em></p>
+
+  <p><em>striped - полосатый прогресс бар;</em></p>
+
+  <p><em>show % - отображать символ процентов или нет;</em></p>
+
+  <p><em>animation - анимация  на прогресс баре</em></p>
+</blockquote>
+
+<h2 id="раздел-forms"><strong>Раздел forms.</strong></h2>
+
+<h4 id="form">Form</h4>
+<p>форма для отправки данных.</p>
+
+<blockquote>
+  <p><em>method - тип запроса GET или POST;</em></p>
+
+  <p><em>action - куда отправляется запрос, здесь нужно указать URL.</em></p>
+</blockquote>
+
+<h4 id="input">Input</h4>
+<p>предназначен для создания текстовых полей, различных кнопок, переключателей и флажков.</p>
+
+<blockquote>
+  <p><em>name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;</em></p>
+
+  <p><em>placeholder - надпись отображаемая, если input не заполнен;</em></p>
+
+  <p><em>type - тип поля,  текст \ почта и тд;</em></p>
+
+  <p><em>required - обязательно ли поле.</em></p>
+</blockquote>
+
+<p>Textarea - представляет собой элемент формы для создания области, в которую можно вводить несколько строк текста.</p>
+
+<blockquote>
+  <p><em>name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;</em></p>
+
+  <p><em>placeholder - надпись отображаемая, если input не заполнен;</em></p>
+
+  <p><em>required - обязательно ли поле.</em></p>
+</blockquote>
+
+<h4 id="select">Select</h4>
+<p>позволяет создать элемент интерфейса в виде раскрывающегося списка</p>
+
+<blockquote>
+  <p><em>name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;</em></p>
+
+  <p><em>options - список доступных вариантов;</em></p>
+
+  <p><em>required - обязательно ли поле.</em></p>
+</blockquote>
+
+<h4 id="button">Button</h4>
+<p>кнопка, работает только внутри формы.</p>
+
+<blockquote>
+  <p><em>text - текст, отображаемый на кнопке;</em></p>
+
+  <p><em>type - тип кнопки, для отправки формы нужно использовать submit.</em></p>
+</blockquote>
+
+<h4 id="label">Label</h4>
+<p>устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы.</p>
+
+<blockquote>
+  <p><em>for - здесь нужно указать name того input, которому данный label предназначается.</em></p>
+</blockquote>
+
+<h4 id="checkbox">Checkbox</h4>
+<p>input, но в виде чекбокс поля.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;</em></p>
+
+  <p><em>value - текстовое значение элемента, в данный момент не используется;</em></p>
+
+  <p><em>cheked - включён элементы или нет;</em></p>
+
+  <p><em>required - обязательно ли поле.</em></p>
+</blockquote>
+
+<h4 id="radio">Radio</h4>
+<p>input, но в виде radio поля.</p>
+
+<blockquote>
+  <p><em>name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;</em></p>
+
+  <p><em>value - текстовое значение элемента, в данный момент не используется;</em></p>
+
+  <p><em>cheked - включён элементы или нет;</em></p>
+
+  <p><em>required - обязательно ли поле.</em></p>
+</blockquote>
+
+<h2 id="раздел-social"><strong>Раздел social.</strong></h2>
+
+<h4 id="facebook">Facebook</h4>
+<p>кнопка социальной сети facebook.</p>
+
+<blockquote>
+  <p><em>url to like - адрес страницы;</em></p>
+
+  <p><em>layout - используемый тип отображения;</em></p>
+
+  <p><em>action - тип действия;</em></p>
+
+  <p><em>button size - размер кнопки;</em></p>
+
+  <p><em>include share button - включение и отключение кнопки “поделиться”;</em></p>
+
+  <p><em>show friend face - отображение лиц друзей лайкнувших запись</em></p>
+</blockquote>
+
+<h4 id="twitter">Twitter</h4>
+<p>кнопка социальной сети twitter.</p>
+
+<blockquote>
+  <p><em>text - метка кнопки;</em></p>
+
+  <p><em>hashtags - список тэгов (для поиска) к записи.</em></p>
+</blockquote>
+
+<h4 id="google">Google</h4>
+<p>кнопка социальной сети google.</p>
+
+<blockquote>
+  <p><em>url to share - ссылка для шаринга;</em></p>
+
+  <p><em>text - метка кнопки;</em></p>
+</blockquote>
+
+<h4 id="linkedln">Linkedln</h4>
+<p>кнопка социальной сети linkedln.</p>
+
+<blockquote>
+  <p><em>url to share - ссылка для шаринга;</em></p>
+
+  <p><em>text - метка кнопки;</em></p>
+</blockquote>
+
+<h4 id="skype">Skype</h4>
+<p>кнопка для  skype .</p>
+
+<blockquote>
+  <p><em>url to share - ссылка для шаринга;</em></p>
+
+  <p><em>text - метка кнопки;</em></p>
+</blockquote>
+
+<h4 id="social-link-и-social-link-block">Social Link и Social Link Block</h4>
+<p>кнопка социальной сети или их группа.</p>
+
+<blockquote>
+  <p>title - <em>добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+
+  <p>href - <em>адрес документа, на который следует перейти;</em></p>
+
+  <p>target - <em>открытие в новом окно или текущей странице;</em></p>
+
+  <p>network - <em>выбор социальной сети.</em></p>
+</blockquote>
+
+<h3 id="раздел-ready-to-use-blocks">Раздел Ready to use blocks.</h3>
+
+<h4 id="order-number-block">Order number block</h4>
+<p>блок с номером заказа, корректный номер подставиться в момент оформления;</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="order-confirmed-block">Order confirmed block</h4>
+<p>блок с благодарность за заказ.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="shipping-address-block">Shipping address block</h4>
+<p>адрес добавки</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<p>Shipping method block - метод доставки.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="billing-address-block">Billing address block</h4>
+<p>адрес для выставления счёта</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="payment-method">Payment method</h4>
+<p>способ оплаты</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="order-summary-block">Order summary block</h4>
+<p>список товаров в оформленном заказе.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="sidebar-order-info">Sidebar order info</h4>
+<p>боковая панель с полной информацией о заказе.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+
+<h4 id="full-customer-info">Full customer info</h4>
+<p>полная информация о покупателе.</p>
+
+<blockquote>
+  <p><em>id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;</em></p>
+
+  <p><em>title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;</em></p>
+</blockquote>
+:ET
