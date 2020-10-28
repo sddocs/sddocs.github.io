@@ -6,13 +6,13 @@ has_children: true
 permalink: /cthpb/preloader
 ---
 
-# Для чего нужен прелоадер?
+# What can you use preloader for?
 
-Прелоадер необходим для сокрытия элементов стандартной страницы благодарности Shopify на время загрузки нового содержимого.
-Так же вы можете использовать прелоадер для показа рекламы или привлечения внимания клиентов к другим товаровам в своём магазине.
+A preloader is necessary to hide elements of the standard Shopify thank you page while new content is loaded. 
+You can also use the preloader to show ads or draw customers' attention to other products in your store.
 
-Так в предоадер вы можете добавить:
-* видео;
-* анимации;
-* в целом любой html контент, проявите фантазию :)
+You can add to the preloader the following elements:
+* video;
+* animation;
+* any HTML content. Use your imagination!
 {: .fs-6 .fw-300 }

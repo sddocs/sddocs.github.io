@@ -6,8 +6,8 @@ has_children: true
 permalink: /cthpb/examples
 ---
 
-# Примеры работы
+# Examples of the application work
 
-Здесь вы можете ознакомиться с короткими примерами работы приложения.
+Here you can find some examples of the application work.
 
 {: .fs-6 .fw-300 }

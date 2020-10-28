@@ -13,3 +13,8 @@ gem install jekyll bundler
 bundle exec jekyll build
 bundle exec jekyll serve
 ```
+
+### Authors ###
+
+* Разработчик:  Дубов Виталий
+* Менеджер: Кравцов Юрий

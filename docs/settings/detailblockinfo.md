@@ -12,412 +12,412 @@ nav_order: 4
 1. TOC
 {:toc}
 
-## <strong>Раздел basic.</strong>
+## <strong>Basic section.</strong>
 
 #### 1 column
-пустой блок, генерирует "<div>"
+An empty block which generates "<div>"
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст к контейнеру "<div>" в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip to the "<div>" container. It displays when the mouse cursor hovers over the content.*
 
 #### 2 columns
-пустой блок, генерирует два строчных "<div>"
+An empty block which generates two-line "<div>"
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст к контейнеру "<div>" в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip to the "<div>" container. It displays when the mouse cursor hovers over the content.*
 
 #### 3 columns
-пустой блок, генерирует три строчных "<div>"
+An empty block which generates three-line "<div>"
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст к контейнеру "<div>" в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip to the "<div>" container. It displays when the mouse cursor hovers over the content.*
 
 #### 2 columns 3/7
-пустой блок, генерирует два строчных "<div>" с соотношением сторон 3 к 7.
+An empty block which generates two-line "<div>" with an aspect ratio of 3 to 7.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст к контейнеру "<div>" в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip to the "<div>" container. It displays when the mouse cursor hovers over the content.*
 
 #### Text
-блок c текстом, сам текст редактируется двойным кликом по блоку.
+A text block. Double-click on it to edit.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Link
-блок co c гиперссылкой,  текст редактируется двойным кликом по блоку.
+A hyperlink block. Double-click on it to edit.
 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content;*
 > 
-> *href - адрес документа, на который следует перейти;*
+> *href - the address of the document to follow;*
 > 
-> *target - открытие в новом окно или текущей странице;*
+> *target - open the link in a new window or on a current page.*
 
 #### Image
-предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG или PNG. Изображения можно либо загрузить на сервер, либо загрузить по ссылке.
+A block for displaying images in GIF, JPEG, or PNG graphic format on a web page. Images can either be uploaded to the server or downloaded from the link.
 
-> *title -  устанавливает альтернативный текст для изображений. Такой текст позволяет получить текстовую информацию о рисунке при отключенной в браузере загрузке изображений;*
+> *title -  sets alternative text for images. Such text allows you to get text information about the picture when the image loading is disabled in the browser;*
 > 
-> *Video - добавляет видео из указанного источника.*
+> *Video - adds video from the specified source;*
 > 
-> *provider  - источник видео, youtube или vimeo;*
+> *provider  - video source, YouTube or Vimeo;*
 > 
-> *video_id - id видео (например у видео https://www.youtube.com/watch?v=jH1RNk8954Q id будет являться jH1RNk8954Q);*
+> *video_id - video id (for example, for the video https://www.youtube.com/watch?v=jH1RNk8954Q, the id is jH1RNk8954Q);*
 > 
-> *autoplay - автовоспроизведение видео при загрузке страницы;*
+> *autoplay - autoplay video when the page loads;*
 > 
-> *loop - циклическое воспроизведение видео;*
+> *loop - loop video playback;*
 > 
-> *control (только для youtube) - отображение страниц управления видел (пауза, стоп и тд);*
+> *control (only for YouTube) - display of video control elements (pause, stop, etc.);*
 > 
-> *related (только для youtube) - показывать связанные видео по завершению произведения;*
+> *related (only for YouTube) - show related videos after the video is played;*
 > 
-> *modest (только для youtube) - этот параметр позволяет использовать проигрыватель YouTube, в котором не отображается логотип YouTube;*
+> *modest (only for YouTube) - this parameter allows using a YouTube player that does not display the YouTube logo.*
 
 #### Map
-добавляет карту.
+A block for adding a map.
 
-> *address - адрес из гугл карт;*
+> *address - an address from Google maps;*
 > 
-> *map type - тип карты, дорожная или фото со спутника;*
+> *map type - type of map (roadmap or satellite);*
 > 
-> *zoom - степень приближения;*
+> *zoom - zoom degree.*
 
 #### Link Block
-аналогичен link, но внутрь его можно поместить другие элементы и все они станут ссылками;
+A block similar to the Link one, but it allows placing other elements inside it and they all become links;
 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content;*
 > 
-> *href - адрес документа, на который следует перейти;*
+> *href - the address of the document to follow;*
 > 
-> *target - открытие в новом окно или текущей странице;*
+> *target - open the link in a new window or on a current page.*
 
 #### Quote
-добавляет стилизованную цитату
+A block that adds a stylized quote.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
-Text section - блок из заголовка и содержания.
+Text section - a block with heading and content.
 
-> *size (у заголовка) - размер от h1 до h6;*
+> *size (for heading) - size from h1 to h6;*
 > 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Header
-блок для создания заголовков.
+A block for creating headers.
 
-> size (у заголовка) - размер от h1 до h6;
+> size (for header) - size from h1 to h6;
 
-## <strong>Раздел extra.</strong>
+## <strong>Extra section.</strong>
 
 #### Navbar
-адаптивная навигационная панель.
+Responsive navigation bar.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Countdown
-счётчик, показывающий оставшееся время до указанной даты.
+A counter showing the remaining time until the specified date.
 
-> *start - дата, когда начнётся какое-либо событе, счётчик будет отсчитывать время до него;*
+> *start - the date when an event starts, the counter will count down the time until it;*
 > 
-> *end text - текст, который отобразится, когда счётчик станет равным 0.*
+> *end text - the text that will be displayed when the counter reaches 0.*
 
-для редактирования счётчика нужно выбрать главный блок счётчика, а не каждый по отдельности
+To edit the counter, select the main counter block, not each block separately.
 
 #### Slider
-слайдер, или карусель, для пролистывания  различной информации, каждый из слайдов является отдельной страницец, т.е. контент (например блок Image или Text) нужно добавлять внутрь блока.
+Slider, or carousel, for scrolling through various information. Each of the slides is a separate page, so content (for example, Image or Text blocks) should be added inside it.
 
-> *infinite - бесконечная прокрутка страниц;*
+> *infinite - an infinite page scrolling;*
 > 
-> *rewind - стилизованный разделитель между страницами;*
+> *rewind - a styled page divider;*
 > 
-> *slide speed - скорость прокрутки;*
+> *slide speed - a speed of scrolling;*
 > 
-> *rewind speed -скорость прокрутки разделителя;*
+> *rewind speed - a speed of a divider scrolling;*
 > 
-> *slide to scroll - количество слайдов;*
+> *slide to scroll - amount of slides;*
 > 
-> *timing - время до смены слайда;*
+> *timing -  time before slide change.*
 
 #### Custom Code
-блок, с помощью которого можно вставлять любую html разметку (кроме JS), своих настроек не имеет.
+A block for inserting any HTML markup (except for JS). It has no settings.
 
 #### Tabs
-аналогичен слайдеру, с той лишь разницей, что вместо сменяющихся страниц у вас будут в использовании 3 закладки, в которых так же можно размещать свой контент. Новые вкладки добавляются копирование любой из имеющихся.
+A block similar to the slider. The difference is that there are 3 tabs instead of pages where you can also post your content. New tabs are added by copying the existing ones.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Single button
-простая кнопка.
+A simple button.
 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 > 
-> *href - ссылка, если вы хотите использовать кнопку как ссылку;*
+> *href - hyperlink if you would like to use the button as a link;*
 > 
-> *target - открытие в новом окно или текущей странице;*
+> *target - open the link in a new window or on current page;*
 > 
-> *type - тип и стилизация кнопки;*
+> *type -  type and styling of the button;*
 > 
-> *size - размер кнопки;*
+> *size - button size.*
 
 #### Quote
-обычный текст, начинающийся с красной строки.
+Plain text starting from the new paragraph.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 > 
-> *iframe - создает плавающий фрейм, который находится внутри обычного документа, он позволяет загружать в область заданных размеров любые другие независимые документы.*
+> *iframe - creates a floating frame inside a regular document. It allows loading any other independent documents into an area of ​​specified sizes.*
 > 
-> *source - ссылку на нужный документ или страницу*
+> *source - a link to the desired document or page.*
 
 #### Header
-секция для заголовка \ шапки вашей страницы.
+A section for the header of your page.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Section
-секция для контента на вашей страницы, аналог Column, но не добавляет отступы
+A section for page content. It is similar to Column but does not add padding.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Footer
-секция для подвала на вашей странице.
+A section for a footer.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### List items
-список Flex элементов.
+A list of Flex elements.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Progress bar
-типичная панель прогресса, статична (т.е. для её анимации нужно отдельно делать js script).
+Static progress bar. If you would like to animate it, create a separate JS script.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 > 
-> *value - текущее значение прогресса, в %;*
+> *value - percentage of current progress value;*
 > 
-> *type - цвет и стилизация панели;*
+> *type - color and styling of the panel;*
 > 
-> *striped - полосатый прогресс бар;*
+> *striped - striped progress bar;*
 > 
-> *show % - отображать символ процентов или нет;*
+> *show % -  show percent symbol or not;*
 > 
-> *animation - анимация  на прогресс баре*
+> *animation - progress bar animation.*
 
-## <strong>Раздел forms.</strong>
+## <strong>Forms section.</strong>
 
 #### Form
-форма для отправки данных.
+A form for sending data.
 
-> *method - тип запроса GET или POST;*
+> *method - type of request (GET or POST);*
 > 
-> *action - куда отправляется запрос, здесь нужно указать URL.*
+> *action - specify URL to send the request to.*
 
 #### Input
-предназначен для создания текстовых полей, различных кнопок, переключателей и флажков.
+Allows creating text fields and various buttons.
 
-> *name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;*
+> *name - the name of the field. It will be used for data sent to ACTION;*
 > 
-> *placeholder - надпись отображаемая, если input не заполнен;*
+> *placeholder - a title displayed if the input is not filled in;*
 > 
-> *type - тип поля,  текст \ почта и тд;*
+> *type - field type (text\mail, etc.);*
 > 
-> *required - обязательно ли поле.*
+> *required - determines if the field is required or not.*
 
-Textarea - представляет собой элемент формы для создания области, в которую можно вводить несколько строк текста. 
+Text area is an element of form for creating an area where multiple lines of text can be entered. 
 
-> *name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;*
+> *name - the name of the field. It will be used for data sent to ACTION;*
 > 
-> *placeholder - надпись отображаемая, если input не заполнен;*
+> *placeholder - a title displayed if the input is not filled in;*
 > 
-> *required - обязательно ли поле.*
+> *required - determines if the field is required or not.*
 
 #### Select
-позволяет создать элемент интерфейса в виде раскрывающегося списка
+Allows creating a dropdown UI element.
 
-> *name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;*
+> *name - the name of the field. It will be used for data sent to ACTION;*
 > 
-> *options - список доступных вариантов;*
+> *options - list of available options;*
 > 
-> *required - обязательно ли поле.*
+> *required - determines if the field is required or not.*
 
 #### Button
-кнопка, работает только внутри формы.
+A button that works only inside the form.
 
-> *text - текст, отображаемый на кнопке;*
+> *text - text displayed on the button;*
 > 
-> *type - тип кнопки, для отправки формы нужно использовать submit.*
+> *type - a button type. Use Submit to submit the form.*
 
 #### Label
-устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы.
+Establishes a link between a specific label (usually, it is a text) and a form element.
 
-> *for - здесь нужно указать name того input, которому данный label предназначается.*
+> *for - specify the name of the input to which this label is intended.*
 
 #### Checkbox
-input, но в виде чекбокс поля.
+Input in the form of a checkbox.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 > 
-> *name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;*
+> *name - the name of the field. It will be used for data sent to ACTION;*
 > 
-> *value - текстовое значение элемента, в данный момент не используется;*
+> *value - text value of the element. It is not used at the moment;*
 > 
-> *cheked - включён элементы или нет;*
+> *checked - determines if elements are enabled or not;*
 > 
-> *required - обязательно ли поле.*
+> *required - determines if the field is required or not.*
 
 #### Radio
-input, но в виде radio поля.
+Input in the form of a radio field.
 
-> *name - имя поля, именно под этим именем в ACTION придут отправленные вами данные;*
+> *name - the name of the field. It will be used for data sent to ACTION;*
 > 
-> *value - текстовое значение элемента, в данный момент не используется;*
+> *value - text value of the element. It is not used at the moment;*
 > 
-> *cheked - включён элементы или нет;*
+> *checked - determines if elements are enabled or not;*
 > 
-> *required - обязательно ли поле.*
+> *required - determines if the field is required or not.*
 
-## <strong>Раздел social.</strong>
+## <strong>Social section.</strong>
 
 #### Facebook
-кнопка социальной сети facebook.
+Facebook social network button.
 
-> *url to like - адрес страницы;*
+> *url to like - page address;*
 > 
-> *layout - используемый тип отображения;*
+> *layout - used display type;*
 > 
-> *action - тип действия;*
+> *action - type of action;*
 > 
-> *button size - размер кнопки;*
+> *button size - a size of button;*
 > 
-> *include share button - включение и отключение кнопки “поделиться”;*
+> *include share button - enable or disable the Share button;*
 > 
-> *show friend face - отображение лиц друзей лайкнувших запись*
+> *show friend face - display faces of friends who liked the post.*
 
 #### Twitter
-кнопка социальной сети twitter.
+Twitter social network button.
 
-> *text - метка кнопки;*
+> *text - a button label;*
 > 
-> *hashtags - список тэгов (для поиска) к записи.*
+> *hashtags - s list of tags (for search) for a tweet.*
 
 #### Google
-кнопка социальной сети google.
+Google social network button.
 
-> *url to share - ссылка для шаринга;*
+> *url to share - link for sharing;*
 > 
-> *text - метка кнопки;*
+> *text - a button label.*
 
-#### Linkedln
-кнопка социальной сети linkedln.
+#### LinkedIn
+LinkedIn social network button.
 
-> *url to share - ссылка для шаринга;*
+> *url to share - link for sharing;*
 > 
-> *text - метка кнопки;*
+> *text - a button label.*
 
 #### Skype
-кнопка для  skype .
+A button for Skype.
 
-> *url to share - ссылка для шаринга;*
+> *url to share - link for sharing;*
 > 
-> *text - метка кнопки;*
+> *text - a button label;*
 
 #### Social Link и Social Link Block
-кнопка социальной сети или их группа.
+A social network button or their group.
 
-> title - *добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> title - *adds a tooltip which is displayed when the mouse cursor hovers over the content;*
 > 
-> href - *адрес документа, на который следует перейти;*
+> href - *the address of the document to follow;*
 > 
-> target - *открытие в новом окно или текущей странице;*
+> target - *open the link in a new window or on a current page;*
 > 
-> network - *выбор социальной сети.*
+> network - *select a social network.*
 
-### Раздел Ready to use blocks. 
+### Ready to use blocks section. 
 
 #### Order number block
-блок с номером заказа, корректный номер подставиться в момент оформления;
+A block with an order number. The correct number is substituted at the time of placing the order.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Order confirmed block
-блок с благодарность за заказ.
+A block with gratitude for the order.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Shipping address block
-адрес добавки
+Shipping address.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
-Shipping method block - метод доставки.
+Shipping method block - information about shipping method.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element,  use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Billing address block
-адрес для выставления счёта
+Billing address.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Payment method
-способ оплаты
+Payment method.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Order summary block
-список товаров в оформленном заказе.
+A list of ordered products.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Sidebar order info
-боковая панель с полной информацией о заказе.
+Sidebar with full information about the order.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*
 
 #### Full customer info
-полная информация о покупателе.
+Full information about the customer.
 
-> *id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента;*
+> *id - id of the element, use it in your scripts to find and edit an element;*
 >
-> *title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом;*
+> *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.*

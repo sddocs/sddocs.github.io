@@ -8,7 +8,7 @@ permalink: /cthpb/releases
 
 # Release Notes
 
-### 1 октября 2020
+### 1st October 2020
 
-> * добавлено два стандартных шаблона страниц;
-> * исправлены ошибки при подгрузке товаров на странице благодарности;
+> * Two default page templates have been added.
+> * Errors occurred when uploading products on the Thank you page. Fixed.

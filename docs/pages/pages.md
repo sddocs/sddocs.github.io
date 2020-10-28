@@ -6,14 +6,14 @@ has_children: true
 permalink: /cthpb/pages
 ---
 
-# Зачем нужны страницы?
+# What can you use pages for?
 
-Это то, зачем вы установили это приложение!
-Мы предоставляем вам конструктор, с помощью которого вы можете с нуля создатью стилизованную и уникульную страницу благодарности.
+This is why you installed this app!
+We provide you with a designer that allows you to create a stylized and unique thank you page from scratch with minimum efforts involved.
 
-На страницах вы можете:
-* отблагодарить клиента за покупку
-* преложить ему ознакомиться с другими товарами
-* предоставить клиенту скидку и многое другое!
+On pages, you can:
+* thank a customer for the purchase;
+* present him/her other products;
+* provide customers with a discount and much more!
 
 {: .fs-6 .fw-300 }

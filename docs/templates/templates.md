@@ -6,10 +6,10 @@ has_children: true
 permalink: /cthpb/templates
 ---
 
-# Зачем нужны шаблоны страниц?
+# What can you use page templates for?
 
-Шаблоны представляют собой своеобразное хранилище ваших страниц, тут вы можете экспериментировать со страницами, не переживая о том, что вы случайно опубликуете неготовую страницу.
+Templates are a kind of storage for your pages. Here you can experiment with pages without worrying that you accidentally publish an unprepared page.
 
-Так же мы предоставляем вам стандартные шаблоны, разработанные Simtechdev.
+We also provide you with standard templates developed by Simtech Development.
 
 {: .fs-6 .fw-300 }

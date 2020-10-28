@@ -6,19 +6,17 @@ has_children: true
 permalink: /cthpb/settings
 ---
 
-# Зачем и для чего это нужно?
+# What settings do blocks have?
 
-В приложение представлено множество готовых блоков.
+The application provides some ready-made blocks.
 
-Каждый из них представляет из себя html-заготовку. Соотвественно у каждого из них есть свои параметры
+Each of them is an HTML template and has its own parameters:
 
 * id;
-* классы;
-* тип поля;
-* тип иконки;
+* classes;
+* field type;
+* icon type, etc.
 
-и тд
-
-так же у каждого элемента присутствуют стили, которые вы там же можете редактировать в нашем приложении.
+Also, each element has its styles that you can edit in the application.
 
 {: .fs-6 .fw-300 }
