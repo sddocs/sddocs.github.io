@@ -2,14 +2,14 @@
     "doc": "Block list",
     "title": "App block list",
     "content": "Basic configuration when creating pages and templates. You can check out some examples right away. Each block is an HTML component with its own set of parameters (most of them can be changed). All blocks are grouped into categories: . Basic . Basic and most used blocks for building pages. Column is a &lt;div&gt; tag, inside which all other content is placed, i.e. it is good practice to wrap the entire page in a Column. In the Video block (on the example of YouTube), insert the video ID, not the entire URL. For example, for the link https://www.youtube.com/watch?v=yg4eqNruI_o это yg4eqNruI_o, it would be yg4eqNruI_o. HTML5 source only downloads videos from the server (some commercials are likely to be there). Here are other available blocks. They work immediately after adding. Extra . This category contains elements that are used not so often. They may help you customize a page and add some personality in it. They also do not require any complicated configuration. Forms . Elements for building forms. It does not have its own design, but it is always possible to add classes through the Style Manager. All elements can be inserted only inside the form (the main Form element). That’s the reason why they are in a separate category. Social . Elements for social links display (authorization via social networks, likes, etc.). Ready to use blocks . Ready-made blocks for building a Thank you page. All content on the blocks is automatically replaced with correct information when the client places an order. The product list in Sidebar order info and Order Summary blocks is clickable, but note that the link is taken from the SKU field of the product. It is written into handle when uploading products, so you can manually change the link of any product by editing it in the Shopify admin panel. ",
-    "url": "http://localhost:4000/docs/settings/block/#app-block-list",
-    "relUrl": "/docs/settings/block/#app-block-list"
+    "url": "http://localhost:4000/docs/editor_settings/block/#app-block-list",
+    "relUrl": "/docs/editor_settings/block/#app-block-list"
   },"1": {
     "doc": "Block list",
     "title": "Block list",
     "content": " ",
-    "url": "http://localhost:4000/docs/settings/block/",
-    "relUrl": "/docs/settings/block/"
+    "url": "http://localhost:4000/docs/editor_settings/block/",
+    "relUrl": "/docs/editor_settings/block/"
   },"2": {
     "doc": "Clone page",
     "title": "Clone page",
@@ -29,310 +29,346 @@
     "url": "http://localhost:4000/docs/pages/clone/#brief-note",
     "relUrl": "/docs/pages/clone/#brief-note"
   },"5": {
-    "doc": "Color",
+    "doc": "Preloader color",
     "title": "Colors",
     "content": "You need to choose a color when creating or editing a preloader. Available settings: . | Color (with a possibility to use gradient); . | Fill type; . | Fill direction. | . | To add a color, left-click on any area of the color scale (by default, it is painted as a chessboard, there is no color). Markers with “anchors” in the lower part will appear. Left-click on them on to select a color. Color can be removed at any time by clicking on the cross at the top of the marker. | You can choose from 4 fill types: . | Radial ▼ | Linear ▼ | Repeating radial ▼ | Repeating linear ▼ | . | You can also choose a direction for each type. | Radial ▼ top right center left bottom | Linear ▼ top right center left bottom | Repeating radial ▼ top right center left bottom | Repeating linear ▼ top right center left bottom | . | . ",
-    "url": "http://localhost:4000/docs/preloader/color/#colors",
-    "relUrl": "/docs/preloader/color/#colors"
+    "url": "http://localhost:4000/docs/settings/color/#colors",
+    "relUrl": "/docs/settings/color/#colors"
   },"6": {
-    "doc": "Color",
-    "title": "Color",
+    "doc": "Preloader color",
+    "title": "Preloader color",
     "content": " ",
-    "url": "http://localhost:4000/docs/preloader/color/",
-    "relUrl": "/docs/preloader/color/"
+    "url": "http://localhost:4000/docs/settings/color/",
+    "relUrl": "/docs/settings/color/"
   },"7": {
     "doc": "Component settings",
     "title": "Component settings",
     "content": "Each component has its settings. They can be specific for a particular component or general. In the second case, you can only change the element ID and its text. These settings do not require knowledge of HTML or CSS and are of three types: . | select; | input; | range select. | . ",
-    "url": "http://localhost:4000/docs/settings/component/",
-    "relUrl": "/docs/settings/component/"
+    "url": "http://localhost:4000/docs/editor_settings/component/",
+    "relUrl": "/docs/editor_settings/component/"
   },"8": {
+    "doc": "Preloader create",
+    "title": "Preloader create",
+    "content": " ",
+    "url": "http://localhost:4000/docs/settings/create/",
+    "relUrl": "/docs/settings/create/"
+  },"9": {
+    "doc": "Preloader create",
+    "title": "Sections",
+    "content": ". | First create | Install the preloader in the store | . ",
+    "url": "http://localhost:4000/docs/settings/create/#sections",
+    "relUrl": "/docs/settings/create/#sections"
+  },"10": {
+    "doc": "Preloader create",
+    "title": "First create",
+    "content": "When you first launch the application, you will see a banner: . To create a preloader, click Create new button. You will be redirected to the preloader creation form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
+    "url": "http://localhost:4000/docs/settings/create/#first-create",
+    "relUrl": "/docs/settings/create/#first-create"
+  },"11": {
+    "doc": "Preloader create",
+    "title": "Install the preloader in the store",
+    "content": "After creating the preloader, you will find a link to the script for installing your preloader to the store on the main Settings page. Click on “Get Link”, then “Copy Link”. Then go to the settings of your theme: . https://example.myshopify.com/admin/settings/checkout (where example is your domain). Find the Additional scripts field, paste the copied script and click Save. ",
+    "url": "http://localhost:4000/docs/settings/create/#install-the-preloader-in-the-store",
+    "relUrl": "/docs/settings/create/#install-the-preloader-in-the-store"
+  },"12": {
     "doc": "Create page",
     "title": "Create page",
     "content": " ",
     "url": "http://localhost:4000/docs/pages/create/",
     "relUrl": "/docs/pages/create/"
-  },"9": {
+  },"13": {
     "doc": "Create page",
     "title": "Sections",
     "content": ". | Your steps | More information | . ",
     "url": "http://localhost:4000/docs/pages/create/#sections",
     "relUrl": "/docs/pages/create/#sections"
-  },"10": {
+  },"14": {
     "doc": "Create page",
     "title": "Your steps",
-    "content": "Click Сreate new button to create a Thank you page. The page creation interface opens. By default, an element grid is enabled. It can help you position your elements. You can disable if needed. There are also the following items there: . Menu items ▼ . | Export of HTML markup for the page if you want to apply it elsewhere; | Undo change; | Revert the undone change; | Import of HTML markup. You may upload any page here if you wish, but the correctness of its display is not guaranteed. | . Element settings ▼ . There are 4 items on the above panel as well. | Style Manager - attributes, parameters of the selected element;; | Settings - settings of the selected element display; | Layer Manager- a manager of layers; | Block - a menu with the available blocks (it is enabled by default). | . Each element added to the field has its settings. Just click on any of the elements added to the field to view them on the right sidebar. ",
+    "content": "Click Сreate new button to create a Thank you page. Then you will need to select one of the templates. The page creation interface opens. Если вы создаёте свою первую страницу, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. Вы всегда можете изменить данную настройку в настройках приложения. By default, an element grid is enabled. It can help you position your elements. You can disable if needed. There are also the following items there: . Element settings ▼ . There are 4 items on the above panel as well. | Style Manager - attributes, parameters of the selected element;; | Settings - settings of the selected element display; | Layer Manager- a manager of layers; | Block - a menu with the available blocks (it is enabled by default). | . Each element added to the field has its settings. Just click on any of the elements added to the field to view them on the right sidebar. Так же у каждого блока присутствуют стили и настройки, об этом вы можете прочитать дальше в документации. ",
     "url": "http://localhost:4000/docs/pages/create/#your-steps",
     "relUrl": "/docs/pages/create/#your-steps"
-  },"11": {
+  },"15": {
     "doc": "Create page",
     "title": "More information",
-    "content": ". | More information about Style Manager settings can be found here; | More information about Component settings can be found here; | More information about Layer Manager can be found here; | More information about Block can be found here. | . ",
+    "content": ". | More information about Style Manager settings can be found here; | More information about Component settings can be found here; | More information about Layer Manager can be found here; | More information about Block can be found here; | . ",
     "url": "http://localhost:4000/docs/pages/create/#more-information",
     "relUrl": "/docs/pages/create/#more-information"
-  },"12": {
-    "doc": "Create",
-    "title": "Preloader create",
-    "content": " ",
-    "url": "http://localhost:4000/docs/preloader/create/#preloader-create",
-    "relUrl": "/docs/preloader/create/#preloader-create"
-  },"13": {
-    "doc": "Create",
-    "title": "Sections",
-    "content": ". | First create | Install the preloader in the store | . ",
-    "url": "http://localhost:4000/docs/preloader/create/#sections",
-    "relUrl": "/docs/preloader/create/#sections"
-  },"14": {
-    "doc": "Create",
-    "title": "First create",
-    "content": "When you first launch the application, you will see a banner: . To create a preloader, click Create new button. You will be redirected to the preloader creation form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
-    "url": "http://localhost:4000/docs/preloader/create/#first-create",
-    "relUrl": "/docs/preloader/create/#first-create"
-  },"15": {
-    "doc": "Create",
-    "title": "Install the preloader in the store",
-    "content": "After creating the preloader, you will find a link to the script for installing your preloader to the store on the main Preloaders page. Copy the script or by clicking on the button and follow the link . https://example.myshopify.com/admin/settings/checkout (where example is your domain). Find the Additional scripts field, paste the copied script and click Save. ",
-    "url": "http://localhost:4000/docs/preloader/create/#install-the-preloader-in-the-store",
-    "relUrl": "/docs/preloader/create/#install-the-preloader-in-the-store"
   },"16": {
-    "doc": "Create",
-    "title": "Create",
-    "content": " ",
-    "url": "http://localhost:4000/docs/preloader/create/",
-    "relUrl": "/docs/preloader/create/"
-  },"17": {
     "doc": "Just example",
     "title": "Sample operation with conventional units",
     "content": ". ",
     "url": "http://localhost:4000/docs/examples/default/#sample-operation-with-conventional-units",
     "relUrl": "/docs/examples/default/#sample-operation-with-conventional-units"
-  },"18": {
+  },"17": {
     "doc": "Just example",
     "title": "Just example",
     "content": " ",
     "url": "http://localhost:4000/docs/examples/default/",
     "relUrl": "/docs/examples/default/"
-  },"19": {
+  },"18": {
     "doc": "Delete page",
     "title": "Delete page",
     "content": ". ",
     "url": "http://localhost:4000/docs/pages/delete/",
     "relUrl": "/docs/pages/delete/"
-  },"20": {
+  },"19": {
     "doc": "Delete page",
     "title": "Your steps",
     "content": "To delete a page, click on the Delete button of the corresponding page. You cannot undo this action and restore the deleted pages. ",
     "url": "http://localhost:4000/docs/pages/delete/#your-steps",
     "relUrl": "/docs/pages/delete/#your-steps"
-  },"21": {
+  },"20": {
     "doc": "Detail blocks info",
     "title": "Detail blocks info",
-    "content": ". | Раздел basic. | 1 column | 2 columns | 3 columns | 2 columns 3/7 | Text | Link | Image | Map | Link Block | Quote | Header | . | Раздел extra. | Navbar | Countdown | Slider | Custom Code | Tabs | Single button | Quote | Header | Section | Footer | List items | Progress bar | . | Раздел forms. | Form | Input | Select | Button | Label | Checkbox | Radio | . | Раздел social. | Facebook | Twitter | Google | Linkedln | Skype | Social Link и Social Link Block | Раздел Ready to use blocks. | Order number block | Order confirmed block | Shipping address block | Billing address block | Payment method | Order summary block | Sidebar order info | Full customer info | . | . | . ",
-    "url": "http://localhost:4000/docs/settings/detailblockinfo/",
-    "relUrl": "/docs/settings/detailblockinfo/"
+    "content": ". | Basic section. | 1 column | 2 columns | 3 columns | 2 columns 3/7 | Text | Link | Image | Map | Link Block | Quote | Text section - a block with heading and content. | . | Extra section. | Navbar | Countdown | Slider | Custom Code | Tabs | . | Forms section. | Form | Input | Select | Button | Label | Checkbox | Radio | . | Social section. | Facebook | Twitter | Google | LinkedIn | Skype | Social Link и Social Link Block | Ready to use blocks section. | Order number block | Order confirmed block | Shipping address block | Billing address block | Payment method | Order summary block | Sidebar order info | Full customer info | . | . | . ",
+    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/",
+    "relUrl": "/docs/editor_settings/detailblockinfo/"
+  },"21": {
+    "doc": "Detail blocks info",
+    "title": "Basic section.",
+    "content": "1 column . An empty block which generates “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 2 columns . An empty block which generates two-line “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 3 columns . An empty block which generates three-line “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 2 columns 3/7 . An empty block which generates two-line “&lt;div&gt;” with an aspect ratio of 3 to 7. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. Text . A text block. Double-click on it to edit. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Link . A hyperlink block. Double-click on it to edit. title - adds a tooltip that is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page. Image . A block for displaying images in GIF, JPEG, or PNG graphic format on a web page. Images can either be uploaded to the server or downloaded from the link. title - sets alternative text for images. Such text allows you to get text information about the picture when the image loading is disabled in the browser; . Video - adds video from the specified source; . provider - video source, YouTube or Vimeo; . video_id - video id (for example, for the video https://www.youtube.com/watch?v=jH1RNk8954Q, the id is jH1RNk8954Q); . autoplay - autoplay video when the page loads; . loop - loop video playback; . control (only for YouTube) - display of video control elements (pause, stop, etc.); . related (only for YouTube) - show related videos after the video is played; . modest (only for YouTube) - this parameter allows using a YouTube player that does not display the YouTube logo. Map . A block for adding a map. address - an address from Google maps; . map type - type of map (roadmap or satellite); . zoom - zoom degree. Link Block . A block similar to the Link one, but it allows placing other elements inside it and they all become links; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page. Quote . A block that adds a stylized quote. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Text section - a block with heading and content. size (for heading) - size from h1 to h6; . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
+    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#basic-section",
+    "relUrl": "/docs/editor_settings/detailblockinfo/#basic-section"
   },"22": {
     "doc": "Detail blocks info",
-    "title": "Раздел basic.",
-    "content": "1 column . пустой блок, генерирует “&lt;div&gt;” . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . 2 columns . пустой блок, генерирует два строчных “&lt;div&gt;” . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . 3 columns . пустой блок, генерирует три строчных “&lt;div&gt;” . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . 2 columns 3/7 . пустой блок, генерирует два строчных “&lt;div&gt;” с соотношением сторон 3 к 7. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст к контейнеру “&lt;div&gt;” в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Text . блок c текстом, сам текст редактируется двойным кликом по блоку. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Link . блок co c гиперссылкой, текст редактируется двойным кликом по блоку. title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . href - адрес документа, на который следует перейти; . target - открытие в новом окно или текущей странице; . Image . предназначен для отображения на веб-странице изображений в графическом формате GIF, JPEG или PNG. Изображения можно либо загрузить на сервер, либо загрузить по ссылке. title - устанавливает альтернативный текст для изображений. Такой текст позволяет получить текстовую информацию о рисунке при отключенной в браузере загрузке изображений; . Video - добавляет видео из указанного источника. provider - источник видео, youtube или vimeo; . video_id - id видео (например у видео https://www.youtube.com/watch?v=jH1RNk8954Q id будет являться jH1RNk8954Q); . autoplay - автовоспроизведение видео при загрузке страницы; . loop - циклическое воспроизведение видео; . control (только для youtube) - отображение страниц управления видел (пауза, стоп и тд); . related (только для youtube) - показывать связанные видео по завершению произведения; . modest (только для youtube) - этот параметр позволяет использовать проигрыватель YouTube, в котором не отображается логотип YouTube; . Map . добавляет карту. address - адрес из гугл карт; . map type - тип карты, дорожная или фото со спутника; . zoom - степень приближения; . Link Block . аналогичен link, но внутрь его можно поместить другие элементы и все они станут ссылками; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . href - адрес документа, на который следует перейти; . target - открытие в новом окно или текущей странице; . Quote . добавляет стилизованную цитату . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Text section - блок из заголовка и содержания. size (у заголовка) - размер от h1 до h6; . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Header . блок для создания заголовков. size (у заголовка) - размер от h1 до h6; . ",
-    "url": "http://localhost:4000/docs/settings/detailblockinfo/#%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-basic",
-    "relUrl": "/docs/settings/detailblockinfo/#раздел-basic"
+    "title": "Extra section.",
+    "content": "Navbar . Responsive navigation bar. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Countdown . A counter showing the remaining time until the specified date. start - the date when an event starts, the counter will count down the time until it; . end text - the text that will be displayed when the counter reaches 0. To edit the counter, select the main counter block, not each block separately. Slider . Slider, or carousel, for scrolling through various information. Each of the slides is a separate page, so content (for example, Image or Text blocks) should be added inside it. infinite - an infinite page scrolling; . rewind - a styled page divider; . slide speed - a speed of scrolling; . rewind speed - a speed of a divider scrolling; . slide to scroll - amount of slides; . timing - time before slide change. Custom Code . A block for inserting any HTML markup (except for JS). It has no settings. Tabs . A block similar to the slider. The difference is that there are 3 tabs instead of pages where you can also post your content. New tabs are added by copying the existing ones. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
+    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#extra-section",
+    "relUrl": "/docs/editor_settings/detailblockinfo/#extra-section"
   },"23": {
     "doc": "Detail blocks info",
-    "title": "Раздел extra.",
-    "content": "Navbar . адаптивная навигационная панель. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Countdown . счётчик, показывающий оставшееся время до указанной даты. start - дата, когда начнётся какое-либо событе, счётчик будет отсчитывать время до него; . end text - текст, который отобразится, когда счётчик станет равным 0. для редактирования счётчика нужно выбрать главный блок счётчика, а не каждый по отдельности . Slider . слайдер, или карусель, для пролистывания различной информации, каждый из слайдов является отдельной страницец, т.е. контент (например блок Image или Text) нужно добавлять внутрь блока. infinite - бесконечная прокрутка страниц; . rewind - стилизованный разделитель между страницами; . slide speed - скорость прокрутки; . rewind speed -скорость прокрутки разделителя; . slide to scroll - количество слайдов; . timing - время до смены слайда; . Custom Code . блок, с помощью которого можно вставлять любую html разметку (кроме JS), своих настроек не имеет. Tabs . аналогичен слайдеру, с той лишь разницей, что вместо сменяющихся страниц у вас будут в использовании 3 закладки, в которых так же можно размещать свой контент. Новые вкладки добавляются копирование любой из имеющихся. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Single button . простая кнопка. title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . href - ссылка, если вы хотите использовать кнопку как ссылку; . target - открытие в новом окно или текущей странице; . type - тип и стилизация кнопки; . size - размер кнопки; . Quote . обычный текст, начинающийся с красной строки. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . iframe - создает плавающий фрейм, который находится внутри обычного документа, он позволяет загружать в область заданных размеров любые другие независимые документы. source - ссылку на нужный документ или страницу . Header . секция для заголовка \\ шапки вашей страницы. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Section . секция для контента на вашей страницы, аналог Column, но не добавляет отступы . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Footer . секция для подвала на вашей странице. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . List items . список Flex элементов. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Progress bar . типичная панель прогресса, статична (т.е. для её анимации нужно отдельно делать js script). id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . value - текущее значение прогресса, в %; . type - цвет и стилизация панели; . striped - полосатый прогресс бар; . show % - отображать символ процентов или нет; . animation - анимация на прогресс баре . ",
-    "url": "http://localhost:4000/docs/settings/detailblockinfo/#%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-extra",
-    "relUrl": "/docs/settings/detailblockinfo/#раздел-extra"
+    "title": "Forms section.",
+    "content": "Form . A form for sending data. method - type of request (GET or POST); . action - specify URL to send the request to. Input . Allows creating text fields and various buttons. name - the name of the field. It will be used for data sent to ACTION; . placeholder - a title displayed if the input is not filled in; . type - field type (text\\mail, etc.); . required - determines if the field is required or not. Text area is an element of form for creating an area where multiple lines of text can be entered. name - the name of the field. It will be used for data sent to ACTION; . placeholder - a title displayed if the input is not filled in; . required - determines if the field is required or not. Select . Allows creating a dropdown UI element. name - the name of the field. It will be used for data sent to ACTION; . options - list of available options; . required - determines if the field is required or not. Button . A button that works only inside the form. text - text displayed on the button; . type - a button type. Use Submit to submit the form. Label . Establishes a link between a specific label (usually, it is a text) and a form element. for - specify the name of the input to which this label is intended. Checkbox . Input in the form of a checkbox. id - id of the element, use it in your scripts to find and edit an element; . name - the name of the field. It will be used for data sent to ACTION; . value - text value of the element. It is not used at the moment; . checked - determines if elements are enabled or not; . required - determines if the field is required or not. Radio . Input in the form of a radio field. name - the name of the field. It will be used for data sent to ACTION; . value - text value of the element. It is not used at the moment; . checked - determines if elements are enabled or not; . required - determines if the field is required or not. ",
+    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#forms-section",
+    "relUrl": "/docs/editor_settings/detailblockinfo/#forms-section"
   },"24": {
     "doc": "Detail blocks info",
-    "title": "Раздел forms.",
-    "content": "Form . форма для отправки данных. method - тип запроса GET или POST; . action - куда отправляется запрос, здесь нужно указать URL. Input . предназначен для создания текстовых полей, различных кнопок, переключателей и флажков. name - имя поля, именно под этим именем в ACTION придут отправленные вами данные; . placeholder - надпись отображаемая, если input не заполнен; . type - тип поля, текст \\ почта и тд; . required - обязательно ли поле. Textarea - представляет собой элемент формы для создания области, в которую можно вводить несколько строк текста. name - имя поля, именно под этим именем в ACTION придут отправленные вами данные; . placeholder - надпись отображаемая, если input не заполнен; . required - обязательно ли поле. Select . позволяет создать элемент интерфейса в виде раскрывающегося списка . name - имя поля, именно под этим именем в ACTION придут отправленные вами данные; . options - список доступных вариантов; . required - обязательно ли поле. Button . кнопка, работает только внутри формы. text - текст, отображаемый на кнопке; . type - тип кнопки, для отправки формы нужно использовать submit. Label . устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы. for - здесь нужно указать name того input, которому данный label предназначается. Checkbox . input, но в виде чекбокс поля. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . name - имя поля, именно под этим именем в ACTION придут отправленные вами данные; . value - текстовое значение элемента, в данный момент не используется; . cheked - включён элементы или нет; . required - обязательно ли поле. Radio . input, но в виде radio поля. name - имя поля, именно под этим именем в ACTION придут отправленные вами данные; . value - текстовое значение элемента, в данный момент не используется; . cheked - включён элементы или нет; . required - обязательно ли поле. ",
-    "url": "http://localhost:4000/docs/settings/detailblockinfo/#%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-forms",
-    "relUrl": "/docs/settings/detailblockinfo/#раздел-forms"
+    "title": "Social section.",
+    "content": "Facebook . Facebook social network button. url to like - page address; . layout - used display type; . action - type of action; . button size - a size of button; . include share button - enable or disable the Share button; . show friend face - display faces of friends who liked the post. Twitter . Twitter social network button. text - a button label; . hashtags - s list of tags (for search) for a tweet. Google . Google social network button. url to share - link for sharing; . text - a button label. LinkedIn . LinkedIn social network button. url to share - link for sharing; . text - a button label. Skype . A button for Skype. url to share - link for sharing; . text - a button label; . Social Link и Social Link Block . A social network button or their group. title - adds a tooltip which is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page; . network - select a social network. Ready to use blocks section. Order number block . A block with an order number. The correct number is substituted at the time of placing the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Order confirmed block . A block with gratitude for the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Shipping address block . Shipping address. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Shipping method block - information about shipping method. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Billing address block . Billing address. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Payment method . Payment method. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Order summary block . A list of ordered products. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Sidebar order info . Sidebar with full information about the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Full customer info . Full information about the customer. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
+    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#social-section",
+    "relUrl": "/docs/editor_settings/detailblockinfo/#social-section"
   },"25": {
-    "doc": "Detail blocks info",
-    "title": "Раздел social.",
-    "content": "Facebook . кнопка социальной сети facebook. url to like - адрес страницы; . layout - используемый тип отображения; . action - тип действия; . button size - размер кнопки; . include share button - включение и отключение кнопки “поделиться”; . show friend face - отображение лиц друзей лайкнувших запись . Twitter . кнопка социальной сети twitter. text - метка кнопки; . hashtags - список тэгов (для поиска) к записи. Google . кнопка социальной сети google. url to share - ссылка для шаринга; . text - метка кнопки; . Linkedln . кнопка социальной сети linkedln. url to share - ссылка для шаринга; . text - метка кнопки; . Skype . кнопка для skype . url to share - ссылка для шаринга; . text - метка кнопки; . Social Link и Social Link Block . кнопка социальной сети или их группа. title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . href - адрес документа, на который следует перейти; . target - открытие в новом окно или текущей странице; . network - выбор социальной сети. Раздел Ready to use blocks. Order number block . блок с номером заказа, корректный номер подставиться в момент оформления; . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Order confirmed block . блок с благодарность за заказ. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Shipping address block . адрес добавки . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Shipping method block - метод доставки. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Billing address block . адрес для выставления счёта . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Payment method . способ оплаты . id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Order summary block . список товаров в оформленном заказе. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Sidebar order info . боковая панель с полной информацией о заказе. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . Full customer info . полная информация о покупателе. id - id элемента, может использоваться в ваших скриптах для поиск и редактирования элемента; . title - добавляет поясняющий текст в виде всплывающей подсказки, которая отображается, когда курсор мыши задерживается на содержимом; . ",
-    "url": "http://localhost:4000/docs/settings/detailblockinfo/#%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB-social",
-    "relUrl": "/docs/settings/detailblockinfo/#раздел-social"
+    "doc": "Preloader edit",
+    "title": "Preloader edit",
+    "content": ". ",
+    "url": "http://localhost:4000/docs/settings/edit/",
+    "relUrl": "/docs/settings/edit/"
   },"26": {
+    "doc": "Preloader edit",
+    "title": "Where to start?",
+    "content": "If you have already created a preloader, you will see the following p when you go to the settings page: . To edit a preloader, click Edit button. You will be redirected to the preloader edit form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
+    "url": "http://localhost:4000/docs/settings/edit/#where-to-start",
+    "relUrl": "/docs/settings/edit/#where-to-start"
+  },"27": {
     "doc": "Edit page",
     "title": "Edit page",
     "content": ". ",
     "url": "http://localhost:4000/docs/pages/edit/",
     "relUrl": "/docs/pages/edit/"
-  },"27": {
+  },"28": {
     "doc": "Edit page",
     "title": "Where to start?",
-    "content": "If you have already created a preloader, you will see the following banner when launching the application: . To edit a preloader, click Edit button. You will be redirected to the preloader edit form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
+    "content": "Процесс редактирования страница идентичен её созданию. Найдите нужную вам страницу в списке ваших страниц и кликните по кнопке редактирования. Если вы открываете страницу редактирований 1й раз, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. Вы всегда можете изменить данную настройку в настройках приложения. ",
     "url": "http://localhost:4000/docs/pages/edit/#where-to-start",
     "relUrl": "/docs/pages/edit/#where-to-start"
-  },"28": {
-    "doc": "Edit",
-    "title": "Preloader edit",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/preloader/edit/#preloader-edit",
-    "relUrl": "/docs/preloader/edit/#preloader-edit"
   },"29": {
-    "doc": "Edit",
-    "title": "Where to start?",
-    "content": "If you have already created a preloader, you will see the following banner when launching the application: . To edit a preloader, click Edit button. You will be redirected to the preloader edit form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
-    "url": "http://localhost:4000/docs/preloader/edit/#where-to-start",
-    "relUrl": "/docs/preloader/edit/#where-to-start"
+    "doc": "Edit page",
+    "title": "More information",
+    "content": ". | More information about Style Manager settings can be found here; | More information about Component settings can be found here; | More information about Layer Manager can be found here; | More information about Block can be found here; | . ",
+    "url": "http://localhost:4000/docs/pages/edit/#more-information",
+    "relUrl": "/docs/pages/edit/#more-information"
   },"30": {
-    "doc": "Edit",
-    "title": "Edit",
-    "content": " ",
-    "url": "http://localhost:4000/docs/preloader/edit/",
-    "relUrl": "/docs/preloader/edit/"
+    "doc": "Editor Settings",
+    "title": "What settings do blocks have?",
+    "content": "The application provides some ready-made blocks. Each of them is an HTML template and has its own parameters: . | id; | classes; | field type; | icon type, etc. | . Also, each element has its styles that you can edit in the application. ",
+    "url": "http://localhost:4000/cthpb/editor_settings#what-settings-do-blocks-have",
+    "relUrl": "/cthpb/editor_settings#what-settings-do-blocks-have"
   },"31": {
-    "doc": "Examples",
-    "title": "Примеры работы",
-    "content": "Здесь вы можете ознакомиться с короткими примерами работы приложения. ",
-    "url": "http://localhost:4000/cthpb/examples#%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B",
-    "relUrl": "/cthpb/examples#примеры-работы"
+    "doc": "Editor Settings",
+    "title": "Editor Settings",
+    "content": " ",
+    "url": "http://localhost:4000/cthpb/editor_settings",
+    "relUrl": "/cthpb/editor_settings"
   },"32": {
+    "doc": "Examples",
+    "title": "Examples of the application work",
+    "content": "Here you can find some examples of the application work. ",
+    "url": "http://localhost:4000/cthpb/examples#examples-of-the-application-work",
+    "relUrl": "/cthpb/examples#examples-of-the-application-work"
+  },"33": {
     "doc": "Examples",
     "title": "Examples",
     "content": " ",
     "url": "http://localhost:4000/cthpb/examples",
     "relUrl": "/cthpb/examples"
-  },"33": {
+  },"34": {
     "doc": "Getting started",
     "title": "Getting started",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"34": {
+  },"35": {
     "doc": "Getting started",
     "title": "Sections",
-    "content": ". | Install the app | Quick start | . Install the app . Installing the app is extremely simple. Open the Shopify App Store, find the application and click Add app button. With any installation option, you will be prompted to select a tariff plan when launching an app for the first time. Follow the instructions from Quick Start after that.. Quick start . | Open the application. | Create a preloader. | Navigate to the Pages page and click Create new button. The new page will be created. | . | Design a new page using ready-made blocks, or go to step №5. | Navigate to the Templates tab and click on the Restore default templates button. Standard templates will be downloaded. | . | Select the necessary template, for example, “Simtech Demo” and upload it to your newly created page. | . | Find the page on the Pages tab and enable it. | . ",
+    "content": ". | Install the app | Quick start | . Install the app . Installing the app is extremely simple. Open the Shopify App Store, find the application and click Add app button. With any installation option, you will be prompted to select a tariff plan when launching an app for the first time. Follow the instructions from Quick Start after that.. Quick start . | Open the application. | Create a preloader. | Navigate to the Pages page and click Create new button. Выберите из списка шаблонов нужный. The new page will be created. | . | Design a new page using ready-made blocks, or go to last step. | В любой момент вы можете изменить загруженный шаблон, for example, “Hallowen no Trick” and upload it to your newly created page. | . | Find the page on the Pages tab and enable it. Одновременно может быть активна только одна страница. | . ",
     "url": "http://localhost:4000/#sections",
     "relUrl": "/#sections"
-  },"35": {
+  },"36": {
+    "doc": "Interactive elements",
+    "title": "Interactive elements",
+    "content": " ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/",
+    "relUrl": "/docs/settings/interactiveelements/"
+  },"37": {
+    "doc": "Interactive elements",
+    "title": "Sections",
+    "content": ". | Что это? | Зачем нужно? | Как использовать? | Какие классы есть? . | cthpb_code_CODE | cthpb_code_COPY | cthpb_code_APPLY | cthpb_print | . | . ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/#sections",
+    "relUrl": "/docs/settings/interactiveelements/#sections"
+  },"38": {
+    "doc": "Interactive elements",
+    "title": "Что это?",
+    "content": ". Это уникальные классы, добавляя которые, вы добавляете блокам некоторый функционал или заменяете их значения. ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE",
+    "relUrl": "/docs/settings/interactiveelements/#что-это"
+  },"39": {
+    "doc": "Interactive elements",
+    "title": "Зачем нужно?",
+    "content": ". Добавляет возможность распечатать страницу (например со списком товаров). Создать кнопку для копирования \\ автоприменения купона, или просто его вывода. Так же можно использовать для вывода информации он заказе. ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE",
+    "relUrl": "/docs/settings/interactiveelements/#зачем-нужно"
+  },"40": {
+    "doc": "Interactive elements",
+    "title": "Как использовать?",
+    "content": ". Нужно кликнуть на любой из элементв и добавить ему класс из списка ниже. ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C",
+    "relUrl": "/docs/settings/interactiveelements/#как-использовать"
+  },"41": {
+    "doc": "Interactive elements",
+    "title": "Какие классы есть?",
+    "content": ". | cthpb_code_CODE . | . Вставляет значение в указанное поле. Нужно значение нужно вписать вместо “CODE” . | cthpb_code_COPY . Копирует значение элемента в буфер обмена, по корому будет совершён клик. Если использовать вместе с предыдущим параметром, то указанное значени так же скопируется в буфер обмена. | cthpb_code_APPLY . При клике пытается применить значение элемента, как купон. Если использовать параметр №1, то будет использоваться именно он. | cthpb_print . При клике открывает форму печати данной страницы. | . ",
+    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B-%D0%B5%D1%81%D1%82%D1%8C",
+    "relUrl": "/docs/settings/interactiveelements/#какие-классы-есть"
+  },"42": {
+    "doc": "Into",
+    "title": "Into",
+    "content": " ",
+    "url": "http://localhost:4000/docs/settings/intro/",
+    "relUrl": "/docs/settings/intro/"
+  },"43": {
+    "doc": "Into",
+    "title": "Sections",
+    "content": ". | Что это? | Как это работает? | . ",
+    "url": "http://localhost:4000/docs/settings/intro/#sections",
+    "relUrl": "/docs/settings/intro/#sections"
+  },"44": {
+    "doc": "Into",
+    "title": "Что это?",
+    "content": ". На каждой (почти) странице есть кнопка, при нажатии на которую запуститься небольшая пошаговая инструкция, которая познакомит вас с интерфейсом. Располагается данная кнопка сверху справа. ",
+    "url": "http://localhost:4000/docs/settings/intro/#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE",
+    "relUrl": "/docs/settings/intro/#что-это"
+  },"45": {
+    "doc": "Into",
+    "title": "Как это работает?",
+    "content": ". Просто кликните на данную кнопку, находясь при этом на странице, о которой вам требуется информация. Далее при помощь стрелок или кнопки “Next” переключайте слайды. ",
+    "url": "http://localhost:4000/docs/settings/intro/#%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82",
+    "relUrl": "/docs/settings/intro/#как-это-работает"
+  },"46": {
     "doc": "Layer settings",
     "title": "Style manager",
     "content": "A tree of DOM elements is displayed here. It is used to turn on / off the desired layers (like Photoshop). Also, you can change the nesting of elements. Grab the element with the help of the cross arrow sign (to the right of the element) and move it to the desired position. ",
-    "url": "http://localhost:4000/docs/settings/layer/#style-manager",
-    "relUrl": "/docs/settings/layer/#style-manager"
-  },"36": {
+    "url": "http://localhost:4000/docs/editor_settings/layer/#style-manager",
+    "relUrl": "/docs/editor_settings/layer/#style-manager"
+  },"47": {
     "doc": "Layer settings",
     "title": "Layer settings",
     "content": " ",
-    "url": "http://localhost:4000/docs/settings/layer/",
-    "relUrl": "/docs/settings/layer/"
-  },"37": {
-    "doc": "Load default templates",
-    "title": "Load default templates",
+    "url": "http://localhost:4000/docs/editor_settings/layer/",
+    "relUrl": "/docs/editor_settings/layer/"
+  },"48": {
+    "doc": "Other settings",
+    "title": "Fullpage editor",
+    "content": ". If you have already created a preloader, you will see the following section when you go to the settings page. ",
+    "url": "http://localhost:4000/docs/settings/other/#fullpage-editor",
+    "relUrl": "/docs/settings/other/#fullpage-editor"
+  },"49": {
+    "doc": "Other settings",
+    "title": "Use store elements",
+    "content": ". If these settings are enabled, the corresponding elements will be added for all pages created. ",
+    "url": "http://localhost:4000/docs/settings/other/#use-store-elements",
+    "relUrl": "/docs/settings/other/#use-store-elements"
+  },"50": {
+    "doc": "Other settings",
+    "title": "Other settings",
     "content": " ",
-    "url": "http://localhost:4000/docs/templates/load/",
-    "relUrl": "/docs/templates/load/"
-  },"38": {
-    "doc": "Load default templates",
-    "title": "Your steps",
-    "content": "There will be no templates on the Templates page when first launching the application, and you need to download the default ones. Click the button Restore default templates. Some amount of templates will be loaded. The number can change from time to time. Now you can change them as you like, as at any time you can return the original value of these templates by clicking this button again. Note that only default templates will be restored. There is no need to worry about the safety of your manually created templates. ",
-    "url": "http://localhost:4000/docs/templates/load/#your-steps",
-    "relUrl": "/docs/templates/load/#your-steps"
-  },"39": {
+    "url": "http://localhost:4000/docs/settings/other/",
+    "relUrl": "/docs/settings/other/"
+  },"51": {
     "doc": "Pages",
-    "title": "Зачем нужны страницы?",
-    "content": "Это то, зачем вы установили это приложение! Мы предоставляем вам конструктор, с помощью которого вы можете с нуля создатью стилизованную и уникульную страницу благодарности. На страницах вы можете: . | отблагодарить клиента за покупку | преложить ему ознакомиться с другими товарами | предоставить клиенту скидку и многое другое! | . ",
-    "url": "http://localhost:4000/cthpb/pages#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B",
-    "relUrl": "/cthpb/pages#зачем-нужны-страницы"
-  },"40": {
+    "title": "What can you use pages for?",
+    "content": "This is why you installed this app! We provide you with a designer that allows you to create a stylized and unique thank you page from scratch with minimum efforts involved. On pages, you can: . | thank a customer for the purchase; | present him/her other products; | provide customers with a discount and much more! | . ",
+    "url": "http://localhost:4000/cthpb/pages#what-can-you-use-pages-for",
+    "relUrl": "/cthpb/pages#what-can-you-use-pages-for"
+  },"52": {
     "doc": "Pages",
     "title": "Pages",
     "content": " ",
     "url": "http://localhost:4000/cthpb/pages",
     "relUrl": "/cthpb/pages"
-  },"41": {
-    "doc": "Preloader",
-    "title": "Для чего нужен прелоадер?",
-    "content": "Прелоадер необходим для сокрытия элементов стандартной страницы благодарности Shopify на время загрузки нового содержимого. Так же вы можете использовать прелоадер для показа рекламы или привлечения внимания клиентов к другим товаровам в своём магазине. Так в предоадер вы можете добавить: . | видео; | анимации; | в целом любой html контент, проявите фантазию :) | . ",
-    "url": "http://localhost:4000/cthpb/preloader#%D0%B4%D0%BB%D1%8F-%D1%87%D0%B5%D0%B3%D0%BE-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%BB%D0%BE%D0%B0%D0%B4%D0%B5%D1%80",
-    "relUrl": "/cthpb/preloader#для-чего-нужен-прелоадер"
-  },"42": {
-    "doc": "Preloader",
-    "title": "Preloader",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/preloader",
-    "relUrl": "/cthpb/preloader"
-  },"43": {
-    "doc": "Preview",
+  },"53": {
+    "doc": "Preloader preview",
     "title": "Preview preloader",
-    "content": "After creating a preloader, you can preview how it will look like on the page. Navigate to the application or switch to the Preloader tab. Left-click on the Show preview button. Your page will open in a modal window. To close the preview, press the Escape button on the keyboard or click on the cross in the upper right corner. ",
-    "url": "http://localhost:4000/docs/preloader/preview/#preview-preloader",
-    "relUrl": "/docs/preloader/preview/#preview-preloader"
-  },"44": {
-    "doc": "Preview",
-    "title": "Preview",
+    "content": "After creating a preloader, you can preview how it will look like on the page. Navigate to the application or switch to the settings tab. Left-click on the Show preview button. Your page will open in a modal window. To close the preview, press the Escape button on the keyboard or click on the cross in the upper right corner. ",
+    "url": "http://localhost:4000/docs/settings/preview/#preview-preloader",
+    "relUrl": "/docs/settings/preview/#preview-preloader"
+  },"54": {
+    "doc": "Preloader preview",
+    "title": "Preloader preview",
     "content": " ",
-    "url": "http://localhost:4000/docs/preloader/preview/",
-    "relUrl": "/docs/preloader/preview/"
-  },"45": {
+    "url": "http://localhost:4000/docs/settings/preview/",
+    "relUrl": "/docs/settings/preview/"
+  },"55": {
     "doc": "Ready blocks simple examples",
     "title": "Ready blocks simple examples",
     "content": ". ",
     "url": "http://localhost:4000/docs/examples/ready/",
     "relUrl": "/docs/examples/ready/"
-  },"46": {
+  },"56": {
     "doc": "Release Notes",
     "title": "Release Notes",
-    "content": "1 октября 2020 . | добавлено два стандартных шаблона страниц; | исправлены ошибки при подгрузке товаров на странице благодарности; | . ",
+    "content": "10st November 2020 . | added Help button | changed the functionality of the templates | . 1st October 2020 . | Two default page templates have been added. | Errors occurred when uploading products on the Thank you page. Fixed. | . ",
     "url": "http://localhost:4000/cthpb/releases",
     "relUrl": "/cthpb/releases"
-  },"47": {
+  },"57": {
     "doc": "Settings",
-    "title": "Зачем и для чего это нужно?",
-    "content": "В приложение представлено множество готовых блоков. Каждый из них представляет из себя html-заготовку. Соотвественно у каждого из них есть свои параметры . | id; | классы; | тип поля; | тип иконки; | . и тд . так же у каждого элемента присутствуют стили, которые вы там же можете редактировать в нашем приложении. ",
-    "url": "http://localhost:4000/cthpb/settings#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%87%D0%B5%D0%B3%D0%BE-%D1%8D%D1%82%D0%BE-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE",
-    "relUrl": "/cthpb/settings#зачем-и-для-чего-это-нужно"
-  },"48": {
+    "title": "What can you use preloader for?",
+    "content": "A preloader is necessary to hide elements of the standard Shopify thank you page while new content is loaded. You can also use the preloader to show ads or draw customers’ attention to other products in your store. You can add to the preloader the following elements: . | video; | animation; | any HTML content. Use your imagination! | . ",
+    "url": "http://localhost:4000/cthpb/settings#what-can-you-use-preloader-for",
+    "relUrl": "/cthpb/settings#what-can-you-use-preloader-for"
+  },"58": {
+    "doc": "Settings",
+    "title": "Что я ещё могу изменить в настройках?",
+    "content": "Здесь вы так же можете изменить: . | режим отображение редактора страниц благодарности, с полноэкранного на режим в окне и обратно; | добавить загрузку из вашего магазина стандартных стилей и хедера с футером во все создаваемые страницы благодарности; | . ",
+    "url": "http://localhost:4000/cthpb/settings#%D1%87%D1%82%D0%BE-%D1%8F-%D0%B5%D1%89%D1%91-%D0%BC%D0%BE%D0%B3%D1%83-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%D1%85",
+    "relUrl": "/cthpb/settings#что-я-ещё-могу-изменить-в-настройках"
+  },"59": {
     "doc": "Settings",
     "title": "Settings",
     "content": " ",
     "url": "http://localhost:4000/cthpb/settings",
     "relUrl": "/cthpb/settings"
-  },"49": {
+  },"60": {
     "doc": "Style manager",
     "title": "Style manager",
     "content": " ",
-    "url": "http://localhost:4000/docs/settings/style/",
-    "relUrl": "/docs/settings/style/"
-  },"50": {
+    "url": "http://localhost:4000/docs/editor_settings/style/",
+    "relUrl": "/docs/editor_settings/style/"
+  },"61": {
     "doc": "Style manager",
     "title": "Sections",
     "content": ". | General | Layout | Typography | Decorations | Extra | . The Style manager contains settings for styles and component classes. It can add padding, change the background, and more. Also, these settings will be the first thing you see after clicking on any element. Most elements have the following categories: . General . Determines which side the element will be aligned to. Other elements will float from other sides. When the value of the property float is none, the element is rendered on the page as usual where one line of the floating text can be on the same line as the element itself. You cannot add any CSS attributes to body (the main, empty element) but you can add a background image. If you need to fill the background with color, add an empty block, stretch it to the entire page, and then fill in with the desired color. A multipurpose property that determines how an element should be displayed in a document. | value | description | . | block | The element is displayed as the block one. Applying this value to inline elements, such as tag, makes it behave like blocks — lines at the beginning and at the end of the contents are wrapped. | . | inline-block | This value generates a block element that is wrapped around by other elements of a web page like an inline element. In fact, such an element acts like inline elements (such as tag).In this case, its internal part is formatted as a block element and the element itself as an inline element. | . | inline | The element is displayed as inline. Using block tags such as &lt;div&gt; and &lt;p&gt; will automatically wrap and display the content of those tags on a new line. The inline value overrides this, so the content of block elements starts where the previous element left off. | . | flex | The element stretches to its full width and has its full space among the surrounding blocks. Lines break at the beginning and at the end of the block. | . | none | Temporarily removes an item from the document. The space it occupies is not reserved and the web page is rendered as if the element did not exist. You can use scripts to change the value and make the element visible again by accessing properties through the object model. In this case, the data on the page is reformatted, taking into account the newly added element. | . Sets the positioning of an element relative to the browser window or other objects on a web page. | value | description | . | static | Elements are displayed as usual. Using the left, top, right, and bottom properties does not affect the display. | . | relative | The element is positioned relative to its original location. Adding left, top, right and bottom properties changes the position of the element and shifts it to one side or the other from its original position. | . | absolute | Indicates that an element is absolutely positioned. Other elements display on the web page as if there is no absolutely positioned element. The position of the element is set by the left, top, right, and bottom properties. Also, it might be affected by the position property value of the parent element. So, if the parent’s position value is set to static or there is no parent, the element coordinates are counted from the edge of the browser window. If the parent’s position value is fixed, relative, or absolute, the coordinates are counted from the edge of the parent element. | . | fixed | This value is close to absolute, The difference is that it associates with the specified left, top, right, and bottom on the screen and does not change its position when scrolling the web page. The Firefox browser does not display scroll bars at all if the position of an element is set to be fixed and does not fit entirely into the browser window. The Opera browser displays scroll bars, but they do not affect the position of the element. | . |   |   | . Layout . Width and height of the component. Max width and min height of the component. Sets the amount of margin from each edge of the element. Margin is the space from the border of the current element to the inner border of its parent. Don’t forget about the position when changing. Sets the value of padding around the content of the element. Padding is the distance from the inner edge of an element’s border to an imaginary rectangle that bounds its contents. Typography . You can edit and format the text here. Available items: . | font family and size; | font weight; | line spacing; | color; | letter spacing within an element; | text align; | text shadow. | . Decorations . You can edit the border on this tab. You can change: . | radius; | background color within the border; | radius for each border separately. This value has higher priority than the first one; | border color and thickness; | box shadow; | background with the ability to add an image. | . Extra . Here you can animate the page using different states (click, hover, etc.) . You can change the following values: . | transition - specify what, under what conditions and how long will be triggered; . | perspective - the distance between the z = 0 plane and the user to give the 3D-positioned element a perspective effect;; . | transform - the way the element will change (rotation, skew, etc.) . | . The example of transform: . An example of a state change on hover: . Also, each component has 4 states, where each of the above categories can be configured separately. They are: . | default - default standard state; . | hover - styles and settings when hovering over a component; . | click - styles and settings when clicking on a component; . | even\\odd - used to add style to elements based on the numbering in the element tree. | . A separate field is reserved for component classes: . They are added automatically when importing the page. ",
-    "url": "http://localhost:4000/docs/settings/style/#sections",
-    "relUrl": "/docs/settings/style/#sections"
-  },"51": {
-    "doc": "Templates",
-    "title": "Зачем нужны шаблоны страниц?",
-    "content": "Шаблоны представляют собой своеобразное хранилище ваших страниц, тут вы можете экспериментировать со страницами, не переживая о том, что вы случайно опубликуете неготовую страницу. Так же мы предоставляем вам стандартные шаблоны, разработанные Simtechdev. ",
-    "url": "http://localhost:4000/cthpb/templates#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86",
-    "relUrl": "/cthpb/templates#зачем-нужны-шаблоны-страниц"
-  },"52": {
-    "doc": "Templates",
-    "title": "Templates",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/templates",
-    "relUrl": "/cthpb/templates"
-  },"53": {
-    "doc": "Use store slyles, header or footer",
-    "title": "Store styles \\ header \\ footer",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/templates/use/#store-styles--header--footer",
-    "relUrl": "/docs/templates/use/#store-styles--header--footer"
-  },"54": {
-    "doc": "Use store slyles, header or footer",
-    "title": "Your steps",
-    "content": "You can pick up a footer or a header from your store. Remember that if you do not activate Use Styles, your header or footer will be displayed without styles. To do this, you just need to enable the relevant items on the line below each template. Header selector and Footer Selector are required if you want to use the header or the footer. Specify in them the class there that you can find in the site inspector. ",
-    "url": "http://localhost:4000/docs/templates/use/#your-steps",
-    "relUrl": "/docs/templates/use/#your-steps"
-  },"55": {
-    "doc": "Use store slyles, header or footer",
-    "title": "Use store slyles, header or footer",
-    "content": " ",
-    "url": "http://localhost:4000/docs/templates/use/",
-    "relUrl": "/docs/templates/use/"
+    "url": "http://localhost:4000/docs/editor_settings/style/#sections",
+    "relUrl": "/docs/editor_settings/style/#sections"
   }
 }

@@ -1,0 +1,15 @@
+I"><h1 class="no_toc" id="component-settings">Component settings</h1>
+
+<p>Each component has its settings. They can be specific for a particular component or general. In the second case, you can only change the element ID and its text.</p>
+
+<p>These settings do not require knowledge of HTML or CSS and are of three types:</p>
+
+<ul>
+  <li>select;</li>
+  <li>input;</li>
+  <li>range select.</li>
+</ul>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/component_settings.gif" alt="float" /></span></p>
+
+:ET

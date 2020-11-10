@@ -1,0 +1,216 @@
+I"a&<h1 class="no_toc" id="style-manager">Style manager</h1>
+
+<h2 class="no_toc text-delta" id="sections">Sections</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#general" id="markdown-toc-general">General</a></li>
+  <li><a href="#layout" id="markdown-toc-layout">Layout</a></li>
+  <li><a href="#typography" id="markdown-toc-typography">Typography</a></li>
+  <li><a href="#decorations" id="markdown-toc-decorations">Decorations</a></li>
+  <li><a href="#extra" id="markdown-toc-extra">Extra</a></li>
+</ol>
+
+<p>The Style manager contains settings for styles and component classes. It can add padding, change the background, and more.</p>
+
+<p>Also, these settings will be the first thing you see after clicking on any element.</p>
+
+<p>Most elements have the following categories:</p>
+
+<h3 id="general">General</h3>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/float.png" alt="float" /></span></p>
+
+<p>Determines which side the element will be aligned to. Other elements will float from other sides. When the value of the property <em>float</em> is none, the element is rendered on the page as usual where one line of the floating text can be on the same line as the element itself.</p>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/float.gif" alt="float" /></span></p>
+
+<hr />
+
+<p>You cannot add any CSS attributes to <em>body</em> (the main, empty element) but you can add a background image. If you need to fill the background with color, add an empty block, stretch it to the entire page, and then fill in with the desired color.</p>
+
+<hr />
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/display.png" alt="display" /></span></p>
+
+<p>A multipurpose property that determines how an element should be displayed in a document.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>block</td>
+      <td>The element is displayed as the block one. Applying this value to inline elements, such as <span> tag, makes it behave like blocks — lines at the beginning and at the end of the contents are wrapped.</span></td>
+    </tr>
+    <tr>
+      <td>inline-block</td>
+      <td>This value generates a block element that is wrapped around by other elements of a web page like an inline element. In fact, such an element acts like inline elements (such as <img /> tag).In this case, its internal part is formatted as a block element and the element itself as an inline element.</td>
+    </tr>
+    <tr>
+      <td>inline</td>
+      <td>The element is displayed as inline. Using block tags such as &lt;div&gt; and &lt;p&gt; will automatically wrap and display the content of those tags on a new line. The inline value overrides this, so the content of block elements starts where the previous element left off.</td>
+    </tr>
+    <tr>
+      <td>flex</td>
+      <td>The element stretches to its full width and has its full space among the surrounding blocks. Lines break at the beginning and at the end of the block.</td>
+    </tr>
+    <tr>
+      <td>none</td>
+      <td>Temporarily removes an item from the document. The space it occupies is not reserved and the web page is rendered as if the element did not exist. You can use scripts to change the value and make the element visible again by accessing properties through the object model. In this case, the data on the page is reformatted, taking into account the newly added element.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/position.png" alt="position" /></span></p>
+
+<p>Sets the positioning of an element relative to the browser window or other objects on a web page.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>static</td>
+      <td>Elements are displayed as usual. Using the left, top, right, and bottom properties does not affect the display.</td>
+    </tr>
+    <tr>
+      <td>relative</td>
+      <td>The element is positioned relative to its original location. Adding left, top, right and bottom properties changes the position of the element and shifts it to one side or the other from its original position.</td>
+    </tr>
+    <tr>
+      <td>absolute</td>
+      <td>Indicates that an element is absolutely positioned. Other elements display on the web page as if there is no absolutely positioned element. The position of the element is set by the left, top, right, and bottom properties. Also, it might be affected by the position property value of the parent element. So, if the parent’s position value is set to static or there is no parent, the element coordinates are counted from the edge of the browser window. If the parent’s position value is fixed, relative, or absolute, the coordinates are counted from the edge of the parent element.</td>
+    </tr>
+    <tr>
+      <td>fixed</td>
+      <td>This value is close to absolute, The difference is that it associates with the specified left, top, right, and bottom on the screen and does not change its position when scrolling the web page. The Firefox browser does not display scroll bars at all if the position of an element is set to be fixed and does not fit entirely into the browser window. The Opera browser displays scroll bars, but they do not affect the position of the element.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="layout">Layout</h3>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/width.png" alt="width" /></span></p>
+
+<p>Width and height of the component.</p>
+
+<p><span class="doc_image" id="width" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/width.gif" alt="float" /></span></p>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/maxwidth.png" alt="width" /></span></p>
+
+<p>Max width and min height of the component.</p>
+
+<p><span class="doc_image" id="maxwidth" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/maxwidth.gif" alt="float" /></span></p>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/margin.png" alt="width" /></span></p>
+
+<p>Sets the amount of margin from each edge of the element. Margin is the space from the border of the current element to the inner border of its parent.</p>
+
+<p>Don’t forget about the position when changing.</p>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/margin.gif" alt="float" /></span></p>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/padding.png" alt="width" /></span></p>
+
+<p>Sets the value of padding around the content of the element. Padding is the distance from the inner edge of an element’s border to an imaginary rectangle that bounds its contents.</p>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/padding.gif" alt="float" /></span></p>
+
+<h3 id="typography">Typography</h3>
+
+<p>You can edit and format the text here.</p>
+
+<p>Available items:</p>
+
+<ul>
+  <li>font family and size;</li>
+  <li>font weight;</li>
+  <li>line spacing;</li>
+  <li>color;</li>
+  <li>letter spacing within an element;</li>
+  <li>text align;</li>
+  <li>text shadow.</li>
+</ul>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/typog.gif" alt="float" /></span></p>
+
+<h3 id="decorations">Decorations</h3>
+
+<p>You can edit the border on this tab.</p>
+
+<p>You can change:</p>
+
+<ul>
+  <li>radius;</li>
+  <li>background color within the border;</li>
+  <li>radius for each border separately. This value has higher priority than the first one;</li>
+  <li>border color and thickness;</li>
+  <li>box shadow;</li>
+  <li>background with the ability to add an image.</li>
+</ul>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/decor.gif" alt="float" /></span></p>
+
+<h3 id="extra">Extra</h3>
+
+<p>Here you can animate the page using different states (click, hover, etc.)</p>
+
+<p>You can change the following values:</p>
+
+<ul>
+  <li>
+    <p>transition - specify what, under what conditions and how long will be triggered;</p>
+  </li>
+  <li>
+    <p>perspective - the distance between the z = 0 plane and the user to give the 3D-positioned element a perspective effect;;</p>
+  </li>
+  <li>
+    <p>transform - the way the element will change (rotation, skew, etc.)</p>
+  </li>
+</ul>
+
+<p>The example of <em>transform</em>:</p>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/transform.gif" alt="float" /></span></p>
+
+<p>An example of a state change on hover:</p>
+
+<p><span class="doc_image" id="float" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/editor_settings/hover.gif" alt="float" /></span></p>
+
+<hr />
+
+<p>Also, each component has 4 states, where each of the above categories can be configured separately. They are:</p>
+
+<ul>
+  <li>
+    <p>default - default standard state;</p>
+  </li>
+  <li>
+    <p>hover - styles and settings when hovering over a component;</p>
+  </li>
+  <li>
+    <p>click - styles and settings when clicking on a component;</p>
+  </li>
+  <li>
+    <p>even\odd - used to add style to elements based on the numbering in the element tree.</p>
+  </li>
+</ul>
+
+<p>A separate field is reserved for component classes:</p>
+
+<p><span class="doc_image"><img src="/assets/images/editor_settings/class.png" alt="position" /></span></p>
+
+<p>They are added automatically when importing the page.</p>
+:ET

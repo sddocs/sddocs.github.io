@@ -8,6 +8,11 @@ permalink: /cthpb/releases
 
 # Release Notes
 
+### 10st November 2020
+
+> * added Help button
+> * changed the functionality of the templates
+
 ### 1st October 2020
 
 > * Two default page templates have been added.

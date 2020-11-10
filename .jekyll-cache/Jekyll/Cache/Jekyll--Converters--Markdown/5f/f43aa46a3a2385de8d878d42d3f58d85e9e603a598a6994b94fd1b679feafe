@@ -1,0 +1,20 @@
+I"~<h1 id="what-can-you-use-preloader-for">What can you use preloader for?</h1>
+
+<p>A preloader is necessary to hide elements of the standard Shopify thank you page while new content is loaded. 
+You can also use the preloader to show ads or draw customers’ attention to other products in your store.</p>
+
+<p>You can add to the preloader the following elements:</p>
+<ul class="fs-6 fw-300">
+  <li>video;</li>
+  <li>animation;</li>
+  <li>any HTML content. Use your imagination!</li>
+</ul>
+
+<h1 id="что-я-ещё-могу-изменить-в-настройках">Что я ещё могу изменить в настройках?</h1>
+
+<p>Здесь вы так же можете изменить:</p>
+<ul class="fs-6 fw-300">
+  <li>режим отображение редактора страниц благодарности, с полноэкранного на режим в окне и обратно;</li>
+  <li>добавить загрузку из вашего магазина стандартных стилей и хедера с футером во все создаваемые страницы благодарности;</li>
+</ul>
+:ET

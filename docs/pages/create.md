@@ -19,29 +19,32 @@ nav_order: 0
 ## Your steps
 Click Сreate new button to create a Thank you page.
 
-<span class="doc_image">![edit](/assets/images/pages/create.png)</span>
+<span class="doc_image">![create](/assets/images/pages/create.png)</span>
+
+Then you will need to select one of the templates.
+
+<span class="doc_image">![template_list](/assets/images/pages/template_list.png)</span>
 
 The page creation interface opens.
 
-<span class="doc_image">![edit](/assets/images/pages/create_form.png)</span>
+<span class="doc_image">![create_form](/assets/images/pages/create_form.png)</span>
+
+Если вы создаёте свою первую страницу, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней.
+
+<span class="doc_image" id="confirm" onclick="showModal(this.getAttribute('id'))">![confirm_full](/assets/images/pages/confirm_full.gif)</span>
+
+Вы всегда можете изменить данную настройку в настройках приложения.
+
+<span class="doc_image" id="fullpage_swap" onclick="showModal(this.getAttribute('id'))">![confirm_full](/assets/images/settings/fullpage_swap.gif)</span>
 
 By default, an element grid is enabled. It can help you position your elements. You can disable if needed.
 
-<span class="doc_image">![edit](/assets/images/pages/panel.png)</span>
+<span class="doc_image">![panel](/assets/images/pages/panel.png)</span>
 
 
 There are also the following items there:
 
-<button type="button" id="menu_items" name="button" onclick="showHide(document.querySelectorAll('blockquote')[0])" class="btn btn-purple"> Menu items ▼</button><br>
-
-> - Export of HTML markup for the page if you want to apply it elsewhere;
-> - Undo change;
-> - Revert the undone change;
-> - Import of HTML markup. You may upload any page here if you wish, but the correctness of its display is not guaranteed.
->
-> <span class="doc_image" id="import" onclick="showModal(this.getAttribute('id'))">![import](/assets/images/pages/import.gif)</span>
-
-<button type="button" id="menu_items" name="button" onclick="showHide(document.querySelectorAll('blockquote')[1])" class="btn btn-purple"> Element settings ▼</button><br>
+<button type="button" id="menu_items" name="button" onclick="showHide('blockquote')" class="btn btn-purple"> Element settings ▼</button><br>
 
 > There are 4 items on the above panel as well.
 >
@@ -55,15 +58,17 @@ Each element added to the field has its settings. Just click on any of the eleme
 
 <span class="doc_image" id="drop" onclick="showModal(this.getAttribute('id'))">![drop](/assets/images/pages/drop.gif)</span>
 
+Так же у каждого блока присутствуют стили и настройки, об этом вы можете прочитать дальше в документации.
+
 <span class="doc_image" id="style" onclick="showModal(this.getAttribute('id'))">![style](/assets/images/pages/style.gif)</span>
 
 
 ## More information
 
-* More information about Style Manager settings can be found here;
-* More information about Component settings can be found here;
-* More information about Layer Manager can be found here;
-* More information about Block can be found here.
+* More information about Style Manager settings can be found [here](/docs/editor_settings/style/);
+* More information about Component settings can be found [here](/docs/editor_settings/component/);
+* More information about Layer Manager can be found [here](/docs/editor_settings/layer/);
+* More information about Block can be found [here](/docs/editor_settings/block/);
 
 <script>
     let quotes = document.querySelectorAll('blockquote');

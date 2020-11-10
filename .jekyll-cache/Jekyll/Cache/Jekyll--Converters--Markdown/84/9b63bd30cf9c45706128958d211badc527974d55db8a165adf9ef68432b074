@@ -1,0 +1,27 @@
+I"5<h1 id="edit-page">Edit page</h1>
+<hr />
+
+<h2 id="where-to-start">Where to start?</h2>
+
+<p>Процесс редактирования страница идентичен её созданию.
+Найдите нужную вам страницу в списке ваших страниц и кликните по кнопке редактирования.</p>
+
+<p><span class="doc_image"><img src="/assets/images/pages/edit_button.png" alt="edit" /></span></p>
+
+<p>Если вы открываете страницу редактирований 1й раз, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней.</p>
+
+<p><span class="doc_image" id="confirm" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/pages/confirm_full.gif" alt="confirm_full" /></span></p>
+
+<p>Вы всегда можете изменить данную настройку в настройках приложения.</p>
+
+<p><span class="doc_image" id="fullpage_swap" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/settings/fullpage_swap.gif" alt="confirm_full" /></span></p>
+
+<h2 id="more-information">More information</h2>
+
+<ul>
+  <li>More information about Style Manager settings can be found <a href="/docs/editor_settings/style/">here</a>;</li>
+  <li>More information about Component settings can be found <a href="/docs/editor_settings/component/">here</a>;</li>
+  <li>More information about Layer Manager can be found <a href="/docs/editor_settings/layer/">here</a>;</li>
+  <li>More information about Block can be found <a href="/docs/editor_settings/block/">here</a>;</li>
+</ul>
+:ET

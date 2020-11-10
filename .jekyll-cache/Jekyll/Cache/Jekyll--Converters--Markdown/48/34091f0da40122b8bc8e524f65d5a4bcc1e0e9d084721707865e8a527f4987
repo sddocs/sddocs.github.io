@@ -1,0 +1,26 @@
+I"ì<h1 class="no_toc" id="clone-page">Clone page</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#your-steps" id="markdown-toc-your-steps">Your steps</a></li>
+  <li><a href="#brief-note" id="markdown-toc-brief-note">Brief note!</a></li>
+</ol>
+<hr />
+
+<h2 id="your-steps">Your steps</h2>
+<p>Click on the Clone button to clone a page.</p>
+
+<p><span class="doc_image"><img src="/assets/images/pages/clone_button.png" alt="edit" /></span></p>
+
+<p>A complete copy of your page will appear in the list, but with ( clone # ) in the title.</p>
+
+<p><span class="doc_image" id="clone" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/pages/pagelist_clone.gif" alt="clone" /></span></p>
+
+<h2 id="brief-note">Brief note!</h2>
+
+<blockquote>
+
+  <p>When cloning already cloned page, for example, Page #1313 ( clone 1 ), the count of elements will be reset to zero.</p>
+
+  <p>A clone of the already cloned page will be called Page #1313 ( clone 1 ) ( clone ), not Page #1313 ( clone 2 ).</p>
+</blockquote>
+:ET

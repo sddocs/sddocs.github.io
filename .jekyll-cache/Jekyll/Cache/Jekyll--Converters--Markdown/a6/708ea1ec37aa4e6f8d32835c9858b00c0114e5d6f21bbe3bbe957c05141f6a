@@ -1,0 +1,13 @@
+I"o<h2 id="что-это">Что это?</h2>
+<hr />
+<p>На каждой (почти) странице есть кнопка, при нажатии на которую запуститься небольшая пошаговая инструкция, которая познакомит вас с интерфейсом.
+Располагается данная кнопка сверху справа.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/intro_button.png" alt="intro_button" /></span></p>
+
+<h2 id="как-это-работает">Как это работает?</h2>
+<hr />
+<p>If these settings are enabled, the corresponding elements will be added for all pages created.</p>
+
+<p><span class="doc_image" id="store_styles" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/settings/store_styles.gif" alt="store_styles" /></span></p>
+:ET

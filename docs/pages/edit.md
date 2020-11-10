@@ -9,19 +9,23 @@ nav_order: 1
 ---
 
 ## Where to start?
-If you have already created a preloader, you will see the following banner when launching the application:
-<span class="doc_image">![edit](/assets/images/preloader/edit.png)</span>
 
-To edit a preloader, click <strong>Edit</strong> button. You will be redirected to the preloader edit form.
+Процесс редактирования страница идентичен её созданию.
+Найдите нужную вам страницу в списке ваших страниц и кликните по кнопке редактирования.
 
-Items available for editing:
+<span class="doc_image">![edit](/assets/images/pages/edit_button.png)</span>
 
-* <strong>Icon</strong> - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons.
+Если вы открываете страницу редактирований 1й раз, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней.
 
-* <strong>Text</strong> - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon.
+<span class="doc_image" id="confirm" onclick="showModal(this.getAttribute('id'))">![confirm_full](/assets/images/pages/confirm_full.gif)</span>
 
-* <strong>Color</strong> - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details.
+Вы всегда можете изменить данную настройку в настройках приложения.
 
-* <strong>Delay</strong> - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds.
+<span class="doc_image" id="fullpage_swap" onclick="showModal(this.getAttribute('id'))">![confirm_full](/assets/images/settings/fullpage_swap.gif)</span>
 
-<span class="doc_image">![editform](/assets/images/preloader/edit_form.png)</span>
+## More information
+
+* More information about Style Manager settings can be found [here](/docs/editor_settings/style/);
+* More information about Component settings can be found [here](/docs/editor_settings/component/);
+* More information about Layer Manager can be found [here](/docs/editor_settings/layer/);
+* More information about Block can be found [here](/docs/editor_settings/block/);

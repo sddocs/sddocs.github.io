@@ -1,0 +1,105 @@
+I"'<h1 id="colors">Colors</h1>
+
+<p>You need to choose a color when creating or editing a preloader.</p>
+
+<p>Available settings:</p>
+
+<ol>
+  <li>
+    <p>Color (with a possibility to use gradient);</p>
+  </li>
+  <li>
+    <p>Fill type;</p>
+  </li>
+  <li>
+    <p>Fill direction.</p>
+  </li>
+</ol>
+
+<hr />
+
+<ol>
+  <li>
+    <p>To add a color, left-click on any area of the color scale (by default, it is painted as a chessboard, there is no color).<br />
+<span class="doc_image" id="color" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/settings/color.gif" alt="color" /></span>
+Markers with “anchors” in the lower part will appear. Left-click on them on to select a color.
+Color can be removed at any time by clicking on the cross at the top of the marker.</p>
+  </li>
+  <li>You can choose from 4 fill types:
+    <ul>
+      <li>Radial
+ <button type="button" name="button" onclick="showHide('category_radial')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_radial"><img src="/assets/images/settings/radial.png" alt="color" /></span></li>
+      <li>Linear
+ <button type="button" name="button" onclick="showHide('category_linear')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_linear"><img src="/assets/images/settings/linear.png" alt="color" /></span></li>
+      <li>Repeating radial
+ <button type="button" name="button" onclick="showHide('r_radial')" class="btn btn-purple"> ▼</button><br />
+ <span class="r_radial"><img src="/assets/images/settings/repeat_radial.png" alt="color" /></span></li>
+      <li>Repeating linear
+ <button type="button" name="button" onclick="showHide('r_linear')" class="btn btn-purple"> ▼</button><br />
+ <span class="r_linear"><img src="/assets/images/settings/repeat_linear.png" alt="color" /></span></li>
+    </ul>
+  </li>
+  <li>You can also choose a direction for each type.
+    <ul>
+      <li>Radial
+ <button type="button" name="button" onclick="showHide('category_radial_direction')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_radial_direction">
+  <span>top</span>
+  <img src="/assets/images/settings/rtop.png" alt="color" />
+  <span>right</span>
+  <img src="/assets/images/settings/rright.png" alt="color" />
+  <span>center</span>
+  <img src="/assets/images/settings/rcenter.png" alt="color" />
+  <span>left</span>
+  <img src="/assets/images/settings/rleft.png" alt="color" />
+  <span>bottom</span>
+  <img src="/assets/images/settings/rbottom.png" alt="color" />
+ </span></li>
+      <li>Linear
+ <button type="button" name="button" onclick="showHide('category_linear_direction')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_linear_direction">
+  <span>top</span>
+  <img src="/assets/images/settings/ltop.png" alt="color" />
+  <span>right</span>
+  <img src="/assets/images/settings/lright.png" alt="color" />
+  <span>center</span>
+  <img src="/assets/images/settings/lcenter.png" alt="color" />
+  <span>left</span>
+  <img src="/assets/images/settings/lleft.png" alt="color" />
+  <span>bottom</span>
+  <img src="/assets/images/settings/lbottom.png" alt="color" />
+ </span></li>
+      <li>Repeating radial
+ <button type="button" name="button" onclick="showHide('category_rr_radial')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_rr_radial">
+  <span>top</span>
+  <img src="/assets/images/settings/rr_top.png" alt="color" />
+  <span>right</span>
+  <img src="/assets/images/settings/rr_right.png" alt="color" />
+  <span>center</span>
+  <img src="/assets/images/settings/rr_center.png" alt="color" />
+  <span>left</span>
+  <img src="/assets/images/settings/rr_left.png" alt="color" />
+  <span>bottom</span>
+  <img src="/assets/images/settings/rr_bottom.png" alt="color" />
+ </span></li>
+      <li>Repeating linear
+ <button type="button" name="button" onclick="showHide('category_rr_linear')" class="btn btn-purple"> ▼</button><br />
+ <span class="category_rr_linear">
+  <span>top</span>
+  <img src="/assets/images/settings/rl_top.png" alt="color" />
+  <span>right</span>
+  <img src="/assets/images/settings/rl_right.png" alt="color" />
+  <span>center</span>
+  <img src="/assets/images/settings/rl_center.png" alt="color" />
+  <span>left</span>
+  <img src="/assets/images/settings/rl_left.png" alt="color" />
+  <span>bottom</span>
+  <img src="/assets/images/settings/rl_bottom.png" alt="color" />
+ </span></li>
+    </ul>
+  </li>
+</ol>
+:ET

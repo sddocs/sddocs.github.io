@@ -1,0 +1,569 @@
+I"�T<h1 class="no_toc" id="detail-blocks-info">Detail blocks info</h1>
+
+<ol id="markdown-toc">
+  <li><a href="#basic-section" id="markdown-toc-basic-section"><strong>Basic section.</strong></a>    <ol>
+      <li><a href="#1-column" id="markdown-toc-1-column">1 column</a></li>
+      <li><a href="#2-columns" id="markdown-toc-2-columns">2 columns</a></li>
+      <li><a href="#3-columns" id="markdown-toc-3-columns">3 columns</a></li>
+      <li><a href="#2-columns-37" id="markdown-toc-2-columns-37">2 columns 3/7</a></li>
+      <li><a href="#text" id="markdown-toc-text">Text</a></li>
+      <li><a href="#link" id="markdown-toc-link">Link</a></li>
+      <li><a href="#image" id="markdown-toc-image">Image</a></li>
+      <li><a href="#map" id="markdown-toc-map">Map</a></li>
+      <li><a href="#link-block" id="markdown-toc-link-block">Link Block</a></li>
+      <li><a href="#quote" id="markdown-toc-quote">Quote</a></li>
+      <li><a href="#text-section---a-block-with-heading-and-content" id="markdown-toc-text-section---a-block-with-heading-and-content">Text section - a block with heading and content.</a></li>
+      <li><a href="#header" id="markdown-toc-header">Header</a></li>
+    </ol>
+  </li>
+  <li><a href="#extra-section" id="markdown-toc-extra-section"><strong>Extra section.</strong></a>    <ol>
+      <li><a href="#navbar" id="markdown-toc-navbar">Navbar</a></li>
+      <li><a href="#countdown" id="markdown-toc-countdown">Countdown</a></li>
+      <li><a href="#slider" id="markdown-toc-slider">Slider</a></li>
+      <li><a href="#custom-code" id="markdown-toc-custom-code">Custom Code</a></li>
+      <li><a href="#tabs" id="markdown-toc-tabs">Tabs</a></li>
+      <li><a href="#single-button" id="markdown-toc-single-button">Single button</a></li>
+      <li><a href="#quote-1" id="markdown-toc-quote-1">Quote</a></li>
+      <li><a href="#header-1" id="markdown-toc-header-1">Header</a></li>
+      <li><a href="#section" id="markdown-toc-section">Section</a></li>
+      <li><a href="#footer" id="markdown-toc-footer">Footer</a></li>
+      <li><a href="#list-items" id="markdown-toc-list-items">List items</a></li>
+      <li><a href="#progress-bar" id="markdown-toc-progress-bar">Progress bar</a></li>
+    </ol>
+  </li>
+  <li><a href="#forms-section" id="markdown-toc-forms-section"><strong>Forms section.</strong></a>    <ol>
+      <li><a href="#form" id="markdown-toc-form">Form</a></li>
+      <li><a href="#input" id="markdown-toc-input">Input</a></li>
+      <li><a href="#select" id="markdown-toc-select">Select</a></li>
+      <li><a href="#button" id="markdown-toc-button">Button</a></li>
+      <li><a href="#label" id="markdown-toc-label">Label</a></li>
+      <li><a href="#checkbox" id="markdown-toc-checkbox">Checkbox</a></li>
+      <li><a href="#radio" id="markdown-toc-radio">Radio</a></li>
+    </ol>
+  </li>
+  <li><a href="#social-section" id="markdown-toc-social-section"><strong>Social section.</strong></a>    <ol>
+      <li><a href="#facebook" id="markdown-toc-facebook">Facebook</a></li>
+      <li><a href="#twitter" id="markdown-toc-twitter">Twitter</a></li>
+      <li><a href="#google" id="markdown-toc-google">Google</a></li>
+      <li><a href="#linkedin" id="markdown-toc-linkedin">LinkedIn</a></li>
+      <li><a href="#skype" id="markdown-toc-skype">Skype</a></li>
+      <li><a href="#social-link-и-social-link-block" id="markdown-toc-social-link-и-social-link-block">Social Link и Social Link Block</a></li>
+      <li><a href="#ready-to-use-blocks-section" id="markdown-toc-ready-to-use-blocks-section">Ready to use blocks section.</a>        <ol>
+          <li><a href="#order-number-block" id="markdown-toc-order-number-block">Order number block</a></li>
+          <li><a href="#order-confirmed-block" id="markdown-toc-order-confirmed-block">Order confirmed block</a></li>
+          <li><a href="#shipping-address-block" id="markdown-toc-shipping-address-block">Shipping address block</a></li>
+          <li><a href="#billing-address-block" id="markdown-toc-billing-address-block">Billing address block</a></li>
+          <li><a href="#payment-method" id="markdown-toc-payment-method">Payment method</a></li>
+          <li><a href="#order-summary-block" id="markdown-toc-order-summary-block">Order summary block</a></li>
+          <li><a href="#sidebar-order-info" id="markdown-toc-sidebar-order-info">Sidebar order info</a></li>
+          <li><a href="#full-customer-info" id="markdown-toc-full-customer-info">Full customer info</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="basic-section"><strong>Basic section.</strong></h2>
+
+<h4 id="1-column">1 column</h4>
+<p>An empty block which generates “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="2-columns">2 columns</h4>
+<p>An empty block which generates two-line “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="3-columns">3 columns</h4>
+<p>An empty block which generates three-line “&lt;div&gt;”</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="2-columns-37">2 columns 3/7</h4>
+<p>An empty block which generates two-line “&lt;div&gt;” with an aspect ratio of 3 to 7.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="text">Text</h4>
+<p>A text block. Double-click on it to edit.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="link">Link</h4>
+<p>A hyperlink block. Double-click on it to edit.</p>
+
+<blockquote>
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content;</em></p>
+
+  <p><em>href - the address of the document to follow;</em></p>
+
+  <p><em>target - open the link in a new window or on a current page.</em></p>
+</blockquote>
+
+<h4 id="image">Image</h4>
+<p>A block for displaying images in GIF, JPEG, or PNG graphic format on a web page. Images can either be uploaded to the server or downloaded from the link.</p>
+
+<blockquote>
+  <p><em>title -  sets alternative text for images. Such text allows you to get text information about the picture when the image loading is disabled in the browser;</em></p>
+
+  <p><em>Video - adds video from the specified source;</em></p>
+
+  <p><em>provider  - video source, YouTube or Vimeo;</em></p>
+
+  <p><em>video_id - video id (for example, for the video https://www.youtube.com/watch?v=jH1RNk8954Q, the id is jH1RNk8954Q);</em></p>
+
+  <p><em>autoplay - autoplay video when the page loads;</em></p>
+
+  <p><em>loop - loop video playback;</em></p>
+
+  <p><em>control (only for YouTube) - display of video control elements (pause, stop, etc.);</em></p>
+
+  <p><em>related (only for YouTube) - show related videos after the video is played;</em></p>
+
+  <p><em>modest (only for YouTube) - this parameter allows using a YouTube player that does not display the YouTube logo.</em></p>
+</blockquote>
+
+<h4 id="map">Map</h4>
+<p>A block for adding a map.</p>
+
+<blockquote>
+  <p><em>address - an address from Google maps;</em></p>
+
+  <p><em>map type - type of map (roadmap or satellite);</em></p>
+
+  <p><em>zoom - zoom degree.</em></p>
+</blockquote>
+
+<h4 id="link-block">Link Block</h4>
+<p>A block similar to the Link one, but it allows placing other elements inside it and they all become links;</p>
+
+<blockquote>
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content;</em></p>
+
+  <p><em>href - the address of the document to follow;</em></p>
+
+  <p><em>target - open the link in a new window or on a current page.</em></p>
+</blockquote>
+
+<h4 id="quote">Quote</h4>
+<p>A block that adds a stylized quote.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="text-section---a-block-with-heading-and-content">Text section - a block with heading and content.</h4>
+
+<blockquote>
+  <p><em>size (for heading) - size from h1 to h6;</em></p>
+
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="header">Header</h4>
+<p>A block for creating headers.</p>
+
+<blockquote>
+  <p>size (for header) - size from h1 to h6;</p>
+</blockquote>
+
+<h2 id="extra-section"><strong>Extra section.</strong></h2>
+
+<h4 id="navbar">Navbar</h4>
+<p>Responsive navigation bar.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="countdown">Countdown</h4>
+<p>A counter showing the remaining time until the specified date.</p>
+
+<blockquote>
+  <p><em>start - the date when an event starts, the counter will count down the time until it;</em></p>
+
+  <p><em>end text - the text that will be displayed when the counter reaches 0.</em></p>
+</blockquote>
+
+<p>To edit the counter, select the main counter block, not each block separately.</p>
+
+<h4 id="slider">Slider</h4>
+<p>Slider, or carousel, for scrolling through various information. Each of the slides is a separate page, so content (for example, Image or Text blocks) should be added inside it.</p>
+
+<blockquote>
+  <p><em>infinite - an infinite page scrolling;</em></p>
+
+  <p><em>rewind - a styled page divider;</em></p>
+
+  <p><em>slide speed - a speed of scrolling;</em></p>
+
+  <p><em>rewind speed - a speed of a divider scrolling;</em></p>
+
+  <p><em>slide to scroll - amount of slides;</em></p>
+
+  <p><em>timing -  time before slide change.</em></p>
+</blockquote>
+
+<h4 id="custom-code">Custom Code</h4>
+<p>A block for inserting any HTML markup (except for JS). It has no settings.</p>
+
+<h4 id="tabs">Tabs</h4>
+<p>A block similar to the slider. The difference is that there are 3 tabs instead of pages where you can also post your content. New tabs are added by copying the existing ones.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="single-button">Single button</h4>
+<p>A simple button.</p>
+
+<blockquote>
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+
+  <p><em>href - hyperlink if you would like to use the button as a link;</em></p>
+
+  <p><em>target - open the link in a new window or on current page;</em></p>
+
+  <p><em>type -  type and styling of the button;</em></p>
+
+  <p><em>size - button size.</em></p>
+</blockquote>
+
+<h4 id="quote-1">Quote</h4>
+<p>Plain text starting from the new paragraph.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+
+  <p><em>iframe - creates a floating frame inside a regular document. It allows loading any other independent documents into an area of ​​specified sizes.</em></p>
+
+  <p><em>source - a link to the desired document or page.</em></p>
+</blockquote>
+
+<h4 id="header-1">Header</h4>
+<p>A section for the header of your page.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="section">Section</h4>
+<p>A section for page content. It is similar to Column but does not add padding.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="footer">Footer</h4>
+<p>A section for a footer.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="list-items">List items</h4>
+<p>A list of Flex elements.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="progress-bar">Progress bar</h4>
+<p>Static progress bar. If you would like to animate it, create a separate JS script.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+
+  <p><em>value - percentage of current progress value;</em></p>
+
+  <p><em>type - color and styling of the panel;</em></p>
+
+  <p><em>striped - striped progress bar;</em></p>
+
+  <p><em>show % -  show percent symbol or not;</em></p>
+
+  <p><em>animation - progress bar animation.</em></p>
+</blockquote>
+
+<h2 id="forms-section"><strong>Forms section.</strong></h2>
+
+<h4 id="form">Form</h4>
+<p>A form for sending data.</p>
+
+<blockquote>
+  <p><em>method - type of request (GET or POST);</em></p>
+
+  <p><em>action - specify URL to send the request to.</em></p>
+</blockquote>
+
+<h4 id="input">Input</h4>
+<p>Allows creating text fields and various buttons.</p>
+
+<blockquote>
+  <p><em>name - the name of the field. It will be used for data sent to ACTION;</em></p>
+
+  <p><em>placeholder - a title displayed if the input is not filled in;</em></p>
+
+  <p><em>type - field type (text\mail, etc.);</em></p>
+
+  <p><em>required - determines if the field is required or not.</em></p>
+</blockquote>
+
+<p>Text area is an element of form for creating an area where multiple lines of text can be entered.</p>
+
+<blockquote>
+  <p><em>name - the name of the field. It will be used for data sent to ACTION;</em></p>
+
+  <p><em>placeholder - a title displayed if the input is not filled in;</em></p>
+
+  <p><em>required - determines if the field is required or not.</em></p>
+</blockquote>
+
+<h4 id="select">Select</h4>
+<p>Allows creating a dropdown UI element.</p>
+
+<blockquote>
+  <p><em>name - the name of the field. It will be used for data sent to ACTION;</em></p>
+
+  <p><em>options - list of available options;</em></p>
+
+  <p><em>required - determines if the field is required or not.</em></p>
+</blockquote>
+
+<h4 id="button">Button</h4>
+<p>A button that works only inside the form.</p>
+
+<blockquote>
+  <p><em>text - text displayed on the button;</em></p>
+
+  <p><em>type - a button type. Use Submit to submit the form.</em></p>
+</blockquote>
+
+<h4 id="label">Label</h4>
+<p>Establishes a link between a specific label (usually, it is a text) and a form element.</p>
+
+<blockquote>
+  <p><em>for - specify the name of the input to which this label is intended.</em></p>
+</blockquote>
+
+<h4 id="checkbox">Checkbox</h4>
+<p>Input in the form of a checkbox.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>name - the name of the field. It will be used for data sent to ACTION;</em></p>
+
+  <p><em>value - text value of the element. It is not used at the moment;</em></p>
+
+  <p><em>checked - determines if elements are enabled or not;</em></p>
+
+  <p><em>required - determines if the field is required or not.</em></p>
+</blockquote>
+
+<h4 id="radio">Radio</h4>
+<p>Input in the form of a radio field.</p>
+
+<blockquote>
+  <p><em>name - the name of the field. It will be used for data sent to ACTION;</em></p>
+
+  <p><em>value - text value of the element. It is not used at the moment;</em></p>
+
+  <p><em>checked - determines if elements are enabled or not;</em></p>
+
+  <p><em>required - determines if the field is required or not.</em></p>
+</blockquote>
+
+<h2 id="social-section"><strong>Social section.</strong></h2>
+
+<h4 id="facebook">Facebook</h4>
+<p>Facebook social network button.</p>
+
+<blockquote>
+  <p><em>url to like - page address;</em></p>
+
+  <p><em>layout - used display type;</em></p>
+
+  <p><em>action - type of action;</em></p>
+
+  <p><em>button size - a size of button;</em></p>
+
+  <p><em>include share button - enable or disable the Share button;</em></p>
+
+  <p><em>show friend face - display faces of friends who liked the post.</em></p>
+</blockquote>
+
+<h4 id="twitter">Twitter</h4>
+<p>Twitter social network button.</p>
+
+<blockquote>
+  <p><em>text - a button label;</em></p>
+
+  <p><em>hashtags - s list of tags (for search) for a tweet.</em></p>
+</blockquote>
+
+<h4 id="google">Google</h4>
+<p>Google social network button.</p>
+
+<blockquote>
+  <p><em>url to share - link for sharing;</em></p>
+
+  <p><em>text - a button label.</em></p>
+</blockquote>
+
+<h4 id="linkedin">LinkedIn</h4>
+<p>LinkedIn social network button.</p>
+
+<blockquote>
+  <p><em>url to share - link for sharing;</em></p>
+
+  <p><em>text - a button label.</em></p>
+</blockquote>
+
+<h4 id="skype">Skype</h4>
+<p>A button for Skype.</p>
+
+<blockquote>
+  <p><em>url to share - link for sharing;</em></p>
+
+  <p><em>text - a button label;</em></p>
+</blockquote>
+
+<h4 id="social-link-и-social-link-block">Social Link и Social Link Block</h4>
+<p>A social network button or their group.</p>
+
+<blockquote>
+  <p>title - <em>adds a tooltip which is displayed when the mouse cursor hovers over the content;</em></p>
+
+  <p>href - <em>the address of the document to follow;</em></p>
+
+  <p>target - <em>open the link in a new window or on a current page;</em></p>
+
+  <p>network - <em>select a social network.</em></p>
+</blockquote>
+
+<h3 id="ready-to-use-blocks-section">Ready to use blocks section.</h3>
+
+<h4 id="order-number-block">Order number block</h4>
+<p>A block with an order number. The correct number is substituted at the time of placing the order.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="order-confirmed-block">Order confirmed block</h4>
+<p>A block with gratitude for the order.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="shipping-address-block">Shipping address block</h4>
+<p>Shipping address.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<p>Shipping method block - information about shipping method.</p>
+
+<blockquote>
+  <p><em>id - id of the element,  use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="billing-address-block">Billing address block</h4>
+<p>Billing address.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+</blockquote>
+
+<blockquote>
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="payment-method">Payment method</h4>
+<p>Payment method.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="order-summary-block">Order summary block</h4>
+<p>A list of ordered products.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="sidebar-order-info">Sidebar order info</h4>
+<p>Sidebar with full information about the order.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+
+<h4 id="full-customer-info">Full customer info</h4>
+<p>Full information about the customer.</p>
+
+<blockquote>
+  <p><em>id - id of the element, use it in your scripts to find and edit an element;</em></p>
+
+  <p><em>title - adds a tooltip that is displayed when the mouse cursor hovers over the content.</em></p>
+</blockquote>
+:ET

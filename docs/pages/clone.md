@@ -15,7 +15,7 @@ nav_order: 3
 ## Your steps 
 Click on the Clone button to clone a page.
 
-<span class="doc_image">![edit](/assets/images/pages/clone.png)</span>
+<span class="doc_image">![edit](/assets/images/pages/clone_button.png)</span>
 
 A complete copy of your page will appear in the list, but with ( clone # ) in the title.
 

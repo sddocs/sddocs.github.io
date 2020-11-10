@@ -1,0 +1,16 @@
+I"y<h1 id="what-settings-do-blocks-have">What settings do blocks have?</h1>
+
+<p>The application provides some ready-made blocks.</p>
+
+<p>Each of them is an HTML template and has its own parameters:</p>
+
+<ul>
+  <li>id;</li>
+  <li>classes;</li>
+  <li>field type;</li>
+  <li>icon type, etc.</li>
+</ul>
+
+<p>Also, each element has its styles that you can edit in the application.</p>
+
+:ET

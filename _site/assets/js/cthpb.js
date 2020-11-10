@@ -15,7 +15,7 @@ function closeModal() {
 }
 
 function showHide(category) {
-    var element = document.querySelector(`.${category}`);
+    var element = document.querySelector(category);
     if (element.style.display == 'none' || element.style.display == '' ) {
       element.style.display = "block";
     } else {
