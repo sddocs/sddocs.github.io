@@ -9,7 +9,7 @@ nav_order: 1
 ---
 
 ## Where to start?
-If you have already created a preloader, you will see the following p when you go to the settings page:
+If you have already created a preloader (при первом запуске он создаётся автоматически), you will see the following p when you go to the settings page:
 <span class="doc_image">![edit](/assets/images/settings/preloader_link.png)</span>
 
 To edit a preloader, click <strong>Edit</strong> button. You will be redirected to the preloader edit form.

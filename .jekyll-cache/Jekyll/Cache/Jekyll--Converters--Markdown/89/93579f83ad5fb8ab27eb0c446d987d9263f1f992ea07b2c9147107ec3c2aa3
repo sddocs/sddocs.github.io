@@ -1,0 +1,47 @@
+I"<h2 class="no_toc" id="getting-started">Getting started</h2>
+<h2 class="no_toc text-delta" id="sections">Sections</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#install-the-app" id="markdown-toc-install-the-app">Install the app</a></li>
+  <li><a href="#quick-start" id="markdown-toc-quick-start">Quick start</a></li>
+</ol>
+
+<h3 id="install-the-app">Install the app</h3>
+
+<p>Installing the app is extremely simple.</p>
+
+<p>Open the <a href="https://apps.shopify.com/">Shopify App Store</a>, find the application and click Add app button.</p>
+
+<p><span class="doc_image"><img src="/assets/images/start/2.png" alt="button add" /></span></p>
+
+<p>With any installation option, you will be prompted to select a tariff plan when launching an app for the first time.</p>
+
+<p>Follow the instructions from Quick Start after that..</p>
+
+<h3 id="quick-start">Quick start</h3>
+
+<ul>
+  <li>Open the application.</li>
+  <li>Create a preloader.</li>
+  <li>Navigate to the Pages page and click Create new button. Выберите из списка шаблонов нужный. The new page will be created.</li>
+</ul>
+
+<p><span class="doc_image" id="createnew" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/start/createnew.gif" alt="createnew" /></span></p>
+
+<ul>
+  <li>
+    <p>Design a new page using ready-made blocks, or go to last step.</p>
+  </li>
+  <li>
+    <p>В любой момент вы можете изменить загруженный шаблон, for example, “Thankyoupage” and upload it to your newly created page.</p>
+  </li>
+</ul>
+
+<p><span class="doc_image" id="simtechdemo" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/start/changetemplate.gif" alt="changetemplate" /></span></p>
+
+<ul>
+  <li>Find the page on the Pages tab and enable it. Одновременно может быть активна только одна страница.</li>
+</ul>
+
+<p><span class="doc_image" id="enable" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/start/enable.gif" alt="enable" /></span></p>
+:ET

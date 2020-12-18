@@ -1,0 +1,107 @@
+I"&<h1 class="no_toc" id="interactive-elements">Interactive elements</h1>
+
+<h2 class="no_toc text-delta" id="sections">Sections</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#что-это" id="markdown-toc-что-это">Что это?</a></li>
+  <li><a href="#зачем-нужно" id="markdown-toc-зачем-нужно">Зачем нужно?</a></li>
+  <li><a href="#как-использовать" id="markdown-toc-как-использовать">Как использовать?</a></li>
+  <li><a href="#какие-классы-есть" id="markdown-toc-какие-классы-есть">Какие классы есть?</a>    <ol>
+      <li><a href="#cthpb_setcode_code" id="markdown-toc-cthpb_setcode_code">cthpb_setcode_CODE</a></li>
+      <li><a href="#cthpb_copycode" id="markdown-toc-cthpb_copycode">cthpb_copycode</a></li>
+      <li><a href="#cthpb_applycode" id="markdown-toc-cthpb_applycode">cthpb_applycode</a></li>
+      <li><a href="#cthpb_print" id="markdown-toc-cthpb_print">cthpb_print</a></li>
+    </ol>
+  </li>
+  <li><a href="#какие-id-можно-использовать" id="markdown-toc-какие-id-можно-использовать">Какие id можно использовать?</a>    <ol>
+      <li><a href="#cthpb_name" id="markdown-toc-cthpb_name">cthpb_name</a></li>
+      <li><a href="#cthpb_order_id" id="markdown-toc-cthpb_order_id">cthpb_order_id</a></li>
+      <li><a href="#cthpb_shipping_address" id="markdown-toc-cthpb_shipping_address">cthpb_shipping_address</a></li>
+      <li><a href="#cthpb_billing_address" id="markdown-toc-cthpb_billing_address">cthpb_billing_address</a></li>
+      <li><a href="#payment_method" id="markdown-toc-payment_method">payment_method</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="что-это">Что это?</h2>
+<hr />
+<p>Это уникальные классы (или id) добавляя которые, вы добавляете блокам некоторый функционал или заменяете их значения.</p>
+
+<h2 id="зачем-нужно">Зачем нужно?</h2>
+<hr />
+<p>Добавляет возможность распечатать страницу (например со списком товаров). Создать кнопку для копирования \ автоприменения купона, или просто его вывода.
+Так же можно использовать для вывода информации он заказе.</p>
+
+<h2 id="как-использовать">Как использовать?</h2>
+<hr />
+<p>Нужно кликнуть на любой из элементв и добавить ему класс из списка ниже.</p>
+
+<h2 id="какие-классы-есть">Какие классы есть?</h2>
+<hr />
+
+<ul>
+  <li>
+    <h3 id="cthpb_setcode_code">cthpb_setcode_CODE</h3>
+  </li>
+</ul>
+
+<p>Вставляет значение в указанное поле. Нужно значение нужно вписать вместо “CODE”</p>
+
+<ul>
+  <li>
+    <h3 id="cthpb_copycode">cthpb_copycode</h3>
+    <p>Копирует значение элемента в буфер обмена, по корому будет совершён клик. Если использовать вместе с предыдущим параметром, то указанное значени так же скопируется в буфер обмена.</p>
+  </li>
+  <li>
+    <h3 id="cthpb_applycode">cthpb_applycode</h3>
+    <p>При клике пытается применить значение элемента, как купон. Если использовать параметр №1, то будет использоваться именно он.</p>
+  </li>
+  <li>
+    <h3 id="cthpb_print">cthpb_print</h3>
+    <p>При клике открывает форму печати данной страницы.</p>
+  </li>
+</ul>
+
+<h2 id="какие-id-можно-использовать">Какие id можно использовать?</h2>
+<hr />
+
+<ul>
+  <li>
+    <h3 id="cthpb_name">cthpb_name</h3>
+  </li>
+</ul>
+
+<p>Имя покупателя</p>
+
+<ul>
+  <li>
+    <h3 id="cthpb_order_id">cthpb_order_id</h3>
+  </li>
+</ul>
+
+<p>Номер заказа</p>
+
+<ul>
+  <li>
+    <h3 id="cthpb_shipping_address">cthpb_shipping_address</h3>
+  </li>
+</ul>
+
+<p>Адресс доставки</p>
+
+<ul>
+  <li>
+    <h3 id="cthpb_billing_address">cthpb_billing_address</h3>
+  </li>
+</ul>
+
+<p>Адресс для выставления счёта</p>
+
+<ul>
+  <li>
+    <h3 id="payment_method">payment_method</h3>
+  </li>
+</ul>
+
+<p>Способ оплаты</p>
+:ET

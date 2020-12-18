@@ -1,0 +1,16 @@
+I"�<h1 class="no_toc" id="delete-page">Delete page</h1>
+
+<hr />
+
+<h2 id="your-steps">Your steps</h2>
+<p>To delete a page, click on the Delete button of the corresponding page.</p>
+
+<p><span class="doc_image"><img src="/assets/images/pages/delete_button.png" alt="edit" /></span></p>
+
+<p>При удалении у вы будете должны подтвердить данное действие.</p>
+
+<p><span class="doc_image" id="delete_confirm" onclick="showModal(this.getAttribute('id'))"><img src="/assets/images/pages/confirm_full.gif" alt="confirm_full" /></span></p>
+
+<p>You cannot undo this action and restore the deleted pages.</p>
+
+:ET

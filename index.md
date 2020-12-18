@@ -36,7 +36,7 @@ Follow the instructions from Quick Start after that..
 
 * Design a new page using ready-made blocks, or go to last step.
 
-* В любой момент вы можете изменить загруженный шаблон, for example, “Hallowen no Trick” and upload it to your newly created page.
+* В любой момент вы можете изменить загруженный шаблон, for example, “Thankyoupage” and upload it to your newly created page.
 
 <span class="doc_image" id="simtechdemo" onclick="showModal(this.getAttribute('id'))">![changetemplate](/assets/images/start/changetemplate.gif)</span>
 

@@ -1,374 +1,146 @@
 {"0": {
     "doc": "Block list",
-    "title": "App block list",
-    "content": "Basic configuration when creating pages and templates. You can check out some examples right away. Each block is an HTML component with its own set of parameters (most of them can be changed). All blocks are grouped into categories: . Basic . Basic and most used blocks for building pages. Column is a &lt;div&gt; tag, inside which all other content is placed, i.e. it is good practice to wrap the entire page in a Column. In the Video block (on the example of YouTube), insert the video ID, not the entire URL. For example, for the link https://www.youtube.com/watch?v=yg4eqNruI_o это yg4eqNruI_o, it would be yg4eqNruI_o. HTML5 source only downloads videos from the server (some commercials are likely to be there). Here are other available blocks. They work immediately after adding. Extra . This category contains elements that are used not so often. They may help you customize a page and add some personality in it. They also do not require any complicated configuration. Forms . Elements for building forms. It does not have its own design, but it is always possible to add classes through the Style Manager. All elements can be inserted only inside the form (the main Form element). That’s the reason why they are in a separate category. Social . Elements for social links display (authorization via social networks, likes, etc.). Ready to use blocks . Ready-made blocks for building a Thank you page. All content on the blocks is automatically replaced with correct information when the client places an order. The product list in Sidebar order info and Order Summary blocks is clickable, but note that the link is taken from the SKU field of the product. It is written into handle when uploading products, so you can manually change the link of any product by editing it in the Shopify admin panel. ",
-    "url": "http://localhost:4000/docs/editor_settings/block/#app-block-list",
-    "relUrl": "/docs/editor_settings/block/#app-block-list"
-  },"1": {
-    "doc": "Block list",
     "title": "Block list",
-    "content": " ",
-    "url": "http://localhost:4000/docs/editor_settings/block/",
+    "content": "# App block list {: .no_toc } Basic configuration when creating pages and templates. > You can check out some [examples](/cthpb/examples/) right away. Each block is an HTML component with its own set of parameters (most of them can be changed). All blocks are grouped into categories: ### Basic Basic and most used blocks for building pages. Column is a tag, inside which all other content is placed, i.e. it is good practice to wrap the entire page in a Column. > In the Video block (on the example of YouTube), insert the video ID, not the entire URL. > For example, for the link ``https://www.youtube.com/watch?v=yg4eqNruI_o это yg4eqNruI_o``, it would be ``yg4eqNruI_o``. > > HTML5 source only downloads videos from the server (some commercials are likely to be there). Here are other available blocks. They work immediately after adding. ![basic](/assets/images/editor_settings/basic.png) ### Extra This category contains elements that are used not so often. They may help you customize a page and add some personality in it. They also do not require any complicated configuration. ![extra](/assets/images/editor_settings/extra.png) ### Forms Elements for building forms. It does not have its own design, but it is always possible to add classes through the Style Manager. > All elements can be inserted only inside the form (the main Form element). That's the reason why they are in a separate category. ![forms](/assets/images/editor_settings/forms.png) ### Social Elements for social links display (authorization via social networks, likes, etc.). ![social](/assets/images/editor_settings/social.png) ### Ready to use blocks Ready-made blocks for building a Thank you page. All content on the blocks is automatically replaced with correct information when the client places an order. The product list in **Sidebar order info** and **Order Summary** blocks is clickable, but note that the link is taken from the SKU field of the product. It is written into *handle* when uploading products, so you can manually change the link of any product by editing it in the Shopify admin panel. ![ready](/assets/images/editor_settings/ready.png) ",
+    "url": "http://127.0.0.1:4000//docs/editor_settings/block/",
     "relUrl": "/docs/editor_settings/block/"
-  },"2": {
+  },"1": {
     "doc": "Clone page",
     "title": "Clone page",
-    "content": ". | Your steps | Brief note! | . ",
-    "url": "http://localhost:4000/docs/pages/clone/",
+    "content": "# Clone page {: .no_toc } 1. TOC {:toc} --- ## Your steps Click on the Clone button to clone a page. ![edit](/assets/images/pages/clone_button.png) A complete copy of your page will appear in the list, but with ( clone # ) in the title. ![clone](/assets/images/pages/pagelist_clone.gif) ## Brief note! > > When cloning already cloned page, for example, Page #1313 ( clone 1 ), the count of elements will be reset to zero. > > A clone of the already cloned page will be called Page #1313 ( clone 1 ) ( clone ), not Page #1313 ( clone 2 ). ",
+    "url": "http://127.0.0.1:4000//docs/pages/clone/",
     "relUrl": "/docs/pages/clone/"
-  },"3": {
-    "doc": "Clone page",
-    "title": "Your steps",
-    "content": "Click on the Clone button to clone a page. A complete copy of your page will appear in the list, but with ( clone # ) in the title. ",
-    "url": "http://localhost:4000/docs/pages/clone/#your-steps",
-    "relUrl": "/docs/pages/clone/#your-steps"
-  },"4": {
-    "doc": "Clone page",
-    "title": "Brief note!",
-    "content": "When cloning already cloned page, for example, Page #1313 ( clone 1 ), the count of elements will be reset to zero. A clone of the already cloned page will be called Page #1313 ( clone 1 ) ( clone ), not Page #1313 ( clone 2 ). ",
-    "url": "http://localhost:4000/docs/pages/clone/#brief-note",
-    "relUrl": "/docs/pages/clone/#brief-note"
-  },"5": {
-    "doc": "Preloader color",
-    "title": "Colors",
-    "content": "You need to choose a color when creating or editing a preloader. Available settings: . | Color (with a possibility to use gradient); . | Fill type; . | Fill direction. | . | To add a color, left-click on any area of the color scale (by default, it is painted as a chessboard, there is no color). Markers with “anchors” in the lower part will appear. Left-click on them on to select a color. Color can be removed at any time by clicking on the cross at the top of the marker. | You can choose from 4 fill types: . | Radial ▼ | Linear ▼ | Repeating radial ▼ | Repeating linear ▼ | . | You can also choose a direction for each type. | Radial ▼ top right center left bottom | Linear ▼ top right center left bottom | Repeating radial ▼ top right center left bottom | Repeating linear ▼ top right center left bottom | . | . ",
-    "url": "http://localhost:4000/docs/settings/color/#colors",
-    "relUrl": "/docs/settings/color/#colors"
-  },"6": {
+  },"2": {
     "doc": "Preloader color",
     "title": "Preloader color",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/color/",
+    "content": "# Colors You need to choose a color when creating or editing a preloader. Available settings: 1. Color (with a possibility to use gradient); 2. Fill type; 3. Fill direction. 1. To add a color, left-click on any area of the color scale (by default, it is painted as a chessboard, there is no color). ![color](/assets/images/settings/color.gif) Markers with “anchors” in the lower part will appear. Left-click on them on to select a color. Color can be removed at any time by clicking on the cross at the top of the marker. 2. You can choose from 4 fill types: * Radial ▼ ![color](/assets/images/settings/radial.png) * Linear ▼ ![color](/assets/images/settings/linear.png) * Repeating radial ▼ ![color](/assets/images/settings/repeat_radial.png) * Repeating linear ▼ ![color](/assets/images/settings/repeat_linear.png) 3. You can also choose a direction for each type. * Radial ▼ top ![color](/assets/images/settings/rtop.png) right ![color](/assets/images/settings/rright.png) center ![color](/assets/images/settings/rcenter.png) left ![color](/assets/images/settings/rleft.png) bottom ![color](/assets/images/settings/rbottom.png) * Linear ▼ top ![color](/assets/images/settings/ltop.png) right ![color](/assets/images/settings/lright.png) center ![color](/assets/images/settings/lcenter.png) left ![color](/assets/images/settings/lleft.png) bottom ![color](/assets/images/settings/lbottom.png) * Repeating radial ▼ top ![color](/assets/images/settings/rr_top.png) right ![color](/assets/images/settings/rr_right.png) center ![color](/assets/images/settings/rr_center.png) left ![color](/assets/images/settings/rr_left.png) bottom ![color](/assets/images/settings/rr_bottom.png) * Repeating linear ▼ top ![color](/assets/images/settings/rl_top.png) right ![color](/assets/images/settings/rl_right.png) center ![color](/assets/images/settings/rl_center.png) left ![color](/assets/images/settings/rl_left.png) bottom ![color](/assets/images/settings/rl_bottom.png) ",
+    "url": "http://127.0.0.1:4000//docs/settings/color/",
     "relUrl": "/docs/settings/color/"
-  },"7": {
+  },"3": {
     "doc": "Component settings",
     "title": "Component settings",
-    "content": "Each component has its settings. They can be specific for a particular component or general. In the second case, you can only change the element ID and its text. These settings do not require knowledge of HTML or CSS and are of three types: . | select; | input; | range select. | . ",
-    "url": "http://localhost:4000/docs/editor_settings/component/",
+    "content": "# Component settings {: .no_toc } Each component has its settings. They can be specific for a particular component or general. In the second case, you can only change the element ID and its text. These settings do not require knowledge of HTML or CSS and are of three types: * select; * input; * range select. ![float](/assets/images/editor_settings/component_settings.gif) ",
+    "url": "http://127.0.0.1:4000//docs/editor_settings/component/",
     "relUrl": "/docs/editor_settings/component/"
-  },"8": {
+  },"4": {
     "doc": "Preloader create",
     "title": "Preloader create",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/create/",
+    "content": "# Preloader create {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} --- ## First create Если ранее вы удалили прелоадер, то вы увидите баннер ![create](/assets/images/settings/create.png) To create a preloader, click Create new button. You will be redirected to the preloader creation form. Items available for editing: * Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. * Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. * Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. * Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. ![createform](/assets/images/settings/create_form.png) ## Install the preloader in the store After creating the preloader, you will find a link to the script for installing your preloader to the store on the main Settings page. ![preloaderlink](/assets/images/settings/preloader_link.png) Click on \"Get Link\", then \"Copy Link\". Then go to the settings of your theme: ```yaml https://example.myshopify.com/admin/settings/checkout (where example is your domain). ``` Find the Additional scripts field, paste the copied script and click Save. ![addscript](/assets/images/settings/add_script.png) ",
+    "url": "http://127.0.0.1:4000//docs/settings/create/",
     "relUrl": "/docs/settings/create/"
-  },"9": {
-    "doc": "Preloader create",
-    "title": "Sections",
-    "content": ". | First create | Install the preloader in the store | . ",
-    "url": "http://localhost:4000/docs/settings/create/#sections",
-    "relUrl": "/docs/settings/create/#sections"
-  },"10": {
-    "doc": "Preloader create",
-    "title": "First create",
-    "content": "When you first launch the application, you will see a banner: . To create a preloader, click Create new button. You will be redirected to the preloader creation form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
-    "url": "http://localhost:4000/docs/settings/create/#first-create",
-    "relUrl": "/docs/settings/create/#first-create"
-  },"11": {
-    "doc": "Preloader create",
-    "title": "Install the preloader in the store",
-    "content": "After creating the preloader, you will find a link to the script for installing your preloader to the store on the main Settings page. Click on “Get Link”, then “Copy Link”. Then go to the settings of your theme: . https://example.myshopify.com/admin/settings/checkout (where example is your domain). Find the Additional scripts field, paste the copied script and click Save. ",
-    "url": "http://localhost:4000/docs/settings/create/#install-the-preloader-in-the-store",
-    "relUrl": "/docs/settings/create/#install-the-preloader-in-the-store"
-  },"12": {
+  },"5": {
     "doc": "Create page",
     "title": "Create page",
-    "content": " ",
-    "url": "http://localhost:4000/docs/pages/create/",
+    "content": "# Create page {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} --- ## Your steps Click Сreate new button to create a Thank you page. ![create](/assets/images/pages/create.png) Then you will need to select one of the templates. ![template_list](/assets/images/pages/template_list.png) The page creation interface opens. ![create_form](/assets/images/pages/create_form.png) Если вы создаёте свою первую страницу, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. ![confirm_full](/assets/images/pages/confirm_full.gif) Вы всегда можете изменить данную настройку в настройках приложения. ![confirm_full](/assets/images/settings/fullpage_swap.gif) By default, an element grid is enabled. It can help you position your elements. You can disable if needed. ![panel](/assets/images/pages/panel.png) There are also the following items there: Element settings ▼ > There are 4 items on the above panel as well. > > ![import](/assets/images/pages/setting_list.png) > - Style Manager - attributes, parameters of the selected element;; > - Settings - settings of the selected element display; > - Layer Manager- a manager of layers; > - Block - a menu with the available blocks (it is enabled by default). Each element added to the field has its settings. Just click on any of the elements added to the field to view them on the right sidebar. ![drop](/assets/images/pages/drop.gif) Так же у каждого блока присутствуют стили и настройки, об этом вы можете прочитать дальше в документации. ![style](/assets/images/pages/style.gif) ## More information * More information about Style Manager settings can be found [here](/docs/editor_settings/style/); * More information about Component settings can be found [here](/docs/editor_settings/component/); * More information about Layer Manager can be found [here](/docs/editor_settings/layer/); * More information about Block can be found [here](/docs/editor_settings/block/); ",
+    "url": "http://127.0.0.1:4000//docs/pages/create/",
     "relUrl": "/docs/pages/create/"
-  },"13": {
-    "doc": "Create page",
-    "title": "Sections",
-    "content": ". | Your steps | More information | . ",
-    "url": "http://localhost:4000/docs/pages/create/#sections",
-    "relUrl": "/docs/pages/create/#sections"
-  },"14": {
-    "doc": "Create page",
-    "title": "Your steps",
-    "content": "Click Сreate new button to create a Thank you page. Then you will need to select one of the templates. The page creation interface opens. Если вы создаёте свою первую страницу, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. Вы всегда можете изменить данную настройку в настройках приложения. By default, an element grid is enabled. It can help you position your elements. You can disable if needed. There are also the following items there: . Element settings ▼ . There are 4 items on the above panel as well. | Style Manager - attributes, parameters of the selected element;; | Settings - settings of the selected element display; | Layer Manager- a manager of layers; | Block - a menu with the available blocks (it is enabled by default). | . Each element added to the field has its settings. Just click on any of the elements added to the field to view them on the right sidebar. Так же у каждого блока присутствуют стили и настройки, об этом вы можете прочитать дальше в документации. ",
-    "url": "http://localhost:4000/docs/pages/create/#your-steps",
-    "relUrl": "/docs/pages/create/#your-steps"
-  },"15": {
-    "doc": "Create page",
-    "title": "More information",
-    "content": ". | More information about Style Manager settings can be found here; | More information about Component settings can be found here; | More information about Layer Manager can be found here; | More information about Block can be found here; | . ",
-    "url": "http://localhost:4000/docs/pages/create/#more-information",
-    "relUrl": "/docs/pages/create/#more-information"
-  },"16": {
-    "doc": "Just example",
-    "title": "Sample operation with conventional units",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/examples/default/#sample-operation-with-conventional-units",
-    "relUrl": "/docs/examples/default/#sample-operation-with-conventional-units"
-  },"17": {
+  },"6": {
     "doc": "Just example",
     "title": "Just example",
-    "content": " ",
-    "url": "http://localhost:4000/docs/examples/default/",
+    "content": "# Sample operation with conventional units {: .no_toc } ![example](/assets/images/examples/example.gif) ",
+    "url": "http://127.0.0.1:4000//docs/examples/default/",
     "relUrl": "/docs/examples/default/"
-  },"18": {
+  },"7": {
     "doc": "Delete page",
     "title": "Delete page",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/pages/delete/",
+    "content": "# Delete page {: .no_toc } --- ## Your steps To delete a page, click on the Delete button of the corresponding page. ![edit](/assets/images/pages/delete_button.png) При удалении у вы будете должны подтвердить данное действие. ![delete_confirm](/assets/images/pages/delete_confirm.gif) You cannot undo this action and restore the deleted pages. ",
+    "url": "http://127.0.0.1:4000//docs/pages/delete/",
     "relUrl": "/docs/pages/delete/"
-  },"19": {
-    "doc": "Delete page",
-    "title": "Your steps",
-    "content": "To delete a page, click on the Delete button of the corresponding page. You cannot undo this action and restore the deleted pages. ",
-    "url": "http://localhost:4000/docs/pages/delete/#your-steps",
-    "relUrl": "/docs/pages/delete/#your-steps"
-  },"20": {
+  },"8": {
     "doc": "Detail blocks info",
     "title": "Detail blocks info",
-    "content": ". | Basic section. | 1 column | 2 columns | 3 columns | 2 columns 3/7 | Text | Link | Image | Map | Link Block | Quote | Text section - a block with heading and content. | . | Extra section. | Navbar | Countdown | Slider | Custom Code | Tabs | . | Forms section. | Form | Input | Select | Button | Label | Checkbox | Radio | . | Social section. | Facebook | Twitter | Google | LinkedIn | Skype | Social Link и Social Link Block | Ready to use blocks section. | Order number block | Order confirmed block | Shipping address block | Billing address block | Payment method | Order summary block | Sidebar order info | Full customer info | . | . | . ",
-    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/",
+    "content": "# Detail blocks info {: .no_toc } 1. TOC {:toc} ## Basic section. #### 1 column An empty block which generates \"\" > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip to the \"\" container. It displays when the mouse cursor hovers over the content.* #### 2 columns An empty block which generates two-line \"\" > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip to the \"\" container. It displays when the mouse cursor hovers over the content.* #### 3 columns An empty block which generates three-line \"\" > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip to the \"\" container. It displays when the mouse cursor hovers over the content.* #### 2 columns 3/7 An empty block which generates two-line \"\" with an aspect ratio of 3 to 7. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip to the \"\" container. It displays when the mouse cursor hovers over the content.* #### Text A text block. Double-click on it to edit. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Link A hyperlink block. Double-click on it to edit. > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content;* > > *href - the address of the document to follow;* > > *target - open the link in a new window or on a current page.* #### Image A block for displaying images in GIF, JPEG, or PNG graphic format on a web page. Images can either be uploaded to the server or downloaded from the link. > *title - sets alternative text for images. Such text allows you to get text information about the picture when the image loading is disabled in the browser;* > > *Video - adds video from the specified source;* > > *provider - video source, YouTube or Vimeo;* > > *video_id - video id (for example, for the video https://www.youtube.com/watch?v=jH1RNk8954Q, the id is jH1RNk8954Q);* > > *autoplay - autoplay video when the page loads;* > > *loop - loop video playback;* > > *control (only for YouTube) - display of video control elements (pause, stop, etc.);* > > *related (only for YouTube) - show related videos after the video is played;* > > *modest (only for YouTube) - this parameter allows using a YouTube player that does not display the YouTube logo.* #### Map A block for adding a map. > *address - an address from Google maps;* > > *map type - type of map (roadmap or satellite);* > > *zoom - zoom degree.* #### Link Block A block similar to the Link one, but it allows placing other elements inside it and they all become links; > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content;* > > *href - the address of the document to follow;* > > *target - open the link in a new window or on a current page.* #### Quote A block that adds a stylized quote. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Text section - a block with heading and content. > *size (for heading) - size from h1 to h6;* > > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* ## Extra section. #### Navbar Responsive navigation bar. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Countdown A counter showing the remaining time until the specified date. > *start - the date when an event starts, the counter will count down the time until it;* > > *end text - the text that will be displayed when the counter reaches 0.* To edit the counter, select the main counter block, not each block separately. #### Slider Slider, or carousel, for scrolling through various information. Each of the slides is a separate page, so content (for example, Image or Text blocks) should be added inside it. > *infinite - an infinite page scrolling;* > > *rewind - a styled page divider;* > > *slide speed - a speed of scrolling;* > > *rewind speed - a speed of a divider scrolling;* > > *slide to scroll - amount of slides;* > > *timing - time before slide change.* #### Custom Code A block for inserting any HTML markup (except for JS). It has no settings. #### Tabs A block similar to the slider. The difference is that there are 3 tabs instead of pages where you can also post your content. New tabs are added by copying the existing ones. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* ## Forms section. #### Form A form for sending data. > *method - type of request (GET or POST);* > > *action - specify URL to send the request to.* #### Input Allows creating text fields and various buttons. > *name - the name of the field. It will be used for data sent to ACTION;* > > *placeholder - a title displayed if the input is not filled in;* > > *type - field type (text\\mail, etc.);* > > *required - determines if the field is required or not.* Text area is an element of form for creating an area where multiple lines of text can be entered. > *name - the name of the field. It will be used for data sent to ACTION;* > > *placeholder - a title displayed if the input is not filled in;* > > *required - determines if the field is required or not.* #### Select Allows creating a dropdown UI element. > *name - the name of the field. It will be used for data sent to ACTION;* > > *options - list of available options;* > > *required - determines if the field is required or not.* #### Button A button that works only inside the form. > *text - text displayed on the button;* > > *type - a button type. Use Submit to submit the form.* #### Label Establishes a link between a specific label (usually, it is a text) and a form element. > *for - specify the name of the input to which this label is intended.* #### Checkbox Input in the form of a checkbox. > *id - id of the element, use it in your scripts to find and edit an element;* > > *name - the name of the field. It will be used for data sent to ACTION;* > > *value - text value of the element. It is not used at the moment;* > > *checked - determines if elements are enabled or not;* > > *required - determines if the field is required or not.* #### Radio Input in the form of a radio field. > *name - the name of the field. It will be used for data sent to ACTION;* > > *value - text value of the element. It is not used at the moment;* > > *checked - determines if elements are enabled or not;* > > *required - determines if the field is required or not.* ## Social section. #### Facebook Facebook social network button. > *url to like - page address;* > > *layout - used display type;* > > *action - type of action;* > > *button size - a size of button;* > > *include share button - enable or disable the Share button;* > > *show friend face - display faces of friends who liked the post.* #### Twitter Twitter social network button. > *text - a button label;* > > *hashtags - s list of tags (for search) for a tweet.* #### Google Google social network button. > *url to share - link for sharing;* > > *text - a button label.* #### LinkedIn LinkedIn social network button. > *url to share - link for sharing;* > > *text - a button label.* #### Skype A button for Skype. > *url to share - link for sharing;* > > *text - a button label;* #### Social Link и Social Link Block A social network button or their group. > title - *adds a tooltip which is displayed when the mouse cursor hovers over the content;* > > href - *the address of the document to follow;* > > target - *open the link in a new window or on a current page;* > > network - *select a social network.* ### Ready to use blocks section. #### Order number block A block with an order number. The correct number is substituted at the time of placing the order. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Order confirmed block A block with gratitude for the order. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Shipping address block Shipping address. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* Shipping method block - information about shipping method. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Billing address block Billing address. > *id - id of the element, use it in your scripts to find and edit an element;* > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Payment method Payment method. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Order summary block A list of ordered products. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Sidebar order info Sidebar with full information about the order. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* #### Full customer info Full information about the customer. > *id - id of the element, use it in your scripts to find and edit an element;* > > *title - adds a tooltip that is displayed when the mouse cursor hovers over the content.* ",
+    "url": "http://127.0.0.1:4000//docs/editor_settings/detailblockinfo/",
     "relUrl": "/docs/editor_settings/detailblockinfo/"
-  },"21": {
-    "doc": "Detail blocks info",
-    "title": "Basic section.",
-    "content": "1 column . An empty block which generates “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 2 columns . An empty block which generates two-line “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 3 columns . An empty block which generates three-line “&lt;div&gt;” . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. 2 columns 3/7 . An empty block which generates two-line “&lt;div&gt;” with an aspect ratio of 3 to 7. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip to the “&lt;div&gt;” container. It displays when the mouse cursor hovers over the content. Text . A text block. Double-click on it to edit. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Link . A hyperlink block. Double-click on it to edit. title - adds a tooltip that is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page. Image . A block for displaying images in GIF, JPEG, or PNG graphic format on a web page. Images can either be uploaded to the server or downloaded from the link. title - sets alternative text for images. Such text allows you to get text information about the picture when the image loading is disabled in the browser; . Video - adds video from the specified source; . provider - video source, YouTube or Vimeo; . video_id - video id (for example, for the video https://www.youtube.com/watch?v=jH1RNk8954Q, the id is jH1RNk8954Q); . autoplay - autoplay video when the page loads; . loop - loop video playback; . control (only for YouTube) - display of video control elements (pause, stop, etc.); . related (only for YouTube) - show related videos after the video is played; . modest (only for YouTube) - this parameter allows using a YouTube player that does not display the YouTube logo. Map . A block for adding a map. address - an address from Google maps; . map type - type of map (roadmap or satellite); . zoom - zoom degree. Link Block . A block similar to the Link one, but it allows placing other elements inside it and they all become links; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page. Quote . A block that adds a stylized quote. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Text section - a block with heading and content. size (for heading) - size from h1 to h6; . id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
-    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#basic-section",
-    "relUrl": "/docs/editor_settings/detailblockinfo/#basic-section"
-  },"22": {
-    "doc": "Detail blocks info",
-    "title": "Extra section.",
-    "content": "Navbar . Responsive navigation bar. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Countdown . A counter showing the remaining time until the specified date. start - the date when an event starts, the counter will count down the time until it; . end text - the text that will be displayed when the counter reaches 0. To edit the counter, select the main counter block, not each block separately. Slider . Slider, or carousel, for scrolling through various information. Each of the slides is a separate page, so content (for example, Image or Text blocks) should be added inside it. infinite - an infinite page scrolling; . rewind - a styled page divider; . slide speed - a speed of scrolling; . rewind speed - a speed of a divider scrolling; . slide to scroll - amount of slides; . timing - time before slide change. Custom Code . A block for inserting any HTML markup (except for JS). It has no settings. Tabs . A block similar to the slider. The difference is that there are 3 tabs instead of pages where you can also post your content. New tabs are added by copying the existing ones. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
-    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#extra-section",
-    "relUrl": "/docs/editor_settings/detailblockinfo/#extra-section"
-  },"23": {
-    "doc": "Detail blocks info",
-    "title": "Forms section.",
-    "content": "Form . A form for sending data. method - type of request (GET or POST); . action - specify URL to send the request to. Input . Allows creating text fields and various buttons. name - the name of the field. It will be used for data sent to ACTION; . placeholder - a title displayed if the input is not filled in; . type - field type (text\\mail, etc.); . required - determines if the field is required or not. Text area is an element of form for creating an area where multiple lines of text can be entered. name - the name of the field. It will be used for data sent to ACTION; . placeholder - a title displayed if the input is not filled in; . required - determines if the field is required or not. Select . Allows creating a dropdown UI element. name - the name of the field. It will be used for data sent to ACTION; . options - list of available options; . required - determines if the field is required or not. Button . A button that works only inside the form. text - text displayed on the button; . type - a button type. Use Submit to submit the form. Label . Establishes a link between a specific label (usually, it is a text) and a form element. for - specify the name of the input to which this label is intended. Checkbox . Input in the form of a checkbox. id - id of the element, use it in your scripts to find and edit an element; . name - the name of the field. It will be used for data sent to ACTION; . value - text value of the element. It is not used at the moment; . checked - determines if elements are enabled or not; . required - determines if the field is required or not. Radio . Input in the form of a radio field. name - the name of the field. It will be used for data sent to ACTION; . value - text value of the element. It is not used at the moment; . checked - determines if elements are enabled or not; . required - determines if the field is required or not. ",
-    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#forms-section",
-    "relUrl": "/docs/editor_settings/detailblockinfo/#forms-section"
-  },"24": {
-    "doc": "Detail blocks info",
-    "title": "Social section.",
-    "content": "Facebook . Facebook social network button. url to like - page address; . layout - used display type; . action - type of action; . button size - a size of button; . include share button - enable or disable the Share button; . show friend face - display faces of friends who liked the post. Twitter . Twitter social network button. text - a button label; . hashtags - s list of tags (for search) for a tweet. Google . Google social network button. url to share - link for sharing; . text - a button label. LinkedIn . LinkedIn social network button. url to share - link for sharing; . text - a button label. Skype . A button for Skype. url to share - link for sharing; . text - a button label; . Social Link и Social Link Block . A social network button or their group. title - adds a tooltip which is displayed when the mouse cursor hovers over the content; . href - the address of the document to follow; . target - open the link in a new window or on a current page; . network - select a social network. Ready to use blocks section. Order number block . A block with an order number. The correct number is substituted at the time of placing the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Order confirmed block . A block with gratitude for the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Shipping address block . Shipping address. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Shipping method block - information about shipping method. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Billing address block . Billing address. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Payment method . Payment method. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Order summary block . A list of ordered products. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Sidebar order info . Sidebar with full information about the order. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. Full customer info . Full information about the customer. id - id of the element, use it in your scripts to find and edit an element; . title - adds a tooltip that is displayed when the mouse cursor hovers over the content. ",
-    "url": "http://localhost:4000/docs/editor_settings/detailblockinfo/#social-section",
-    "relUrl": "/docs/editor_settings/detailblockinfo/#social-section"
-  },"25": {
+  },"9": {
     "doc": "Preloader edit",
     "title": "Preloader edit",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/settings/edit/",
+    "content": "# Preloader edit --- ## Where to start? If you have already created a preloader (при первом запуске он создаётся автоматически), you will see the following p when you go to the settings page: ![edit](/assets/images/settings/preloader_link.png) To edit a preloader, click Edit button. You will be redirected to the preloader edit form. Items available for editing: * Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. * Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. * Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. * Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. ![editform](/assets/images/settings/create_form.png) ",
+    "url": "http://127.0.0.1:4000//docs/settings/edit/",
     "relUrl": "/docs/settings/edit/"
-  },"26": {
-    "doc": "Preloader edit",
-    "title": "Where to start?",
-    "content": "If you have already created a preloader, you will see the following p when you go to the settings page: . To edit a preloader, click Edit button. You will be redirected to the preloader edit form. Items available for editing: . | Icon - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons. | Text - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon. | Color - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details. | Delay - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds. | . ",
-    "url": "http://localhost:4000/docs/settings/edit/#where-to-start",
-    "relUrl": "/docs/settings/edit/#where-to-start"
-  },"27": {
+  },"10": {
     "doc": "Edit page",
     "title": "Edit page",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/pages/edit/",
+    "content": "# Edit page --- ## Where to start? Процесс редактирования страница идентичен её созданию. Найдите нужную вам страницу в списке ваших страниц и кликните по кнопке редактирования. ![edit](/assets/images/pages/edit_button.png) Если вы открываете страницу редактирований 1й раз, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. ![confirm_full](/assets/images/pages/confirm_full.gif) Вы всегда можете изменить данную настройку в настройках приложения. ![confirm_full](/assets/images/settings/fullpage_swap.gif) ## More information * More information about Style Manager settings can be found [here](/docs/editor_settings/style/); * More information about Component settings can be found [here](/docs/editor_settings/component/); * More information about Layer Manager can be found [here](/docs/editor_settings/layer/); * More information about Block can be found [here](/docs/editor_settings/block/); ",
+    "url": "http://127.0.0.1:4000//docs/pages/edit/",
     "relUrl": "/docs/pages/edit/"
-  },"28": {
-    "doc": "Edit page",
-    "title": "Where to start?",
-    "content": "Процесс редактирования страница идентичен её созданию. Найдите нужную вам страницу в списке ваших страниц и кликните по кнопке редактирования. Если вы открываете страницу редактирований 1й раз, то вам будет предложено открыть редактор страниц в полноэкранном режиме. Что значительно упрощает редактирование страницы и позиционироние элементов на ней. Вы всегда можете изменить данную настройку в настройках приложения. ",
-    "url": "http://localhost:4000/docs/pages/edit/#where-to-start",
-    "relUrl": "/docs/pages/edit/#where-to-start"
-  },"29": {
-    "doc": "Edit page",
-    "title": "More information",
-    "content": ". | More information about Style Manager settings can be found here; | More information about Component settings can be found here; | More information about Layer Manager can be found here; | More information about Block can be found here; | . ",
-    "url": "http://localhost:4000/docs/pages/edit/#more-information",
-    "relUrl": "/docs/pages/edit/#more-information"
-  },"30": {
-    "doc": "Editor Settings",
-    "title": "What settings do blocks have?",
-    "content": "The application provides some ready-made blocks. Each of them is an HTML template and has its own parameters: . | id; | classes; | field type; | icon type, etc. | . Also, each element has its styles that you can edit in the application. ",
-    "url": "http://localhost:4000/cthpb/editor_settings#what-settings-do-blocks-have",
-    "relUrl": "/cthpb/editor_settings#what-settings-do-blocks-have"
-  },"31": {
+  },"11": {
     "doc": "Editor Settings",
     "title": "Editor Settings",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/editor_settings",
+    "content": "# What settings do blocks have? The application provides some ready-made blocks. Each of them is an HTML template and has its own parameters: * id; * classes; * field type; * icon type, etc. Also, each element has its styles that you can edit in the application. {: .fs-6 .fw-300 } ",
+    "url": "http://127.0.0.1:4000//cthpb/editor_settings",
     "relUrl": "/cthpb/editor_settings"
-  },"32": {
-    "doc": "Examples",
-    "title": "Examples of the application work",
-    "content": "Here you can find some examples of the application work. ",
-    "url": "http://localhost:4000/cthpb/examples#examples-of-the-application-work",
-    "relUrl": "/cthpb/examples#examples-of-the-application-work"
-  },"33": {
+  },"12": {
     "doc": "Examples",
     "title": "Examples",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/examples",
+    "content": "# Examples of the application work Here you can find some examples of the application work. {: .fs-6 .fw-300 } ",
+    "url": "http://127.0.0.1:4000//cthpb/examples",
     "relUrl": "/cthpb/examples"
-  },"34": {
+  },"13": {
     "doc": "Getting started",
     "title": "Getting started",
-    "content": " ",
-    "url": "http://localhost:4000/",
+    "content": "## Getting started {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} ### Install the app Installing the app is extremely simple. Open the [Shopify App Store](https://apps.shopify.com/), find the application and click Add app button. ![button add](/assets/images/start/2.png) With any installation option, you will be prompted to select a tariff plan when launching an app for the first time. Follow the instructions from Quick Start after that.. ### Quick start * Open the application. * Create a preloader. * Navigate to the Pages page and click Create new button. Выберите из списка шаблонов нужный. The new page will be created. ![createnew](/assets/images/start/createnew.gif) * Design a new page using ready-made blocks, or go to last step. * В любой момент вы можете изменить загруженный шаблон, for example, “Thankyoupage” and upload it to your newly created page. ![changetemplate](/assets/images/start/changetemplate.gif) * Find the page on the Pages tab and enable it. Одновременно может быть активна только одна страница. ![enable](/assets/images/start/enable.gif) ",
+    "url": "http://127.0.0.1:4000//",
     "relUrl": "/"
-  },"35": {
-    "doc": "Getting started",
-    "title": "Sections",
-    "content": ". | Install the app | Quick start | . Install the app . Installing the app is extremely simple. Open the Shopify App Store, find the application and click Add app button. With any installation option, you will be prompted to select a tariff plan when launching an app for the first time. Follow the instructions from Quick Start after that.. Quick start . | Open the application. | Create a preloader. | Navigate to the Pages page and click Create new button. Выберите из списка шаблонов нужный. The new page will be created. | . | Design a new page using ready-made blocks, or go to last step. | В любой момент вы можете изменить загруженный шаблон, for example, “Hallowen no Trick” and upload it to your newly created page. | . | Find the page on the Pages tab and enable it. Одновременно может быть активна только одна страница. | . ",
-    "url": "http://localhost:4000/#sections",
-    "relUrl": "/#sections"
-  },"36": {
+  },"14": {
     "doc": "Interactive elements",
     "title": "Interactive elements",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/",
+    "content": "# Interactive elements {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} ## Что это? --- Это уникальные классы (или id) добавляя которые, вы добавляете блокам некоторый функционал или заменяете их значения. ## Зачем нужно? --- Добавляет возможность распечатать страницу (например со списком товаров). Создать кнопку для копирования \\ автоприменения купона, или просто его вывода. Так же можно использовать для вывода информации он заказе. ## Как использовать? --- Нужно кликнуть на любой из элементв и добавить ему класс из списка ниже. ## Какие классы есть? --- * ### cthpb_setcode_CODE Вставляет значение в указанное поле. Нужно значение нужно вписать вместо \"CODE\" * ### cthpb_copycode Копирует значение элемента в буфер обмена, по корому будет совершён клик. Если использовать вместе с предыдущим параметром, то указанное значени так же скопируется в буфер обмена. * ### cthpb_applycode При клике пытается применить значение элемента, как купон. Если использовать параметр №1, то будет использоваться именно он. * ### cthpb_print При клике открывает форму печати данной страницы. ## Какие id можно использовать? --- * ### cthpb_name Имя покупателя * ### cthpb_order_id Номер заказа * ### cthpb_shipping_address Адресс доставки * ### cthpb_billing_address Адресс для выставления счёта * ### payment_method Способ оплаты ",
+    "url": "http://127.0.0.1:4000//docs/settings/interactiveelements/",
     "relUrl": "/docs/settings/interactiveelements/"
-  },"37": {
-    "doc": "Interactive elements",
-    "title": "Sections",
-    "content": ". | Что это? | Зачем нужно? | Как использовать? | Какие классы есть? . | cthpb_code_CODE | cthpb_code_COPY | cthpb_code_APPLY | cthpb_print | . | . ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/#sections",
-    "relUrl": "/docs/settings/interactiveelements/#sections"
-  },"38": {
-    "doc": "Interactive elements",
-    "title": "Что это?",
-    "content": ". Это уникальные классы, добавляя которые, вы добавляете блокам некоторый функционал или заменяете их значения. ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE",
-    "relUrl": "/docs/settings/interactiveelements/#что-это"
-  },"39": {
-    "doc": "Interactive elements",
-    "title": "Зачем нужно?",
-    "content": ". Добавляет возможность распечатать страницу (например со списком товаров). Создать кнопку для копирования \\ автоприменения купона, или просто его вывода. Так же можно использовать для вывода информации он заказе. ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE",
-    "relUrl": "/docs/settings/interactiveelements/#зачем-нужно"
-  },"40": {
-    "doc": "Interactive elements",
-    "title": "Как использовать?",
-    "content": ". Нужно кликнуть на любой из элементв и добавить ему класс из списка ниже. ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C",
-    "relUrl": "/docs/settings/interactiveelements/#как-использовать"
-  },"41": {
-    "doc": "Interactive elements",
-    "title": "Какие классы есть?",
-    "content": ". | cthpb_code_CODE . | . Вставляет значение в указанное поле. Нужно значение нужно вписать вместо “CODE” . | cthpb_code_COPY . Копирует значение элемента в буфер обмена, по корому будет совершён клик. Если использовать вместе с предыдущим параметром, то указанное значени так же скопируется в буфер обмена. | cthpb_code_APPLY . При клике пытается применить значение элемента, как купон. Если использовать параметр №1, то будет использоваться именно он. | cthpb_print . При клике открывает форму печати данной страницы. | . ",
-    "url": "http://localhost:4000/docs/settings/interactiveelements/#%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B-%D0%B5%D1%81%D1%82%D1%8C",
-    "relUrl": "/docs/settings/interactiveelements/#какие-классы-есть"
-  },"42": {
+  },"15": {
     "doc": "Into",
     "title": "Into",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/intro/",
+    "content": "# Into {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} ## Что это? --- На каждой (почти) странице есть кнопка, при нажатии на которую запуститься небольшая пошаговая инструкция, которая познакомит вас с интерфейсом. Располагается данная кнопка сверху справа. ![intro_button](/assets/images/settings/intro_button.png) ## Как это работает? --- Просто кликните на данную кнопку, находясь при этом на странице, о которой вам требуется информация. Далее при помощь стрелок или кнопки \"Next\" переключайте слайды. ![store_styles](/assets/images/settings/intro.gif) ",
+    "url": "http://127.0.0.1:4000//docs/settings/intro/",
     "relUrl": "/docs/settings/intro/"
-  },"43": {
-    "doc": "Into",
-    "title": "Sections",
-    "content": ". | Что это? | Как это работает? | . ",
-    "url": "http://localhost:4000/docs/settings/intro/#sections",
-    "relUrl": "/docs/settings/intro/#sections"
-  },"44": {
-    "doc": "Into",
-    "title": "Что это?",
-    "content": ". На каждой (почти) странице есть кнопка, при нажатии на которую запуститься небольшая пошаговая инструкция, которая познакомит вас с интерфейсом. Располагается данная кнопка сверху справа. ",
-    "url": "http://localhost:4000/docs/settings/intro/#%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE",
-    "relUrl": "/docs/settings/intro/#что-это"
-  },"45": {
-    "doc": "Into",
-    "title": "Как это работает?",
-    "content": ". Просто кликните на данную кнопку, находясь при этом на странице, о которой вам требуется информация. Далее при помощь стрелок или кнопки “Next” переключайте слайды. ",
-    "url": "http://localhost:4000/docs/settings/intro/#%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82",
-    "relUrl": "/docs/settings/intro/#как-это-работает"
-  },"46": {
-    "doc": "Layer settings",
-    "title": "Style manager",
-    "content": "A tree of DOM elements is displayed here. It is used to turn on / off the desired layers (like Photoshop). Also, you can change the nesting of elements. Grab the element with the help of the cross arrow sign (to the right of the element) and move it to the desired position. ",
-    "url": "http://localhost:4000/docs/editor_settings/layer/#style-manager",
-    "relUrl": "/docs/editor_settings/layer/#style-manager"
-  },"47": {
+  },"16": {
     "doc": "Layer settings",
     "title": "Layer settings",
-    "content": " ",
-    "url": "http://localhost:4000/docs/editor_settings/layer/",
+    "content": "# Style manager {: .no_toc } A tree of DOM elements is displayed here. It is used to turn on / off the desired layers (like Photoshop). Also, you can change the nesting of elements. Grab the element with the help of the cross arrow sign (to the right of the element) and move it to the desired position. ![layer](/assets/images/editor_settings/layer.png) ",
+    "url": "http://127.0.0.1:4000//docs/editor_settings/layer/",
     "relUrl": "/docs/editor_settings/layer/"
-  },"48": {
-    "doc": "Other settings",
-    "title": "Fullpage editor",
-    "content": ". If you have already created a preloader, you will see the following section when you go to the settings page. ",
-    "url": "http://localhost:4000/docs/settings/other/#fullpage-editor",
-    "relUrl": "/docs/settings/other/#fullpage-editor"
-  },"49": {
-    "doc": "Other settings",
-    "title": "Use store elements",
-    "content": ". If these settings are enabled, the corresponding elements will be added for all pages created. ",
-    "url": "http://localhost:4000/docs/settings/other/#use-store-elements",
-    "relUrl": "/docs/settings/other/#use-store-elements"
-  },"50": {
+  },"17": {
     "doc": "Other settings",
     "title": "Other settings",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/other/",
+    "content": "# Fullpage editor --- If you have already created a preloader, you will see the following section when you go to the settings page. ![confirm_full](/assets/images/settings/fullpage_swap.gif) # Use store elements --- If these settings are enabled, the corresponding elements will be added for all pages created. ![store_styles](/assets/images/settings/store_styles.gif) ",
+    "url": "http://127.0.0.1:4000//docs/settings/other/",
     "relUrl": "/docs/settings/other/"
-  },"51": {
-    "doc": "Pages",
-    "title": "What can you use pages for?",
-    "content": "This is why you installed this app! We provide you with a designer that allows you to create a stylized and unique thank you page from scratch with minimum efforts involved. On pages, you can: . | thank a customer for the purchase; | present him/her other products; | provide customers with a discount and much more! | . ",
-    "url": "http://localhost:4000/cthpb/pages#what-can-you-use-pages-for",
-    "relUrl": "/cthpb/pages#what-can-you-use-pages-for"
-  },"52": {
+  },"18": {
     "doc": "Pages",
     "title": "Pages",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/pages",
+    "content": "# What can you use pages for? This is why you installed this app! We provide you with a designer that allows you to create a stylized and unique thank you page from scratch with minimum efforts involved. On pages, you can: * thank a customer for the purchase; * present him/her other products; * provide customers with a discount and much more! {: .fs-6 .fw-300 } ",
+    "url": "http://127.0.0.1:4000//cthpb/pages",
     "relUrl": "/cthpb/pages"
-  },"53": {
-    "doc": "Preloader preview",
-    "title": "Preview preloader",
-    "content": "After creating a preloader, you can preview how it will look like on the page. Navigate to the application or switch to the settings tab. Left-click on the Show preview button. Your page will open in a modal window. To close the preview, press the Escape button on the keyboard or click on the cross in the upper right corner. ",
-    "url": "http://localhost:4000/docs/settings/preview/#preview-preloader",
-    "relUrl": "/docs/settings/preview/#preview-preloader"
-  },"54": {
+  },"19": {
     "doc": "Preloader preview",
     "title": "Preloader preview",
-    "content": " ",
-    "url": "http://localhost:4000/docs/settings/preview/",
+    "content": "# Preview preloader After creating a preloader, you can preview how it will look like on the page. Navigate to the application or switch to the settings tab. ![createnew](/assets/images/settings/preloader_link.png) Left-click on the Show preview button. Your page will open in a modal window. To close the preview, press the Escape button on the keyboard or click on the cross in the upper right corner. ![preview_logo](/assets/images/settings/preview_logo.gif) ",
+    "url": "http://127.0.0.1:4000//docs/settings/preview/",
     "relUrl": "/docs/settings/preview/"
-  },"55": {
+  },"20": {
     "doc": "Ready blocks simple examples",
     "title": "Ready blocks simple examples",
-    "content": ". ",
-    "url": "http://localhost:4000/docs/examples/ready/",
+    "content": "# Ready blocks simple examples {: .no_toc } ![readyone](/assets/images/examples/readyone.gif) ![readytwo](/assets/images/examples/readytwo.gif) ",
+    "url": "http://127.0.0.1:4000//docs/examples/ready/",
     "relUrl": "/docs/examples/ready/"
-  },"56": {
+  },"21": {
     "doc": "Release Notes",
     "title": "Release Notes",
-    "content": "10st November 2020 . | added Help button | changed the functionality of the templates | . 1st October 2020 . | Two default page templates have been added. | Errors occurred when uploading products on the Thank you page. Fixed. | . ",
-    "url": "http://localhost:4000/cthpb/releases",
+    "content": "# Release Notes ### 10st November 2020 > * added Help button > * changed the functionality of the templates ### 1st October 2020 > * Two default page templates have been added. > * Errors occurred when uploading products on the Thank you page. Fixed. ",
+    "url": "http://127.0.0.1:4000//cthpb/releases",
     "relUrl": "/cthpb/releases"
-  },"57": {
-    "doc": "Settings",
-    "title": "What can you use preloader for?",
-    "content": "A preloader is necessary to hide elements of the standard Shopify thank you page while new content is loaded. You can also use the preloader to show ads or draw customers’ attention to other products in your store. You can add to the preloader the following elements: . | video; | animation; | any HTML content. Use your imagination! | . ",
-    "url": "http://localhost:4000/cthpb/settings#what-can-you-use-preloader-for",
-    "relUrl": "/cthpb/settings#what-can-you-use-preloader-for"
-  },"58": {
-    "doc": "Settings",
-    "title": "Что я ещё могу изменить в настройках?",
-    "content": "Здесь вы так же можете изменить: . | режим отображение редактора страниц благодарности, с полноэкранного на режим в окне и обратно; | добавить загрузку из вашего магазина стандартных стилей и хедера с футером во все создаваемые страницы благодарности; | . ",
-    "url": "http://localhost:4000/cthpb/settings#%D1%87%D1%82%D0%BE-%D1%8F-%D0%B5%D1%89%D1%91-%D0%BC%D0%BE%D0%B3%D1%83-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%B2-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%D1%85",
-    "relUrl": "/cthpb/settings#что-я-ещё-могу-изменить-в-настройках"
-  },"59": {
+  },"22": {
     "doc": "Settings",
     "title": "Settings",
-    "content": " ",
-    "url": "http://localhost:4000/cthpb/settings",
+    "content": "# What can you use preloader for? A preloader is necessary to hide elements of the standard Shopify thank you page while new content is loaded. You can also use the preloader to show ads or draw customers' attention to other products in your store. You can add to the preloader the following elements: * video; * animation; * any HTML content. Use your imagination! {: .fs-6 .fw-300 } # Что я ещё могу изменить в настройках? Здесь вы так же можете изменить: * режим отображение редактора страниц благодарности, с полноэкранного на режим в окне и обратно; * добавить загрузку из вашего магазина стандартных стилей и хедера с футером во все создаваемые страницы благодарности; {: .fs-6 .fw-300 } ",
+    "url": "http://127.0.0.1:4000//cthpb/settings",
     "relUrl": "/cthpb/settings"
-  },"60": {
+  },"23": {
     "doc": "Style manager",
     "title": "Style manager",
-    "content": " ",
-    "url": "http://localhost:4000/docs/editor_settings/style/",
+    "content": "# Style manager {: .no_toc } ## Sections {: .no_toc .text-delta } 1. TOC {:toc} The Style manager contains settings for styles and component classes. It can add padding, change the background, and more. Also, these settings will be the first thing you see after clicking on any element. Most elements have the following categories: ### General ![float](/assets/images/editor_settings/float.png) Determines which side the element will be aligned to. Other elements will float from other sides. When the value of the property *float* is none, the element is rendered on the page as usual where one line of the floating text can be on the same line as the element itself. ![float](/assets/images/editor_settings/float.gif) __________ You cannot add any CSS attributes to *body* (the main, empty element) but you can add a background image. If you need to fill the background with color, add an empty block, stretch it to the entire page, and then fill in with the desired color. ![display](/assets/images/editor_settings/display.png) A multipurpose property that determines how an element should be displayed in a document. | value | description |-------------- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | block | The element is displayed as the block one. Applying this value to inline elements, such as tag, makes it behave like blocks — lines at the beginning and at the end of the contents are wrapped. | inline-block | This value generates a block element that is wrapped around by other elements of a web page like an inline element. In fact, such an element acts like inline elements (such as tag).In this case, its internal part is formatted as a block element and the element itself as an inline element. | inline | The element is displayed as inline. Using block tags such as and will automatically wrap and display the content of those tags on a new line. The inline value overrides this, so the content of block elements starts where the previous element left off. | flex | The element stretches to its full width and has its full space among the surrounding blocks. Lines break at the beginning and at the end of the block. | none | Temporarily removes an item from the document. The space it occupies is not reserved and the web page is rendered as if the element did not exist. You can use scripts to change the value and make the element visible again by accessing properties through the object model. In this case, the data on the page is reformatted, taking into account the newly added element. | ![position](/assets/images/editor_settings/position.png) Sets the positioning of an element relative to the browser window or other objects on a web page. | value | description |---------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | static | Elements are displayed as usual. Using the left, top, right, and bottom properties does not affect the display. | relative | The element is positioned relative to its original location. Adding left, top, right and bottom properties changes the position of the element and shifts it to one side or the other from its original position. | absolute | Indicates that an element is absolutely positioned. Other elements display on the web page as if there is no absolutely positioned element. The position of the element is set by the left, top, right, and bottom properties. Also, it might be affected by the position property value of the parent element. So, if the parent’s position value is set to static or there is no parent, the element coordinates are counted from the edge of the browser window. If the parent’s position value is fixed, relative, or absolute, the coordinates are counted from the edge of the parent element. | fixed | This value is close to absolute, The difference is that it associates with the specified left, top, right, and bottom on the screen and does not change its position when scrolling the web page. The Firefox browser does not display scroll bars at all if the position of an element is set to be fixed and does not fit entirely into the browser window. The Opera browser displays scroll bars, but they do not affect the position of the element. | | ### Layout ![width](/assets/images/editor_settings/width.png) Width and height of the component. ![float](/assets/images/editor_settings/width.gif) ![width](/assets/images/editor_settings/maxwidth.png) Max width and min height of the component. ![float](/assets/images/editor_settings/maxwidth.gif) ![width](/assets/images/editor_settings/margin.png) Sets the amount of margin from each edge of the element. Margin is the space from the border of the current element to the inner border of its parent. Don't forget about the position when changing. ![float](/assets/images/editor_settings/margin.gif) ![width](/assets/images/editor_settings/padding.png) Sets the value of padding around the content of the element. Padding is the distance from the inner edge of an element's border to an imaginary rectangle that bounds its contents. ![float](/assets/images/editor_settings/padding.gif) ### Typography You can edit and format the text here. Available items: * font family and size; * font weight; * line spacing; * color; * letter spacing within an element; * text align; * text shadow. ![float](/assets/images/editor_settings/typog.gif) ### Decorations You can edit the border on this tab. You can change: * radius; * background color within the border; * radius for each border separately. This value has higher priority than the first one; * border color and thickness; * box shadow; * background with the ability to add an image. ![float](/assets/images/editor_settings/decor.gif) ### Extra Here you can animate the page using different states (click, hover, etc.) You can change the following values: * transition - specify what, under what conditions and how long will be triggered; * perspective - the distance between the z = 0 plane and the user to give the 3D-positioned element a perspective effect;; * transform - the way the element will change (rotation, skew, etc.) The example of *transform*: ![float](/assets/images/editor_settings/transform.gif) An example of a state change on hover: ![float](/assets/images/editor_settings/hover.gif) . Also, each component has 4 states, where each of the above categories can be configured separately. They are: * default - default standard state; * hover - styles and settings when hovering over a component; * click - styles and settings when clicking on a component; * even\\odd - used to add style to elements based on the numbering in the element tree. A separate field is reserved for component classes: ![position](/assets/images/editor_settings/class.png) They are added automatically when importing the page. ",
+    "url": "http://127.0.0.1:4000//docs/editor_settings/style/",
     "relUrl": "/docs/editor_settings/style/"
-  },"61": {
-    "doc": "Style manager",
-    "title": "Sections",
-    "content": ". | General | Layout | Typography | Decorations | Extra | . The Style manager contains settings for styles and component classes. It can add padding, change the background, and more. Also, these settings will be the first thing you see after clicking on any element. Most elements have the following categories: . General . Determines which side the element will be aligned to. Other elements will float from other sides. When the value of the property float is none, the element is rendered on the page as usual where one line of the floating text can be on the same line as the element itself. You cannot add any CSS attributes to body (the main, empty element) but you can add a background image. If you need to fill the background with color, add an empty block, stretch it to the entire page, and then fill in with the desired color. A multipurpose property that determines how an element should be displayed in a document. | value | description | . | block | The element is displayed as the block one. Applying this value to inline elements, such as tag, makes it behave like blocks — lines at the beginning and at the end of the contents are wrapped. | . | inline-block | This value generates a block element that is wrapped around by other elements of a web page like an inline element. In fact, such an element acts like inline elements (such as tag).In this case, its internal part is formatted as a block element and the element itself as an inline element. | . | inline | The element is displayed as inline. Using block tags such as &lt;div&gt; and &lt;p&gt; will automatically wrap and display the content of those tags on a new line. The inline value overrides this, so the content of block elements starts where the previous element left off. | . | flex | The element stretches to its full width and has its full space among the surrounding blocks. Lines break at the beginning and at the end of the block. | . | none | Temporarily removes an item from the document. The space it occupies is not reserved and the web page is rendered as if the element did not exist. You can use scripts to change the value and make the element visible again by accessing properties through the object model. In this case, the data on the page is reformatted, taking into account the newly added element. | . Sets the positioning of an element relative to the browser window or other objects on a web page. | value | description | . | static | Elements are displayed as usual. Using the left, top, right, and bottom properties does not affect the display. | . | relative | The element is positioned relative to its original location. Adding left, top, right and bottom properties changes the position of the element and shifts it to one side or the other from its original position. | . | absolute | Indicates that an element is absolutely positioned. Other elements display on the web page as if there is no absolutely positioned element. The position of the element is set by the left, top, right, and bottom properties. Also, it might be affected by the position property value of the parent element. So, if the parent’s position value is set to static or there is no parent, the element coordinates are counted from the edge of the browser window. If the parent’s position value is fixed, relative, or absolute, the coordinates are counted from the edge of the parent element. | . | fixed | This value is close to absolute, The difference is that it associates with the specified left, top, right, and bottom on the screen and does not change its position when scrolling the web page. The Firefox browser does not display scroll bars at all if the position of an element is set to be fixed and does not fit entirely into the browser window. The Opera browser displays scroll bars, but they do not affect the position of the element. | . |   |   | . Layout . Width and height of the component. Max width and min height of the component. Sets the amount of margin from each edge of the element. Margin is the space from the border of the current element to the inner border of its parent. Don’t forget about the position when changing. Sets the value of padding around the content of the element. Padding is the distance from the inner edge of an element’s border to an imaginary rectangle that bounds its contents. Typography . You can edit and format the text here. Available items: . | font family and size; | font weight; | line spacing; | color; | letter spacing within an element; | text align; | text shadow. | . Decorations . You can edit the border on this tab. You can change: . | radius; | background color within the border; | radius for each border separately. This value has higher priority than the first one; | border color and thickness; | box shadow; | background with the ability to add an image. | . Extra . Here you can animate the page using different states (click, hover, etc.) . You can change the following values: . | transition - specify what, under what conditions and how long will be triggered; . | perspective - the distance between the z = 0 plane and the user to give the 3D-positioned element a perspective effect;; . | transform - the way the element will change (rotation, skew, etc.) . | . The example of transform: . An example of a state change on hover: . Also, each component has 4 states, where each of the above categories can be configured separately. They are: . | default - default standard state; . | hover - styles and settings when hovering over a component; . | click - styles and settings when clicking on a component; . | even\\odd - used to add style to elements based on the numbering in the element tree. | . A separate field is reserved for component classes: . They are added automatically when importing the page. ",
-    "url": "http://localhost:4000/docs/editor_settings/style/#sections",
-    "relUrl": "/docs/editor_settings/style/#sections"
   }
 }

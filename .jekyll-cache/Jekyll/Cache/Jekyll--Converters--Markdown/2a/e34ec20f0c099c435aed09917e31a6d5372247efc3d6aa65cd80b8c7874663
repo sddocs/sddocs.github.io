@@ -1,0 +1,55 @@
+I"�
+<h1 class="no_toc" id="preloader-create">Preloader create</h1>
+
+<h2 class="no_toc text-delta" id="sections">Sections</h2>
+
+<ol id="markdown-toc">
+  <li><a href="#first-create" id="markdown-toc-first-create">First create</a></li>
+  <li><a href="#install-the-preloader-in-the-store" id="markdown-toc-install-the-preloader-in-the-store">Install the preloader in the store</a></li>
+</ol>
+
+<hr />
+
+<h2 id="first-create">First create</h2>
+<p>Если ранее вы удалили прелоадер, то вы увидите баннер
+When you first launch the application, you will see a banner:
+<span class="doc_image"><img src="/assets/images/settings/create.png" alt="create" /></span></p>
+
+<p>To create a preloader, click <strong>Create new</strong> button. You will be redirected to the preloader creation form.</p>
+
+<p>Items available for editing:</p>
+
+<ul>
+  <li>
+    <p><strong>Icon</strong> - an image showing the loading process. You can upload any image, but its size should be no more than 512 kb. You can also choose one of the 12 standard icons.</p>
+  </li>
+  <li>
+    <p><strong>Text</strong> - a preloader’s body. It is a wisywyg editor where you can insert any text, images, video (as links). When viewing the preloader, it will be displayed strictly in the center, below the animation icon.</p>
+  </li>
+  <li>
+    <p><strong>Color</strong> - a selection of the color palette of the preloader background. You can select the fill type (radial, linear, repeating) and its direction. Click here for more details.</p>
+  </li>
+  <li>
+    <p><strong>Delay</strong> - delay before displaying your custom thank you page. Actually, it is the display time of the preloader and it is recorded in seconds. If you leave the field empty, it will be 3 seconds.</p>
+  </li>
+</ul>
+
+<p><span class="doc_image"><img src="/assets/images/settings/create_form.png" alt="createform" /></span></p>
+
+<h2 id="install-the-preloader-in-the-store">Install the preloader in the store</h2>
+
+<p>After creating the preloader, you will find a link to the script for installing your preloader to the store on the main <strong>Settings</strong> page.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/preloader_link.png" alt="preloaderlink" /></span></p>
+
+<p>Click on “Get Link”, then “Copy Link”.</p>
+
+<p>Then go to the settings of your theme:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">https://example.myshopify.com/admin/settings/checkout (where example is your domain).</span>
+</code></pre></div></div>
+
+<p>Find the <strong>Additional scripts</strong> field, paste the copied script and click <strong>Save</strong>.</p>
+
+<p><span class="doc_image"><img src="/assets/images/settings/add_script.png" alt="addscript" /></span></p>
+
+:ET

@@ -17,7 +17,8 @@ nav_order: 1
 ---
 
 ## First create
-When you first launch the application, you will see a banner:
+Если ранее вы удалили прелоадер, то вы увидите баннер
+
 <span class="doc_image">![create](/assets/images/settings/create.png)</span>
 
 To create a preloader, click <strong>Create new</strong> button. You will be redirected to the preloader creation form.
